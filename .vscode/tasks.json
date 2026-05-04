@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe build active file",
+            "command": "C:/msys64/ucrt64/bin/g++.exe",
+            "args": [
+                "-g",
+                "-std=c++17",
+                "-I${workspaceFolder}/include",
+                "-IC:/msys64/ucrt64/include",
+                "-L${workspaceFolder}/lib",
+                "${workspaceFolder}/src/*.cpp",
+                "${workspaceFolder}/src/glad.c",
+                "-lglfw3dll",
+                "-lfreetype",
+                "-lassimp",
+                "-o",
+                "${workspaceFolder}/clickGame.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "detail": "compiler: C:/msys64/ucrt64/bin/g++.exe"
+        }
+    ]
+}

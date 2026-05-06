@@ -24,6 +24,15 @@ void RenderText(Shader &shader, std::string text, float x, float y, float scale,
 const unsigned int SCR_WIDTH = 800;
 const unsigned int SCR_HEIGHT = 600;
 
+unsigned int textVAO, textVBO;
+
+// Game Variables
+int money = 0;
+
+// Input Variables
+bool buttonPressed = false;
+
+
 struct Character{
     unsigned int TextureID; // ID handle of the glyph texture
     glm::ivec2   Size;      // Size of glyph
@@ -32,7 +41,14 @@ struct Character{
 };
 
 std::map<char,Character> Characters;
-unsigned int VAO, VBO;
+
+
+float vertices[]={
+    // positions         // colors
+    0.0f,  0.5f, 0.0f,  1.0f, 0.0f, 0.0f,
+    0.5f, -0.5f, 0.0f,  0.0f, 1.0f, 0.0f,
+    -0.5f,-0.5f, 0.0f,  0.0f, 0.0f, 1.0f
+};
 
 int main(void)
 {
@@ -62,10 +78,11 @@ int main(void)
     }
 
     /* OpenGL state */
-    glEnable(GL_CULL_FACE);
+    // glEnable(GL_CULL_FACE);
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
+    #pragma region Text Rendering
     /* compile and setup the shader */
     Shader shader(FileSystem::getPath("src/text.vs").c_str(), FileSystem::getPath("src/text.fs").c_str());
     glm::mat4 projection = glm::ortho(0.0f, static_cast<float>(SCR_WIDTH), 0.0f, static_cast<float>(SCR_HEIGHT));
@@ -146,22 +163,42 @@ int main(void)
     FT_Done_Face(face);
     FT_Done_FreeType(ft);
 
-
-    /* Configure VAO and VBO */
-    glGenVertexArrays(1, &VAO);
-    glGenBuffers(1, &VBO);
-    glBindVertexArray(VAO);
-    glBindBuffer(GL_ARRAY_BUFFER, VBO);
+    /* Configure textVAO and textVBO */
+    
+    glGenVertexArrays(1, &textVAO);
+    glGenBuffers(1, &textVBO);
+    glBindVertexArray(textVAO);
+    glBindBuffer(GL_ARRAY_BUFFER, textVBO);
     glBufferData(GL_ARRAY_BUFFER, sizeof(float) * 6 * 4, NULL, GL_DYNAMIC_DRAW);
     glEnableVertexAttribArray(0);
     glVertexAttribPointer(0, 4, GL_FLOAT, GL_FALSE, 4 * sizeof(float), (void*)0);
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindVertexArray(0);
 
+    #pragma endregion Text Rendering
+
+    /* Creating a triangle */
+
+    Shader triangleShader(FileSystem::getPath("src/triangle.vs").c_str(), FileSystem::getPath("src/triangle.fs").c_str());
+
+    unsigned int triangleVAO, triangleVBO;
+    glGenVertexArrays(1, &triangleVAO);
+    glGenBuffers(1, &triangleVBO);
+
+    glBindVertexArray(triangleVAO);
+    glBindBuffer(GL_ARRAY_BUFFER, triangleVBO);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+
+    glVertexAttribPointer(0,3,GL_FLOAT,GL_FALSE,6*sizeof(float),(void*)0); // This is for layout (location = 0) in vec3 aPos;
+    glEnableVertexAttribArray(0);
+
+    glVertexAttribPointer(1,3,GL_FLOAT,GL_FALSE,6*sizeof(float),(void*)(3 * sizeof(float))); // This is for layout (location = 1) in vec3 aColor;
+    glEnableVertexAttribArray(1);
+
+    glBindVertexArray(0);
 
 
-
-
+    
     /* Loop until the user closes the window */
     while (!glfwWindowShouldClose(window))
     {
@@ -172,8 +209,16 @@ int main(void)
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
+        float timeValue = glfwGetTime();
+        float greenValue = (sin(timeValue) / 2.0f) + 0.5f;
+
+        triangleShader.use();
+        glBindVertexArray(triangleVAO); // seeing as we only have a single VAO there's no need to bind it every time, but we'll do so to keep things a bit more organized
+        glDrawArrays(GL_TRIANGLES, 0, 3);
+
+
         RenderText(shader, "This is sample text", 23.0f, 23.0f, 1.0f, glm::vec3(0.5, 0.8f, 0.2f));
-        RenderText(shader, "OO\nO other sample text", SCR_WIDTH / 6, SCR_HEIGHT - SCR_HEIGHT / 6, 1.0f, glm::vec3(0.3, 0.7f, 0.9f));
+        RenderText(shader, "Money Made: $ " + std::to_string(money), SCR_WIDTH / 6, SCR_HEIGHT - SCR_HEIGHT / 6, 1.0f, glm::vec3(0.3, 0.7f, 0.9f));
 
         /* Swap front and back buffers */
         glfwSwapBuffers(window);
@@ -197,8 +242,23 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 
 void processInput(GLFWwindow *window)
 {
+    // Keyboard input
     if(glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
         glfwSetWindowShouldClose(window, true);
+    
+
+    // Mouse input
+    int state = glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT);
+    if (!buttonPressed && state == GLFW_PRESS)
+    {
+        money += 1;
+        buttonPressed = true;
+    }
+    else if (state == GLFW_RELEASE)
+    {
+        buttonPressed = false;
+    }
+    
 }
 
 void RenderText(Shader &shader, std::string text, float x, float y, float scale, glm::vec3 color)
@@ -209,7 +269,7 @@ void RenderText(Shader &shader, std::string text, float x, float y, float scale,
     shader.use();
     glUniform3f(glGetUniformLocation(shader.ID, "textColor"), color.x, color.y, color.z);
     glActiveTexture(GL_TEXTURE0);
-    glBindVertexArray(VAO);
+    glBindVertexArray(textVAO);
 
 
     // Interate through all characters
@@ -246,7 +306,7 @@ void RenderText(Shader &shader, std::string text, float x, float y, float scale,
             // render glyph texture over quad
             glBindTexture(GL_TEXTURE_2D, ch.TextureID);
             // update content of VBO memory
-            glBindBuffer(GL_ARRAY_BUFFER, VBO);
+            glBindBuffer(GL_ARRAY_BUFFER, textVBO);
             glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(vertices), vertices); 
             glBindBuffer(GL_ARRAY_BUFFER, 0);
             // render quad

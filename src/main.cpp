@@ -15,6 +15,9 @@
 #include <learnopengl/filesystem.h>
 #include <learnopengl/shader.h>
 
+#define STB_IMAGE_IMPLEMENTATION
+#include "stb_image.h"
+
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
@@ -43,11 +46,17 @@ struct Character{
 std::map<char,Character> Characters;
 
 
-float vertices[]={
-    // positions         // colors
-    0.0f,  0.5f, 0.0f,  1.0f, 0.0f, 0.0f,
-    0.5f, -0.5f, 0.0f,  0.0f, 1.0f, 0.0f,
-    -0.5f,-0.5f, 0.0f,  0.0f, 0.0f, 1.0f
+float vertices[] = {
+    // positions          // colors           // texture coords
+    0.5f,  0.5f, 0.0f,   1.0f, 0.0f, 0.0f,   1.0f, 1.0f, // top right
+    0.5f, -0.5f, 0.0f,   0.0f, 1.0f, 0.0f,   1.0f, 0.0f, // bottom right
+    -0.5f, -0.5f, 0.0f,   0.0f, 0.0f, 1.0f,   0.0f, 0.0f, // bottom left
+    -0.5f,  0.5f, 0.0f,   1.0f, 1.0f, 0.0f,   0.0f, 1.0f  // top left 
+};
+
+unsigned int indices[] = {  
+    0, 1, 3, // first triangle
+    1, 2, 3  // second triangle
 };
 
 int main(void)
@@ -59,7 +68,7 @@ int main(void)
         return -1;
 
     /* Create a windowed mode window and its OpenGL context */
-    window = glfwCreateWindow(640, 480, "Clicker Game", NULL, NULL);
+    window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Clicker Game", NULL, NULL);
     if (!window)
     {
         glfwTerminate();
@@ -177,28 +186,63 @@ int main(void)
 
     #pragma endregion Text Rendering
 
+
+    #pragma region Rendering Practice
     /* Creating a triangle */
 
     Shader triangleShader(FileSystem::getPath("src/triangle.vs").c_str(), FileSystem::getPath("src/triangle.fs").c_str());
 
-    unsigned int triangleVAO, triangleVBO;
+    unsigned int triangleVAO, triangleVBO, triangleEBO;
     glGenVertexArrays(1, &triangleVAO);
     glGenBuffers(1, &triangleVBO);
+    glGenBuffers(1, &triangleEBO);
 
     glBindVertexArray(triangleVAO);
+
     glBindBuffer(GL_ARRAY_BUFFER, triangleVBO);
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
 
-    glVertexAttribPointer(0,3,GL_FLOAT,GL_FALSE,6*sizeof(float),(void*)0); // This is for layout (location = 0) in vec3 aPos;
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, triangleEBO);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
+
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
-
-    glVertexAttribPointer(1,3,GL_FLOAT,GL_FALSE,6*sizeof(float),(void*)(3 * sizeof(float))); // This is for layout (location = 1) in vec3 aColor;
+    // color attribute
+    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(3 * sizeof(float)));
     glEnableVertexAttribArray(1);
+    // texture coord attribute
+    glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void*)(6 * sizeof(float)));
+    glEnableVertexAttribArray(2);
 
-    glBindVertexArray(0);
 
 
+    unsigned int triangleTexture; 
+    glGenTextures(1, &triangleTexture);  
+    glBindTexture(GL_TEXTURE_2D, triangleTexture);  
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_MIRRORED_REPEAT);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_MIRRORED_REPEAT);
+
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+
+    int width, height, nrChannels;
+    unsigned char *data = stbi_load(FileSystem::getPath("resources/images/lab.jpg").c_str(), &width, &height, &nrChannels, 0);
     
+    if (data)
+    {
+        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
+        glGenerateMipmap(GL_TEXTURE_2D);
+    }
+    else
+    {
+        std::cout << "Failed to load texture" << std::endl;
+    }
+    stbi_image_free(data);
+
+
+
+    #pragma endregion Rendering Practice
+
     /* Loop until the user closes the window */
     while (!glfwWindowShouldClose(window))
     {
@@ -209,12 +253,12 @@ int main(void)
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
-        float timeValue = glfwGetTime();
-        float greenValue = (sin(timeValue) / 2.0f) + 0.5f;
+        // bind Texture
+        glBindTexture(GL_TEXTURE_2D, triangleTexture);
 
         triangleShader.use();
         glBindVertexArray(triangleVAO); // seeing as we only have a single VAO there's no need to bind it every time, but we'll do so to keep things a bit more organized
-        glDrawArrays(GL_TRIANGLES, 0, 3);
+        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 
 
         RenderText(shader, "This is sample text", 23.0f, 23.0f, 1.0f, glm::vec3(0.5, 0.8f, 0.2f));

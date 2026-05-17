@@ -1,3 +1,4 @@
+#pragma once
 const char * logl_root = "D:/Repos/Clicker-Game";
 
 

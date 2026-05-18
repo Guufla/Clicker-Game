@@ -8,10 +8,13 @@
 #include "game.h"
 #include "resourceManager.h"
 #include "spriteRenderer.h"
+#include "bubbleObject.h"
+#include "gameObject.h"
 #include <iostream>
 
 
 SpriteRenderer    *Renderer;
+BubbleObject      *Bubble;
 
 Game::Game(unsigned int width, unsigned int height) 
     : Keys(), KeysProcessed(), Width(width), Height(height), money(0), moneyLvl(0), clickAdditive(1.0f), clickMultiplier(1.0f), moustRadius(0.2)
@@ -40,14 +43,15 @@ void Game::Init()
     
     
     // load Textures
-    ResourceManager::LoadTexture(FileSystem::getPath("resources/Images/backgroundImage.jpg").c_str(), true, "background");
+    ResourceManager::LoadTexture(FileSystem::getPath("resources/Images/backgroundImage.jpg").c_str(), false, "background");
+    ResourceManager::LoadTexture(FileSystem::getPath("resources/Sprites/bubble.png").c_str(), true, "bubble");
 
     
     // set render-specific controls
     Renderer = new SpriteRenderer(ResourceManager::GetShader("sprite"));
     
     // configure game objects
-    
+    Bubble = new BubbleObject(glm::vec2(200.0f, 200.0f), 50.0f, 1.0f, ResourceManager::GetTexture("bubble"));
     // audio
 }
 
@@ -66,6 +70,7 @@ void Game::Render()
 {
 
     Renderer->DrawSprite(ResourceManager::GetTexture("background"),  glm::vec2(0.0f, 0.0f),glm::vec2(this->Width,this->Height) , 0.0f);
+    Bubble->Draw(*Renderer);
 }
 
 void Game::DoCollisions()

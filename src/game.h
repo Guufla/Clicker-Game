@@ -4,8 +4,9 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
+#include <glm/glm.hpp>
 
-
+#include "bubbleObject.h"
 
 class Game
 {
@@ -19,6 +20,9 @@ public:
     float                   clickAdditive;
     float                   clickMultiplier;
     float                   moustRadius;
+    float                   spawnRate;
+    float                   spawnTimer;
+    std::vector<BubbleObject> Bubbles;
     // constructor/destructor
     Game(unsigned int width, unsigned int height);
     ~Game();
@@ -29,6 +33,10 @@ public:
     void Update(float dt);
     void Render();
     void DoCollisions();
+    void SpawnBubble(glm::vec2 pos,
+        float radius, 
+        float points, 
+        glm::vec2 movementDirection);
 
     // buy an item from the shop
     //void BuyItem(std::string item);

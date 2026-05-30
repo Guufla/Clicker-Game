@@ -14,10 +14,19 @@
 
 
 SpriteRenderer    *Renderer;
-BubbleObject      *Bubble;
 
 Game::Game(unsigned int width, unsigned int height) 
-    : Keys(), KeysProcessed(), Width(width), Height(height), money(0), moneyLvl(0), clickAdditive(1.0f), clickMultiplier(1.0f), moustRadius(0.2)
+    : Keys(), 
+    KeysProcessed(), 
+    Width(width), 
+    Height(height), 
+    money(0), 
+    moneyLvl(0), 
+    clickAdditive(1.0f), 
+    clickMultiplier(1.0f), 
+    moustRadius(0.2),
+    spawnRate(3.0f),
+    spawnTimer(3.0f)
 { 
 
 }
@@ -49,15 +58,43 @@ void Game::Init()
     
     // set render-specific controls
     Renderer = new SpriteRenderer(ResourceManager::GetShader("sprite"));
+    //SpawnBubble(glm::vec2(rand() % this->Width, rand() % this->Height), 50.0f, 1.0f, glm::vec2(1.0f, 1.0f));
     
     // configure game objects
-    Bubble = new BubbleObject(glm::vec2(200.0f, 200.0f), 50.0f, 1.0f, ResourceManager::GetTexture("bubble"));
+    // Bubble = new BubbleObject(glm::vec2(200.0f, 200.0f), 50.0f, 1.0f,glm::vec3(0.0f, 0.0f, 0.0f), ResourceManager::GetTexture("bubble"));
     // audio
+    
 }
 
 
 void Game::Update(float dt)
 {
+    if(spawnTimer >= spawnRate)
+    {
+        glm::vec2 velocity = glm::vec2((rand() % 3) - 1, (rand() % 3) - 1);
+        while(velocity.x == 0 && velocity.y == 0)        {
+            velocity = glm::vec2((rand() % 3) - 1, (rand() % 3) - 1);
+        }
+        
+        SpawnBubble(glm::vec2(rand() % this->Width, rand() % this->Height), 50.0f, 1.0f, velocity);
+        //SpawnBubble(glm::vec2(rand() % this->Width, rand() % this->Height), 50.0f, 1.0f, glm::vec2(0.0f, 0.0f));
+        //SpawnBubble(glm::vec2(rand() % this->Width, rand() % this->Height), 50.0f, 1.0f, glm::vec2(1.0f, 1.0f));
+        spawnTimer = 0.0f;
+    }
+    else
+    {
+        spawnTimer += dt;
+    }
+    
+    
+    
+    // Change movement direction based on movement direction
+    // Work on considering collisions
+    for (BubbleObject &bubble : this->Bubbles)
+    {
+        bubble.Position.x += bubble.Velocity.x * dt * 100.0f;
+        bubble.Position.y += bubble.Velocity.y * dt * 100.0f;
+    }
 
 }
 
@@ -68,12 +105,46 @@ void Game::ProcessInput(float dt)
 
 void Game::Render()
 {
+    // Draw background
+    Renderer->DrawSprite(
+        ResourceManager::GetTexture("background"),
+        glm::vec2(0.0f, 0.0f),
+        glm::vec2(this->Width, this->Height),
+        0.0f
+    );
 
-    Renderer->DrawSprite(ResourceManager::GetTexture("background"),  glm::vec2(0.0f, 0.0f),glm::vec2(this->Width,this->Height) , 0.0f);
-    Bubble->Draw(*Renderer);
+    // Draw bubbles from bubble list
+    for (BubbleObject &bubble : this->Bubbles)
+    {
+        bubble.Draw(*Renderer);
+    }
 }
+
+
+void Game::SpawnBubble(glm::vec2 pos,float radius, float points, glm::vec2 movementDirection)
+{
+    // Creates bubble object and adds it to the bubble list
+    BubbleObject bubble(pos, radius, points, movementDirection, ResourceManager::GetTexture("bubble"));
+    this->Bubbles.push_back(bubble);
+}
+
+// bool CheckCollision(GameObject &one, GameObject &two);
+// Collision CheckCollision(BallObject &one, GameObject &two);
+// Direction VectorDirection(glm::vec2 closest);
 
 void Game::DoCollisions()
 {
 
 }
+
+// bool CheckCollision(GameObject &one, GameObject &two) 
+// {
+//     // collision x-axis?
+//     bool collisionX = one.Position.x + one.Size.x >= two.Position.x &&
+//         two.Position.x + two.Size.x >= one.Position.x;
+//     // collision y-axis?
+//     bool collisionY = one.Position.y + one.Size.y >= two.Position.y &&
+//         two.Position.y + two.Size.y >= one.Position.y;
+//     // collision only if on both axes
+//     return collisionX && collisionY;
+// }

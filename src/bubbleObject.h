@@ -23,7 +23,8 @@ public:
     BubbleObject();
     BubbleObject(glm::vec2 pos, 
         float radius, 
-        float points, 
+        float points,
+        glm::vec2 velocity,
         Texture2D sprite);
 };
 

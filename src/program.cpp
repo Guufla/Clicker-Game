@@ -9,12 +9,15 @@
 // GLFW function declarations
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void key_callback(GLFWwindow* window, int key, int scancode, int action, int mode);
+void mouse_button_callback(GLFWwindow* window, int button, int action, int mods);
 
 
 const unsigned int SCR_WIDTH = 800;
 const unsigned int SCR_HEIGHT = 600;
 
 Game BubbleBop(SCR_WIDTH, SCR_HEIGHT);
+
+bool mouseClicked = false;
 
 int main(int arc, char* argv[])
 {
@@ -44,6 +47,7 @@ int main(int arc, char* argv[])
     }
     
     glfwSetKeyCallback(window, key_callback);
+    glfwSetMouseButtonCallback(window, mouse_button_callback);
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
     
     
@@ -72,7 +76,7 @@ int main(int arc, char* argv[])
 
         // manage user input
         // -----------------
-        BubbleBop.ProcessInput(deltaTime);
+        BubbleBop.ProcessInput(deltaTime,mouseClicked);
 
         // update game state
         // -----------------
@@ -106,6 +110,19 @@ void key_callback(GLFWwindow* window, int key, int scancode, int action, int mod
             BubbleBop.Keys[key] = false;
             BubbleBop.KeysProcessed[key] = false;
         }
+    }
+}
+void mouse_button_callback(GLFWwindow* window, int button, int action, int mods)
+{
+    if (button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_PRESS)
+    {
+        //printf("Mouse Clicked\n");
+        mouseClicked = true;
+    }
+    else if (button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_RELEASE)
+    {
+        //printf("Mouse Released\n");
+        mouseClicked = false;
     }
 }
 

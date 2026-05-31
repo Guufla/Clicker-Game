@@ -20,8 +20,8 @@ public:
     float       Rotation;
     bool        IsSolid;
     bool        Destroyed;
-    glm::vec3 ColliderShape; // (x,y,shape) shape: 1=circle 2=square
-    // render state
+    bool        IsDisabled;
+    glm::vec3   ColliderShape; // (x,y,shape) shape:0=Disabled 1=circle 2=square 
     Texture2D   Sprite;	
     // constructor(s)
     GameObject();

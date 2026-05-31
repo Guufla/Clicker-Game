@@ -29,7 +29,7 @@ public:
     // initialize game state (load all shaders/textures/levels)
     void Init();
     // game loop
-    void ProcessInput(float dt);
+    void ProcessInput(float dt,bool mouseClicked);
     void Update(float dt);
     void Render();
     void DoCollisions();
@@ -41,8 +41,7 @@ public:
     // buy an item from the shop
     //void BuyItem(std::string item);
 
-    // This will spawn a collider at the location which will either pop the bubbles nearby or buy an item
-    void Click(float x, float y);
+    
 
 };
 

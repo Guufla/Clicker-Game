@@ -9,11 +9,13 @@
 #include "resourceManager.h"
 #include "spriteRenderer.h"
 #include "bubbleObject.h"
+#include "clickObject.h"
 #include "gameObject.h"
 #include <iostream>
 
 
 SpriteRenderer    *Renderer;
+ClickObject       *Click;
 
 Game::Game(unsigned int width, unsigned int height) 
     : Keys(), 
@@ -54,14 +56,18 @@ void Game::Init()
     // load Textures
     ResourceManager::LoadTexture(FileSystem::getPath("resources/Images/backgroundImage.jpg").c_str(), false, "background");
     ResourceManager::LoadTexture(FileSystem::getPath("resources/Sprites/bubble.png").c_str(), true, "bubble");
+    ResourceManager::LoadTexture(FileSystem::getPath("resources/Images/circle.png").c_str(), true, "circle");
 
     
     // set render-specific controls
     Renderer = new SpriteRenderer(ResourceManager::GetShader("sprite"));
-    //SpawnBubble(glm::vec2(rand() % this->Width, rand() % this->Height), 50.0f, 1.0f, glm::vec2(1.0f, 1.0f));
     
+
     // configure game objects
-    // Bubble = new BubbleObject(glm::vec2(200.0f, 200.0f), 50.0f, 1.0f,glm::vec3(0.0f, 0.0f, 0.0f), ResourceManager::GetTexture("bubble"));
+    Click = new ClickObject(glm::vec2(0, 0), 10.0f, 1.0f, ResourceManager::GetTexture("circle"));
+    Click->IsDisabled = true;
+    
+    
     // audio
     
 }
@@ -69,6 +75,7 @@ void Game::Init()
 
 void Game::Update(float dt)
 {
+    // Spawn bubbles randomly based on the spawn rate
     if(spawnTimer >= spawnRate)
     {
         glm::vec2 velocity = glm::vec2((rand() % 3) - 1, (rand() % 3) - 1);
@@ -76,8 +83,10 @@ void Game::Update(float dt)
             velocity = glm::vec2((rand() % 3) - 1, (rand() % 3) - 1);
         }
         
-        SpawnBubble(glm::vec2(rand() % this->Width, rand() % this->Height), 50.0f, 1.0f, velocity);
-        //SpawnBubble(glm::vec2(rand() % this->Width, rand() % this->Height), 50.0f, 1.0f, glm::vec2(0.0f, 0.0f));
+        //SpawnBubble(glm::vec2(rand() % (this->Width - 100) + 50.0f, rand() % (this->Height-100) + 50.0f), 50.0f, 1.0f, velocity);
+        
+        
+        SpawnBubble(glm::vec2(rand() % this->Width, rand() % this->Height), 50.0f, 1.0f, glm::vec2(0.0f, 0.0f));
         //SpawnBubble(glm::vec2(rand() % this->Width, rand() % this->Height), 50.0f, 1.0f, glm::vec2(1.0f, 1.0f));
         spawnTimer = 0.0f;
     }
@@ -89,18 +98,38 @@ void Game::Update(float dt)
     
     
     // Change movement direction based on movement direction
-    // Work on considering collisions
     for (BubbleObject &bubble : this->Bubbles)
     {
         bubble.Position.x += bubble.Velocity.x * dt * 100.0f;
         bubble.Position.y += bubble.Velocity.y * dt * 100.0f;
     }
+    
+    if(Click->IsDisabled == false)
+    {
+        Click->TimeAlive += dt;
+        double xPos, yPos;
+        glfwGetCursorPos(glfwGetCurrentContext(), &xPos, &yPos);
+        Click->Move(static_cast<float>(xPos) - Click->Size.x / 2.0f,
+                    static_cast<float>(yPos) - Click->Size.y / 2.0f);
+        if(Click->TimeAlive >= 1.0f)
+        {
+            Click->Disable();
+        }
+    }
 
 }
 
-void Game::ProcessInput(float dt)
+void Game::ProcessInput(float dt, bool mouseClicked)
 {
-
+    if(mouseClicked && Click->IsDisabled == true)
+    {
+        
+        double xPos, yPos;
+        glfwGetCursorPos(glfwGetCurrentContext(), &xPos, &yPos);
+        Click->Move(xPos, yPos);
+        Click->TimeAlive = 0.0f;
+        Click->Enable();
+    }
 }
 
 void Game::Render()
@@ -118,6 +147,15 @@ void Game::Render()
     {
         bubble.Draw(*Renderer);
     }
+    
+    // Only render the click if it is enabled
+    if(Click->IsDisabled == false)
+    {
+        printf("Rendering Click Object\n");
+        Click->Draw(*Renderer);
+    }
+    
+    
 }
 
 
@@ -128,9 +166,6 @@ void Game::SpawnBubble(glm::vec2 pos,float radius, float points, glm::vec2 movem
     this->Bubbles.push_back(bubble);
 }
 
-// bool CheckCollision(GameObject &one, GameObject &two);
-// Collision CheckCollision(BallObject &one, GameObject &two);
-// Direction VectorDirection(glm::vec2 closest);
 
 void Game::DoCollisions()
 {

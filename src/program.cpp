@@ -18,6 +18,7 @@ const unsigned int SCR_HEIGHT = 600;
 Game BubbleBop(SCR_WIDTH, SCR_HEIGHT);
 
 bool mouseClicked = false;
+bool mouseReleased = false;
 
 int main(int arc, char* argv[])
 {
@@ -83,10 +84,14 @@ int main(int arc, char* argv[])
         BubbleBop.Update(deltaTime);
 
         // render
-        // ------
+        // ----------------
         glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
         BubbleBop.Render();
+        
+        // check collisions
+        // ---------------
+        BubbleBop.DoCollisions();
 
         glfwSwapBuffers(window);
     }

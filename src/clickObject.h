@@ -17,11 +17,8 @@ public:
 
     // constructor(s)
     ClickObject();
-    ClickObject(glm::vec2 pos, 
-        float radius,
-        float timeAlive,
-        Texture2D sprite);
-    
+    ClickObject(glm::vec2 pos, float radius, float timeAlive, Texture2D sprite, glm::vec3 colliderShape);
+
     void Move(float x, float y);
     void Enable();
     void Disable();

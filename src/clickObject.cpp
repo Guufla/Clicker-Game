@@ -6,10 +6,12 @@ ClickObject::ClickObject()
 ClickObject::ClickObject(glm::vec2 pos,
     float radius,
     float timeAlive,
-    Texture2D sprite)
+    Texture2D sprite,
+    glm::vec3 colliderShape)
 : GameObject(pos,
     glm::vec2(radius * 2.0f, radius * 2.0f), 
-    sprite, glm::vec3(1.0f)),
+    sprite, 
+    colliderShape),
     Radius(radius), 
     TimeAlive(timeAlive){ }
 

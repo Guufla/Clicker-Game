@@ -21,11 +21,10 @@ public:
 
     // constructor(s)
     BubbleObject();
-    BubbleObject(glm::vec2 pos, 
-        float radius, 
-        float points,
-        glm::vec2 velocity,
-        Texture2D sprite);
+    BubbleObject(glm::vec2 pos, float radius, float points, glm::vec2 velocity, Texture2D sprite, glm::vec3 colliderShape);
+    // Functions
+    void CollisionDetected(GameObject& other) override;
+    void PopBubble();
 };
 
 #endif

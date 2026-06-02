@@ -23,9 +23,10 @@ public:
     float                   clickRadius;
     float                   spawnRate;
     float                   spawnTimer;
+    float                   wallThickness;
     bool                    isMouseActive;
     std::vector<BubbleObject> Bubbles;
-    std::vector<GameObject> GameObjects;
+    std::vector<GameObject*> GameObjects;
     // constructor/destructor
     Game(unsigned int width, unsigned int height);
     ~Game();
@@ -45,8 +46,8 @@ public:
     bool CheckCollision(GameObject &one, GameObject &two);
     void DestroyObjects();
     bool IsDestroyed();
-    static bool SortXAxis(const GameObject &obj1, const GameObject &obj2);
-    static bool SortYAxis(const GameObject &obj1, const GameObject &obj2);
+    static bool SortXAxis(const GameObject *obj1, const GameObject *obj2);
+    static bool SortYAxis(const GameObject *obj1, const GameObject *obj2);
 
     // buy an item from the shop
     //void BuyItem(std::string item);

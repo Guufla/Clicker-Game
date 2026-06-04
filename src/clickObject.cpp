@@ -10,7 +10,8 @@ ClickObject::ClickObject(glm::vec2 pos,
     glm::vec3 colliderShape)
 : GameObject(pos,
     glm::vec2(radius * 2.0f, radius * 2.0f), 
-    sprite, 
+    sprite,
+    false, 
     colliderShape),
     Radius(radius), 
     TimeAlive(timeAlive){ }

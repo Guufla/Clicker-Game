@@ -33,7 +33,7 @@ Game::Game(unsigned int width, unsigned int height)
     moneyLvl(0), 
     clickAdditive(1.0f), 
     clickMultiplier(1.0f), 
-    clickTime(0.1f),
+    clickTime(100.0f),
     clickRadius(10.0f),
     spawnRate(0.1f),
     spawnTimer(0.1f),
@@ -75,7 +75,7 @@ void Game::Init()
     
 
     // configure game objects
-    Click = new ClickObject(glm::vec2(0, 0), 10.0f, 1.0f, ResourceManager::GetTexture("circle"), glm::vec3(clickRadius, clickRadius, 1.0f));
+    Click = new ClickObject(glm::vec2(0, 0), clickRadius, 1.0f, ResourceManager::GetTexture("circle"), glm::vec3(clickRadius, clickRadius, 1.0f));
     Click->IsDisabled = true;
     Click->Tag = 2; // When collisions occur this will help identify the object as the click object
     this->GameObjects.push_back(Click);
@@ -85,6 +85,7 @@ void Game::Init()
     glm::vec2(0.0f, -wallThickness),
     glm::vec2(static_cast<float>(this->Width), wallThickness),
     ResourceManager::GetTexture("blackSquare"),
+    false,
     glm::vec3(static_cast<float>(this->Width), wallThickness, 2.0f),
     glm::vec3(1.0f),
     glm::vec2(0.0f)
@@ -94,6 +95,7 @@ void Game::Init()
         glm::vec2(0.0f, static_cast<float>(this->Height)),
         glm::vec2(static_cast<float>(this->Width), wallThickness),
         ResourceManager::GetTexture("blackSquare"),
+        false,
         glm::vec3(static_cast<float>(this->Width), wallThickness, 2.0f),
         glm::vec3(1.0f),
         glm::vec2(0.0f)
@@ -103,6 +105,7 @@ void Game::Init()
         glm::vec2(-wallThickness, 0.0f),
         glm::vec2(wallThickness, static_cast<float>(this->Height)),
         ResourceManager::GetTexture("blackSquare"),
+        false,
         glm::vec3(wallThickness, static_cast<float>(this->Height), 2.0f),
         glm::vec3(1.0f),
         glm::vec2(0.0f)
@@ -112,6 +115,7 @@ void Game::Init()
         glm::vec2(static_cast<float>(this->Width), 0.0f),
         glm::vec2(wallThickness, static_cast<float>(this->Height)),
         ResourceManager::GetTexture("blackSquare"),
+        false,
         glm::vec3(wallThickness, static_cast<float>(this->Height), 2.0f),
         glm::vec3(1.0f),
         glm::vec2(0.0f)
@@ -128,15 +132,13 @@ void Game::Init()
 
 void Game::Update(float dt)
 {
+    
     // Spawn bubbles randomly based on the spawn rate
     if(spawnTimer >= spawnRate)
     {
-        glm::vec2 velocity = glm::vec2((rand() % 3) - 1, (rand() % 3) - 1);
-        while(velocity.x == 0 && velocity.y == 0)        {
-            velocity = glm::vec2((rand() % 3) - 1, (rand() % 3) - 1);
-        }
+        glm::vec2 velocity = glm::vec2((rand() % 200) - 100, (rand() % 200) - 100) / 100.0f; // Random velocity between -1 and 1 on both axes
         
-        SpawnBubble(glm::vec2(rand() % (this->Width - 100) + 50.0f, rand() % (this->Height-100) + 50.0f), 50.0f, 1.0f, velocity);
+        SpawnBubble(glm::vec2(rand() % (this->Width - 100) + 50.0f, rand() % (this->Height - 100) + 50.0f), 50.0f, 1.0f, velocity);
         spawnTimer = 0.0f;
     }
     else
@@ -144,14 +146,15 @@ void Game::Update(float dt)
         spawnTimer += dt;
     }
     
+    //std::cout << "Objects: " << GameObjects.size() << " dt: " << dt << std::endl;
     
     
-    // Change movement direction based on movement direction
-    for (BubbleObject &bubble : this->Bubbles)
-    {
-        bubble.Position.x += bubble.Velocity.x * dt * 100.0f;
-        bubble.Position.y += bubble.Velocity.y * dt * 100.0f;
-    }
+    // // Change movement direction based on movement direction
+    // for (BubbleObject &bubble : this->Bubbles)
+    // {
+    //     bubble.Position.x += bubble.Velocity.x * dt * 100.0f;
+    //     bubble.Position.y += bubble.Velocity.y * dt * 100.0f;
+    // }
     
     if(Click->IsDisabled == false)
     {
@@ -175,7 +178,10 @@ void Game::ProcessInput(float dt, bool mouseClicked)
         isMouseActive = true;
         double xPos, yPos;
         glfwGetCursorPos(glfwGetCurrentContext(), &xPos, &yPos);
-        Click->Move(xPos, yPos);
+        Click->Move(
+            static_cast<float>(xPos) - Click->Size.x / 2.0f,
+            static_cast<float>(yPos) - Click->Size.y / 2.0f
+        );
         Click->TimeAlive = 0.0f;
         Click->Enable();
     }
@@ -219,8 +225,7 @@ void Game::Render()
 void Game::SpawnBubble(glm::vec2 pos,float radius, float points, glm::vec2 movementDirection)
 {
     // Creates bubble object and adds it to the bubble list
-    BubbleObject *bubble = new BubbleObject(pos, radius, points, movementDirection, ResourceManager::GetTexture("bubble"), glm::vec3(radius, radius, 1.0f));
-    
+    BubbleObject *bubble = new BubbleObject(pos, radius, points, movementDirection, ResourceManager::GetTexture("bubble"),true, glm::vec3(radius, radius, 1.0f));
     bubble->Tag = 1; // When collisions occur this will help identify the object as a bubble
     
     GameObjects.push_back(bubble);

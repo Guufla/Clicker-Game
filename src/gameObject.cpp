@@ -32,6 +32,7 @@ GameObject::GameObject(
       Sprite(sprite),
       CenterPivot(centerPivot),
       ColliderShape(colliderShape),
+      Tag(0),
       Destroyed(false),
       IsDisabled(false)
 { }
@@ -52,6 +53,7 @@ GameObject::GameObject(
       Sprite(sprite),
       CenterPivot(centerPivot),
       ColliderShape(colliderShape),
+      Tag(0),
       Destroyed(false),
       IsDisabled(false)
 { }
@@ -72,6 +74,7 @@ GameObject::GameObject(
       Sprite(sprite),
       CenterPivot(centerPivot),
       ColliderShape(colliderShape),
+      Tag(0),
       Destroyed(false),
       IsDisabled(false)
 { }
@@ -91,6 +94,7 @@ GameObject::GameObject(
       Sprite(sprite),
       CenterPivot(centerPivot),
       ColliderShape(colliderShape),
+      Tag(0),
       Destroyed(false),
       IsDisabled(false)
 { }

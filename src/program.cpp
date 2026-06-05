@@ -12,7 +12,7 @@ void key_callback(GLFWwindow* window, int key, int scancode, int action, int mod
 void mouse_button_callback(GLFWwindow* window, int button, int action, int mods);
 
 
-const unsigned int SCR_WIDTH = 800;
+const unsigned int SCR_WIDTH = 1280;
 const unsigned int SCR_HEIGHT = 600;
 
 Game BubbleBop(SCR_WIDTH, SCR_HEIGHT);
@@ -30,7 +30,7 @@ int main(int arc, char* argv[])
 #ifdef __APPLE__
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 #endif
-    glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);
+    glfwWindowHint(GLFW_RESIZABLE, GL_TRUE);
     
     
     GLFWwindow* window;
@@ -130,7 +130,7 @@ void mouse_button_callback(GLFWwindow* window, int button, int action, int mods)
         mouseClicked = false;
     }
 }
-
+\
 void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 {
     // make sure the viewport matches the new window dimensions; note that width and 

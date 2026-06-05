@@ -30,6 +30,19 @@ void BubbleObject::CollisionDetected(GameObject &other)
     {
         PopBubble();
     }
+    else if(other.Tag==0)
+    {
+        if(other.ColliderShape.x > other.ColliderShape.y)
+        {
+            //this->Velocity.x = -this->Velocity.x;
+            this->Velocity.y = -this->Velocity.y;
+        }
+        else
+        {
+            this->Velocity.x = -this->Velocity.x;
+            //this->Velocity.y = -this->Velocity.y;
+        }
+    }
 }
 
 // Implement Code to pop the bubble which increases the score counter based on the amount of points in the points

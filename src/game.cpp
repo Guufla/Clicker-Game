@@ -149,12 +149,12 @@ void Game::Update(float dt)
     //std::cout << "Objects: " << GameObjects.size() << " dt: " << dt << std::endl;
     
     
-    // // Change movement direction based on movement direction
-    // for (BubbleObject &bubble : this->Bubbles)
-    // {
-    //     bubble.Position.x += bubble.Velocity.x * dt * 100.0f;
-    //     bubble.Position.y += bubble.Velocity.y * dt * 100.0f;
-    // }
+    // // Change movement direction based on movement directions
+    for (GameObject *obj : this->GameObjects)
+    {
+        obj->Position.x += obj->Velocity.x * dt * 100.0f;
+        obj->Position.y += obj->Velocity.y * dt * 100.0f;
+    }
     
     if(Click->IsDisabled == false)
     {

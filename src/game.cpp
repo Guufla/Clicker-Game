@@ -65,9 +65,14 @@ void Game::Init()
     
     // load Textures
     ResourceManager::LoadTexture(FileSystem::getPath("resources/Sprites/backgroundImage.jpg").c_str(), false, "background");
-    ResourceManager::LoadTexture(FileSystem::getPath("resources/Sprites/bubble.png").c_str(), true, "bubble");
+    ResourceManager::LoadTexture(FileSystem::getPath("resources/Sprites/Bubble.png").c_str(), true, "bubble");
     ResourceManager::LoadTexture(FileSystem::getPath("resources/Sprites/circle.png").c_str(), true, "circle");
     ResourceManager::LoadTexture(FileSystem::getPath("resources/Sprites/black.png").c_str(), true, "blackSquare");
+    
+    // Eventually learn how to use this with a sprite sheet
+    ResourceManager::LoadTexture(FileSystem::getPath("resources/Sprites/BubbleFrame1.png").c_str(), true, "popFrame1");
+    ResourceManager::LoadTexture(FileSystem::getPath("resources/Sprites/BubbleFrame2.png").c_str(), true, "popFrame2");
+    ResourceManager::LoadTexture(FileSystem::getPath("resources/Sprites/BubbleFrame3.png").c_str(), true, "popFrame3");
 
     
     // set render-specific controls
@@ -138,12 +143,18 @@ void Game::Update(float dt)
     {
         glm::vec2 velocity = glm::vec2((rand() % 200) - 100, (rand() % 200) - 100) / 100.0f; // Random velocity between -1 and 1 on both axes
         
-        SpawnBubble(glm::vec2(rand() % (this->Width - 100) + 50.0f, rand() % (this->Height - 100) + 50.0f), 50.0f, 1.0f, velocity);
+        SpawnBubble(glm::vec2(rand() % (this->Width - 100) + 50.0f, rand() % (this->Height - 100) + 50.0f), 50.0f,1.0f, 0.1f, velocity);
         spawnTimer = 0.0f;
     }
     else
     {
         spawnTimer += dt;
+    }
+
+    // Calls update function for each bubble object in the scene
+    for(BubbleObject *bubble : Bubbles)
+    {
+        bubble->Update(dt);
     }
     
     //std::cout << "Objects: " << GameObjects.size() << " dt: " << dt << std::endl;
@@ -222,17 +233,18 @@ void Game::Render()
 }
 
 
-void Game::SpawnBubble(glm::vec2 pos,float radius, float points, glm::vec2 movementDirection)
+void Game::SpawnBubble(glm::vec2 pos,float radius, float points,float popTime, glm::vec2 movementDirection)
 {
     // Creates bubble object and adds it to the bubble list
-    BubbleObject *bubble = new BubbleObject(pos, radius, points, movementDirection, ResourceManager::GetTexture("bubble"),true, glm::vec3(radius, radius, 1.0f));
+    BubbleObject *bubble = new BubbleObject(pos, radius, points, popTime, movementDirection, ResourceManager::GetTexture("bubble"),true, glm::vec3(radius, radius, 1.0f));
     bubble->Tag = 1; // When collisions occur this will help identify the object as a bubble
     
+    Bubbles.push_back(bubble);
     GameObjects.push_back(bubble);
 }
 
 
-void Game::DoCollisions()
+void Game::DoCollisions(float dt)
 {
     // Do not check for collisions if there is only one game object in the scene
     if(this->GameObjects.size() <= 1)

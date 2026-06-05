@@ -25,7 +25,7 @@ public:
     float                   spawnTimer;
     float                   wallThickness;
     bool                    isMouseActive;
-    std::vector<BubbleObject> Bubbles;
+    std::vector<BubbleObject*> Bubbles;
     std::vector<GameObject*> GameObjects;
     // constructor/destructor
     Game(unsigned int width, unsigned int height);
@@ -36,11 +36,12 @@ public:
     void ProcessInput(float dt,bool mouseClicked);
     void Update(float dt);
     void Render();
-    void DoCollisions();
+    void DoCollisions(float dt);
     
     void SpawnBubble(glm::vec2 pos,
                      float radius,
                      float points,
+                     float popTime,
                      glm::vec2 movementDirection);
 
     bool CheckCollision(GameObject &one, GameObject &two);

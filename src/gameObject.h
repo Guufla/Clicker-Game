@@ -66,7 +66,6 @@ public:
     virtual void Draw(SpriteRenderer &renderer);
 
     virtual void CollisionDetected(GameObject &other);
-
     virtual void Destroy()
     {
         

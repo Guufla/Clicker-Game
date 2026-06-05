@@ -1,14 +1,17 @@
 
 
 #include "bubbleObject.h"
+#include "resourceManager.h"
+#include <iostream>
 
 
 BubbleObject::BubbleObject() 
-    : GameObject(), Points(1.0f) ,Radius(1.0f){ }
+    : GameObject(), Points(1.0f) ,Radius(1.0f),PopTime(2.0f),PopTimer(0.0f),IsPopping(false){ }
 
 BubbleObject::BubbleObject(glm::vec2 pos,
     float       radius,
     float       points,
+    float       popTime,
     glm::vec2   velocity,
     Texture2D   sprite,
     bool        centerPivot,
@@ -20,15 +23,39 @@ BubbleObject::BubbleObject(glm::vec2 pos,
     colliderShape,
     velocity),
     Points(points), 
-    Radius(radius){ }
-    
-    
+    Radius(radius),
+    PopTime(popTime),
+    PopTimer(0.0f),
+    IsPopping(false){ }
+
+void BubbleObject::Update(float dt)
+{
+    if(IsPopping)
+    {
+        PopTimer += dt;
+        Sprite = ResourceManager::GetTexture("popFrame1");
+        if(PopTimer >= PopTime)
+        {
+            IsPopping = false;
+            this->Destroyed = true;
+        }
+        else if(PopTimer > PopTime*0.7f){
+            Sprite = ResourceManager::GetTexture("popFrame3");
+        }
+        else if(PopTimer > PopTime*0.4f)
+        {
+            Sprite = ResourceManager::GetTexture("popFrame2");
+        }
+    }
+}
+
 void BubbleObject::CollisionDetected(GameObject &other)
 {
     // If the bubble collides with the click object, destroy the bubble and add points to the player
     if(other.Tag==2)
     {
-        PopBubble();
+        this->IsPopping = true;
+        this->Velocity = glm::vec2(0.0f);
     }
     else if(other.Tag==0)
     {
@@ -43,11 +70,4 @@ void BubbleObject::CollisionDetected(GameObject &other)
             //this->Velocity.y = -this->Velocity.y;
         }
     }
-}
-
-// Implement Code to pop the bubble which increases the score counter based on the amount of points in the points
-void BubbleObject::PopBubble()
-{
-    // This is where you would implement the pop code
-    this->Destroyed = true;
 }

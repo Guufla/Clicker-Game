@@ -18,10 +18,14 @@ public:
     // bubble state
     float Points;
     float Radius;
+    float PopTime;
+    float PopTimer;
+    bool  IsPopping;
 
     // constructor(s)
     BubbleObject();
-    BubbleObject(glm::vec2 pos, float radius, float points, glm::vec2 velocity, Texture2D sprite,bool centerPivot, glm::vec3 colliderShape);
+    BubbleObject(glm::vec2 pos, float radius, float points, float popTime, glm::vec2 velocity, Texture2D sprite,bool centerPivot, glm::vec3 colliderShape);
+    void Update(float dt);
     // Functions
     void CollisionDetected(GameObject& other) override;
     void PopBubble();

@@ -91,7 +91,7 @@ int main(int arc, char* argv[])
         
         // check collisions
         // ---------------
-        BubbleBop.DoCollisions();
+        BubbleBop.DoCollisions(deltaTime);
 
         glfwSwapBuffers(window);
     }

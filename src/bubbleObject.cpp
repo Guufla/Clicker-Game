@@ -1,9 +1,9 @@
 
 
 #include "bubbleObject.h"
-#include "resourceManager.h"
-#include <iostream>
 
+
+extern AudioManager *Audio;
 
 BubbleObject::BubbleObject() 
     : GameObject(), Points(1.0f) ,Radius(1.0f),PopTime(2.0f),PopTimer(0.0f),IsPopping(false){ }
@@ -38,6 +38,10 @@ void BubbleObject::Update(float dt)
         {
             IsPopping = false;
             this->Destroyed = true;
+            if (Audio != nullptr)
+            {
+                Audio->PlayPopSound();
+            }
         }
         else if(PopTimer > PopTime*0.7f){
             Sprite = ResourceManager::GetTexture("popFrame3");

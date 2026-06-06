@@ -7,6 +7,11 @@
 #include "texture.h"
 #include "spriteRenderer.h"
 #include "gameObject.h"
+#include "resourceManager.h"
+#include "audioManager.h"
+
+
+#include <iostream>
 
 
 // Container object for holding all state relevant for a single

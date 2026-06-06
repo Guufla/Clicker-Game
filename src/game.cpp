@@ -1,21 +1,6 @@
 
 
-// Game-related State data
-// All game objects and stuff in the scene will go here
-#include <learnopengl/filesystem.h>
-
-
 #include "game.h"
-#include "resourceManager.h"
-#include "spriteRenderer.h"
-#include "bubbleObject.h"
-#include "clickObject.h"
-#include "gameObject.h"
-
-#include <iostream>
-#include <algorithm> 
-#include <vector>
-
 
 SpriteRenderer    *Renderer;
 ClickObject       *Click;
@@ -23,6 +8,9 @@ GameObject        *Wall1;
 GameObject        *Wall2;
 GameObject        *Wall3;
 GameObject        *Wall4;
+AudioManager      *Audio;
+
+
 
 Game::Game(unsigned int width, unsigned int height) 
     : Keys(), 
@@ -64,15 +52,15 @@ void Game::Init()
     
     
     // load Textures
-    ResourceManager::LoadTexture(FileSystem::getPath("resources/Sprites/backgroundImage.jpg").c_str(), false, "background");
-    ResourceManager::LoadTexture(FileSystem::getPath("resources/Sprites/Bubble.png").c_str(), true, "bubble");
-    ResourceManager::LoadTexture(FileSystem::getPath("resources/Sprites/circle.png").c_str(), true, "circle");
-    ResourceManager::LoadTexture(FileSystem::getPath("resources/Sprites/black.png").c_str(), true, "blackSquare");
+    ResourceManager::LoadTexture(FileSystem::getPath("resources/sprites/backgroundImage.jpg").c_str(), false, "background");
+    ResourceManager::LoadTexture(FileSystem::getPath("resources/sprites/Bubble.png").c_str(), true, "bubble");
+    ResourceManager::LoadTexture(FileSystem::getPath("resources/sprites/circle.png").c_str(), true, "circle");
+    ResourceManager::LoadTexture(FileSystem::getPath("resources/sprites/black.png").c_str(), true, "blackSquare");
     
     // Eventually learn how to use this with a sprite sheet
-    ResourceManager::LoadTexture(FileSystem::getPath("resources/Sprites/BubbleFrame1.png").c_str(), true, "popFrame1");
-    ResourceManager::LoadTexture(FileSystem::getPath("resources/Sprites/BubbleFrame2.png").c_str(), true, "popFrame2");
-    ResourceManager::LoadTexture(FileSystem::getPath("resources/Sprites/BubbleFrame3.png").c_str(), true, "popFrame3");
+    ResourceManager::LoadTexture(FileSystem::getPath("resources/sprites/BubbleFrame1.png").c_str(), true, "popFrame1");
+    ResourceManager::LoadTexture(FileSystem::getPath("resources/sprites/BubbleFrame2.png").c_str(), true, "popFrame2");
+    ResourceManager::LoadTexture(FileSystem::getPath("resources/sprites/BubbleFrame3.png").c_str(), true, "popFrame3");
 
     
     // set render-specific controls
@@ -130,8 +118,11 @@ void Game::Init()
     this->GameObjects.push_back(Wall2);
     this->GameObjects.push_back(Wall3);
     this->GameObjects.push_back(Wall4);
+
+
     // audio
-    
+    Audio = new AudioManager();
+
 }
 
 
@@ -318,8 +309,8 @@ bool Game::CheckCollision(GameObject &one, GameObject &two)
         GameObject &circle = one.ColliderShape.z == 1 ? one : two;
         GameObject &square = one.ColliderShape.z == 2 ? one : two;
         
-        float closestX = std::max(square.Position.x, std::min(circle.Position.x, square.Position.x + square.Size.x));
-        float closestY = std::max(square.Position.y, std::min(circle.Position.y, square.Position.y + square.Size.y));
+        float closestX = Game::Max(square.Position.x, Game::Min(circle.Position.x, square.Position.x + square.Size.x));
+        float closestY = Game::Max(square.Position.y, Game::Min(circle.Position.y, square.Position.y + square.Size.y));
         
         float distanceX = circle.Position.x - closestX;
         float distanceY = circle.Position.y - closestY;
@@ -350,6 +341,16 @@ bool Game::SortXAxis(const GameObject* obj1, const GameObject* obj2)
 bool Game::SortYAxis(const GameObject* obj1, const GameObject* obj2)
 {
     return obj1->Position.y < obj2->Position.y;
+}
+
+float Game::Max(float a, float b)
+{
+    return (a > b) ? a : b;
+}
+
+float Game::Min(float a, float b)
+{
+    return (a < b) ? a : b;
 }
 
 

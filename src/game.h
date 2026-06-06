@@ -1,12 +1,29 @@
 #ifndef GAME_H
 #define GAME_H
 
+
+
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
 #include <glm/glm.hpp>
+#include <learnopengl/filesystem.h>
 
 #include "bubbleObject.h"
+#include "resourceManager.h"
+#include "spriteRenderer.h"
+#include "bubbleObject.h"
+#include "clickObject.h"
+#include "gameObject.h"
+#include "audioManager.h"
+
+#include <iostream>
+#include <algorithm> 
+#include <vector>
+
+#include <soloud/soloud.h>
+#include <soloud/soloud_wav.h>
+
 
 class Game
 {
@@ -49,6 +66,9 @@ public:
     bool IsDestroyed();
     static bool SortXAxis(const GameObject *obj1, const GameObject *obj2);
     static bool SortYAxis(const GameObject *obj1, const GameObject *obj2);
+
+    float Max(float a, float b);
+    float Min(float a, float b);
 
     // buy an item from the shop
     //void BuyItem(std::string item);

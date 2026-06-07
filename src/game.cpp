@@ -171,6 +171,10 @@ void Game::Update(float dt)
         }
     }
 
+
+    // Audio Clean Up
+    Audio->CleanUpSounds();
+
 }
 
 void Game::ProcessInput(float dt, bool mouseClicked)

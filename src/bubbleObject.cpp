@@ -38,7 +38,7 @@ void BubbleObject::Update(float dt)
         {
             IsPopping = false;
             this->Destroyed = true;
-            if (Audio != nullptr)
+            if(Audio != nullptr)
             {
                 Audio->PlayPopSound();
             }
@@ -49,6 +49,7 @@ void BubbleObject::Update(float dt)
         else if(PopTimer > PopTime*0.4f)
         {
             Sprite = ResourceManager::GetTexture("popFrame2");
+            
         }
     }
 }
@@ -56,7 +57,7 @@ void BubbleObject::Update(float dt)
 void BubbleObject::CollisionDetected(GameObject &other)
 {
     // If the bubble collides with the click object, destroy the bubble and add points to the player
-    if(other.Tag==2)
+    if(other.Tag==2 && this->IsPopping == false)
     {
         this->IsPopping = true;
         this->Velocity = glm::vec2(0.0f);

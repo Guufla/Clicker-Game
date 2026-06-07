@@ -27,19 +27,20 @@ public:
     SoLoud::Wav pop4; // Pop sound effect
 
     SoLoud::Wav button; // button sound effect
-
     // constructor(s)
     AudioManager();
 
     // Functions
     void PlayPopSound();
-    void StopOldestSound();
+    void CleanUpSounds();
+    void KillAllPopSounds();
     void PlayButtonSound();
 
     void deInit();
 private:
-    std::queue<SoLoud::handle> activeSounds;
-    int MaxPopSounds = 8;
+    std::vector<SoLoud::handle> activeSounds;
+    bool BubblePopThisFrame = false;
+    int MaxPopSounds = 10;
 };
 
 

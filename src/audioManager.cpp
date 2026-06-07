@@ -20,7 +20,7 @@ AudioManager::AudioManager()
         std::cout << "Failed to load pop4 sound\n";
     }
 
-    audio.setGlobalVolume(1.0f);
+    audio.setGlobalVolume(0.35f);
 
     // if (button.load(FileSystem::getPath("resources/audio/button.wav").c_str()) != 0)
     // {
@@ -31,14 +31,24 @@ AudioManager::AudioManager()
 
 // Functions
 void AudioManager::PlayPopSound()
-{
+{  
+    if(BubblePopThisFrame == true)
+    {
+        return;
+    }
+
+    BubblePopThisFrame = true;
+    
     if (activeSounds.size() >= MaxPopSounds)
     {
-        StopOldestSound();
+        audio.stop(activeSounds.front());
+        activeSounds.erase(activeSounds.begin());
     }
 
     int randomPop = rand() % 4; // Random number between 0 and 3
     SoLoud::handle handle;
+
+    // audio.setRelativePlaySpeed(handle, 2.0f);
 
     if(randomPop == 0)
     {
@@ -57,14 +67,26 @@ void AudioManager::PlayPopSound()
         handle = audio.play(pop4);
     }
 
-    activeSounds.push(handle);
+    activeSounds.push_back(handle);
 }
 
-void AudioManager::StopOldestSound()
+void AudioManager::CleanUpSounds()
 {
-    if (!activeSounds.empty())
+    BubblePopThisFrame = false;
+    for(int i = activeSounds.size() - 1; i >= 0; i--)
     {
         SoLoud::handle handle = activeSounds.front();
+        if (!audio.isValidVoiceHandle(activeSounds[i]))
+        {
+            activeSounds.erase(activeSounds.begin() + i);
+        }
+    }
+}
+
+void AudioManager::KillAllPopSounds()
+{
+    for(SoLoud::handle handle : activeSounds)
+    {
         audio.stop(handle);
     }
 }

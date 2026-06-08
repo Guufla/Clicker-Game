@@ -73,7 +73,7 @@ void Game::Init()
     Click->Tag = 2; // When collisions occur this will help identify the object as the click object
     this->GameObjects.push_back(Click);
     
-    
+    // Walls used as the bounding boxes for the bubbles
     Wall1 = new GameObject(
     glm::vec2(0.0f, -wallThickness),
     glm::vec2(static_cast<float>(this->Width), wallThickness),
@@ -84,6 +84,7 @@ void Game::Init()
     glm::vec2(0.0f)
     );
 
+    // Walls used as the bounding boxes for the bubbles
     Wall2 = new GameObject(
         glm::vec2(0.0f, static_cast<float>(this->Height)),
         glm::vec2(static_cast<float>(this->Width), wallThickness),
@@ -94,6 +95,7 @@ void Game::Init()
         glm::vec2(0.0f)
     );
 
+    // Walls used as the bounding boxes for the bubbles
     Wall3 = new GameObject(
         glm::vec2(-wallThickness, 0.0f),
         glm::vec2(wallThickness, static_cast<float>(this->Height)),
@@ -104,6 +106,7 @@ void Game::Init()
         glm::vec2(0.0f)
     );
 
+    // Walls used as the bounding boxes for the bubbles
     Wall4 = new GameObject(
         glm::vec2(static_cast<float>(this->Width), 0.0f),
         glm::vec2(wallThickness, static_cast<float>(this->Height)),
@@ -114,6 +117,7 @@ void Game::Init()
         glm::vec2(0.0f)
     );
     
+    // Add walls to the game objects vector
     this->GameObjects.push_back(Wall1);
     this->GameObjects.push_back(Wall2);
     this->GameObjects.push_back(Wall3);
@@ -121,7 +125,7 @@ void Game::Init()
 
 
     // audio
-    Audio = new AudioManager();
+    Audio = new AudioManager(); // Initialize audio manager
 
 }
 
@@ -151,13 +155,14 @@ void Game::Update(float dt)
     //std::cout << "Objects: " << GameObjects.size() << " dt: " << dt << std::endl;
     
     
-    // // Change movement direction based on movement directions
+    // Update movement every frame based on the objects velocity variable
     for (GameObject *obj : this->GameObjects)
     {
         obj->Position.x += obj->Velocity.x * dt * 100.0f;
         obj->Position.y += obj->Velocity.y * dt * 100.0f;
     }
     
+    // When the player clicks their mouse it will stay active for a few seconds
     if(Click->IsDisabled == false)
     {
         Click->TimeAlive += dt;
@@ -179,6 +184,7 @@ void Game::Update(float dt)
 
 void Game::ProcessInput(float dt, bool mouseClicked)
 {
+    // Processes initial mouse click
     if (isMouseActive == false && mouseClicked && Click->IsDisabled == true)
     {
         isMouseActive = true;
@@ -192,6 +198,7 @@ void Game::ProcessInput(float dt, bool mouseClicked)
         Click->Enable();
     }
     
+    // Might be able to delete this will check soon
     if(mouseClicked == false)
     {
         isMouseActive = false;
@@ -327,6 +334,7 @@ bool Game::CheckCollision(GameObject &one, GameObject &two)
 
 void Game::DestroyObjects() 
 {
+    // Goes through the gameobjects and deletes any objects that are marked as Destroyed
     this->GameObjects.erase(
     std::remove_if(this->GameObjects.begin(), this->GameObjects.end(),
         [](GameObject* obj)
@@ -337,6 +345,9 @@ void Game::DestroyObjects()
 );
 }
 
+
+
+// Helper Functions
 bool Game::SortXAxis(const GameObject* obj1, const GameObject* obj2)
 {
     return obj1->Position.x < obj2->Position.x;

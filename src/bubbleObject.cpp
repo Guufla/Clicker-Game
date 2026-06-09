@@ -1,9 +1,10 @@
 
-
 #include "bubbleObject.h"
+#include "game.h" // Allows us to call the game manager
 
 
 extern AudioManager *Audio;
+extern Game BubbleBop;
 
 BubbleObject::BubbleObject() 
     : GameObject(), Points(1.0f) ,Radius(1.0f),PopTime(2.0f),PopTimer(0.0f),IsPopping(false){ }
@@ -61,6 +62,7 @@ void BubbleObject::CollisionDetected(GameObject &other)
     {
         this->IsPopping = true;
         this->Velocity = glm::vec2(0.0f);
+        BubbleBop.AddMoney(this->Points);
     }
     else if(other.Tag==0)
     {

@@ -12,14 +12,15 @@
 #include "bubbleObject.h"
 #include "resourceManager.h"
 #include "spriteRenderer.h"
-#include "bubbleObject.h"
 #include "clickObject.h"
 #include "gameObject.h"
 #include "audioManager.h"
+#include "textRenderer.h"
 
 #include <iostream>
 #include <algorithm> 
 #include <vector>
+#include <format>
 
 #include <soloud/soloud.h>
 #include <soloud/soloud_wav.h>
@@ -66,6 +67,9 @@ public:
     bool IsDestroyed();
     static bool SortXAxis(const GameObject *obj1, const GameObject *obj2);
     static bool SortYAxis(const GameObject *obj1, const GameObject *obj2);
+
+
+    void AddMoney(float amount);
 
     float Max(float a, float b);
     float Min(float a, float b);

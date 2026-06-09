@@ -2,6 +2,7 @@
 
 #include "game.h"
 
+
 SpriteRenderer    *Renderer;
 ClickObject       *Click;
 GameObject        *Wall1;
@@ -9,18 +10,19 @@ GameObject        *Wall2;
 GameObject        *Wall3;
 GameObject        *Wall4;
 AudioManager      *Audio;
+TextRenderer      *Text;
 
 
 
 Game::Game(unsigned int width, unsigned int height) 
     : Keys(), 
     KeysProcessed(), 
-    Width(width), 
-    Height(height), 
-    money(0), 
-    moneyLvl(0), 
-    clickAdditive(1.0f), 
-    clickMultiplier(1.0f), 
+    Width(width),           // Width of the screen
+    Height(height),         // Height of the screen
+    money(0),               // Current money gained
+    moneyLvl(0),            // Used to understand very large money amounts
+    clickAdditive(1.0f),    // Amount of extra money gained on click
+    clickMultiplier(1.0f),  // Multiplier on money gained on click
     clickTime(100.0f),
     clickRadius(10.0f),
     spawnRate(0.1f),
@@ -75,13 +77,13 @@ void Game::Init()
     
     // Walls used as the bounding boxes for the bubbles
     Wall1 = new GameObject(
-    glm::vec2(0.0f, -wallThickness),
-    glm::vec2(static_cast<float>(this->Width), wallThickness),
-    ResourceManager::GetTexture("blackSquare"),
-    false,
-    glm::vec3(static_cast<float>(this->Width), wallThickness, 2.0f),
-    glm::vec3(1.0f),
-    glm::vec2(0.0f)
+        glm::vec2(0.0f, -wallThickness),
+        glm::vec2(static_cast<float>(this->Width), wallThickness),
+        ResourceManager::GetTexture("blackSquare"),
+        false,
+        glm::vec3(static_cast<float>(this->Width), wallThickness, 2.0f),
+        glm::vec3(1.0f),
+        glm::vec2(0.0f)
     );
 
     // Walls used as the bounding boxes for the bubbles
@@ -123,8 +125,12 @@ void Game::Init()
     this->GameObjects.push_back(Wall3);
     this->GameObjects.push_back(Wall4);
 
+    // Text Renderer
+    Text = new TextRenderer(static_cast<float>(this->Width),static_cast<float>(this->Height));
+    std::string fontPath = FileSystem::getPath("resources/fonts/GAMERIA.ttf").c_str();
+    Text->Load(fontPath,100);
 
-    // audio
+    // Audio
     Audio = new AudioManager(); // Initialize audio manager
 
 }
@@ -223,6 +229,10 @@ void Game::Render()
             obj->Draw(*Renderer);
         }
     }
+
+    // std::cout << std::to_string(money) << std::endl;
+    
+    Text->RenderValue(money,100,100,0.5f,glm::vec3(1.0f));
     
     // // Only render the click if it is enabled
     // if(Click->IsDisabled == false)
@@ -348,6 +358,13 @@ void Game::DestroyObjects()
 
 
 // Helper Functions
+
+void Game::AddMoney(float points)
+{
+    this->money += points;
+    // Add click additive and multiplier logic either here or in the bubble object script
+}
+
 bool Game::SortXAxis(const GameObject* obj1, const GameObject* obj2)
 {
     return obj1->Position.x < obj2->Position.x;

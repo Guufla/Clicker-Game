@@ -40,7 +40,7 @@ public:
 private:
     std::vector<SoLoud::handle> activeSounds;
     bool BubblePopThisFrame = false;
-    int MaxPopSounds = 10;
+    int MaxPopSounds = 20;
 };
 
 

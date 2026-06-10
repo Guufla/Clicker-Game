@@ -28,6 +28,8 @@ public:
     float PopTime;
     float PopTimer;
     bool  IsPopping;
+    
+
 
     // constructor(s)
     BubbleObject();

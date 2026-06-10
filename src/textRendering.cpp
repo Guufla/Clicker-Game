@@ -145,10 +145,6 @@ void TextRenderer::RenderText(std::string text, float x, float y, float scale, g
 void TextRenderer::RenderValue(double value, float x, float y, float scale, glm::vec3 color)
 {
     
-    
-    
-    
-    
     std::string text = std::to_string(value);
 
     // Eleminates decimal

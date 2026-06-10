@@ -25,8 +25,8 @@ Game::Game(unsigned int width, unsigned int height)
     clickMultiplier(1.0f),  // Multiplier on money gained on click
     clickTime(100.0f),
     clickRadius(10.0f),
-    spawnRate(0.1f),
-    spawnTimer(0.1f),
+    spawnRate(0.01f),
+    spawnTimer(0.0f),
     wallThickness(40.0f),
     isMouseActive(false)
 { 

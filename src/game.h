@@ -43,6 +43,7 @@ public:
     float                   spawnTimer;
     float                   wallThickness;
     bool                    isMouseActive;
+    bool                    isPaused;
     std::vector<BubbleObject*> Bubbles;
     std::vector<GameObject*> GameObjects;
     // constructor/destructor

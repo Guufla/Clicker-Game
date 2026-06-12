@@ -28,7 +28,8 @@ Game::Game(unsigned int width, unsigned int height)
     spawnRate(0.01f),
     spawnTimer(0.0f),
     wallThickness(40.0f),
-    isMouseActive(false)
+    isMouseActive(false),
+    isPaused(false)
 { 
 
 }
@@ -58,6 +59,10 @@ void Game::Init()
     ResourceManager::LoadTexture(FileSystem::getPath("resources/sprites/Bubble.png").c_str(), true, "bubble");
     ResourceManager::LoadTexture(FileSystem::getPath("resources/sprites/circle.png").c_str(), true, "circle");
     ResourceManager::LoadTexture(FileSystem::getPath("resources/sprites/black.png").c_str(), true, "blackSquare");
+
+    ResourceManager::LoadTexture(FileSystem::getPath("resources/sprites/BlackPanel-1.png").c_str(), true, "panel1");
+    ResourceManager::LoadTexture(FileSystem::getPath("resources/sprites/BlackPanel-2.png").c_str(), true, "panel2");
+    ResourceManager::LoadTexture(FileSystem::getPath("resources/sprites/BlackPanel-3.png").c_str(), true, "panel3");
     
     // Eventually learn how to use this with a sprite sheet
     ResourceManager::LoadTexture(FileSystem::getPath("resources/sprites/BubbleFrame1.png").c_str(), true, "popFrame1");
@@ -133,11 +138,22 @@ void Game::Init()
     // Audio
     Audio = new AudioManager(); // Initialize audio manager
 
+
+    // debug
+    glm::vec2 velocity = glm::vec2((rand() % 200) - 100, (rand() % 200) - 100) / 100.0f; // Random velocity between -1 and 1 on both axes
+    SpawnBubble(glm::vec2(rand() % (this->Width - 100) + 50.0f, rand() % (this->Height - 100) + 50.0f), 50.0f,1.0f, 0.1f, velocity);
+    
+
 }
 
 
 void Game::Update(float dt)
 {
+    // Stops bubbles from moving and spawning when paused
+    if(isPaused)
+    {
+        dt = 0.0f;
+    }
     
     // Spawn bubbles randomly based on the spawn rate
     if(spawnTimer >= spawnRate)
@@ -203,6 +219,13 @@ void Game::ProcessInput(float dt, bool mouseClicked)
         Click->TimeAlive = 0.0f;
         Click->Enable();
     }
+
+    // Pressing tab will pause the game and pressing it again will unpause
+    if(Keys[GLFW_KEY_TAB] && !KeysProcessed[GLFW_KEY_TAB])
+    {
+        isPaused = !isPaused;
+        KeysProcessed[GLFW_KEY_TAB] = true;
+    }
     
     // Might be able to delete this will check soon
     if(mouseClicked == false)
@@ -258,6 +281,11 @@ void Game::SpawnBubble(glm::vec2 pos,float radius, float points,float popTime, g
 
 void Game::DoCollisions(float dt)
 {
+    // Skip collisions if the game is paused
+    if(isPaused)
+    {
+        return;
+    }
     // Do not check for collisions if there is only one game object in the scene
     if(this->GameObjects.size() <= 1)
     {

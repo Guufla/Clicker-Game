@@ -139,6 +139,9 @@ void Game::Init()
     // Audio
     Audio = new AudioManager(); // Initialize audio manager
 
+    // Menu Creation
+    Menu = new MenuManager(); // Initialize menus
+
 
     // debug
     glm::vec2 velocity = glm::vec2((rand() % 200) - 100, (rand() % 200) - 100) / 100.0f; // Random velocity between -1 and 1 on both axes

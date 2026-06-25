@@ -18,3 +18,8 @@ void MenuManager::CloseMainMenu()
 {
 
 }
+
+void MenuManager::InitializeBuyMenu()
+{
+    
+}

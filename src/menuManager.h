@@ -23,9 +23,13 @@ public:
     // constructor(s)
     MenuManager();
 
-    void CreateMenu();
+    void OpenMainMenu();
 
-    void RemoveMenu();
+    void CloseMainMenu();
+
+    void InitializeBuyMenu();
+
+    void HideBuyMenu(); // This will be later on when i learn how to properly resize the window
 
     // Functions
 private:

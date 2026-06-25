@@ -9,12 +9,12 @@ MenuManager::MenuManager()
     
 }
 
-void MenuManager::CreateMenu()
+void MenuManager::OpenMainMenu()
 {
  
 }
 
-void MenuManager::RemoveMenu()
+void MenuManager::CloseMainMenu()
 {
 
 }

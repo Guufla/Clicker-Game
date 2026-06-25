@@ -11,6 +11,7 @@ GameObject        *Wall3;
 GameObject        *Wall4;
 AudioManager      *Audio;
 TextRenderer      *Text;
+MenuManager       *Menu;
 
 
 
@@ -218,6 +219,10 @@ void Game::ProcessInput(float dt, bool mouseClicked)
         );
         Click->TimeAlive = 0.0f;
         Click->Enable();
+    }
+    if(isPaused)
+    {
+
     }
 
     // Pressing tab will pause the game and pressing it again will unpause

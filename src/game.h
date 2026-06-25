@@ -16,6 +16,7 @@
 #include "gameObject.h"
 #include "audioManager.h"
 #include "textRenderer.h"
+#include "menuManager.h"
 
 #include <iostream>
 #include <algorithm> 

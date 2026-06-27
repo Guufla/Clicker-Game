@@ -22,12 +22,12 @@ Game::Game(unsigned int width, unsigned int height)
     Height(height),         // Height of the screen
     money(0),               // Current money gained
     moneyLvl(0),            // Used to understand very large money amounts
-    clickAdditive(1.0f),    // Amount of extra money gained on click
-    clickMultiplier(1.0f),  // Multiplier on money gained on click
+    //clickAdditive(1.0f),    // Amount of extra money gained on click
+    //clickMultiplier(1.0f),  // Multiplier on money gained on click
     clickTime(100.0f),
     clickRadius(10.0f),
-    spawnRate(0.01f),
-    spawnTimer(0.0f),
+    //spawnRate(0.01f),
+    //spawnTimer(0.0f),
     wallThickness(40.0f),
     isMouseActive(false),
     isPaused(false)
@@ -222,10 +222,6 @@ void Game::ProcessInput(float dt, bool mouseClicked)
         );
         Click->TimeAlive = 0.0f;
         Click->Enable();
-    }
-    if(isPaused)
-    {
-
     }
 
     // Pressing tab will pause the game and pressing it again will unpause

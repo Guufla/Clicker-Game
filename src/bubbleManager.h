@@ -17,9 +17,16 @@ class BubbleManager
 {
 public:
     std::vector<BubbleObject*> Bubbles;
+    std::vector<GameObject> Upgrades; // Make a list of all the possible bubble upgrades and their templates
+    float bubbleAdd;
+    float bubbleMult;
+    float spawnRate;
+    float spawnTimer;
+    
     
     // constructor(s)
     BubbleManager();
+    BubbleManager(float bubbleAdd, float bubbleMult, float spawnRate);
 
     void Update(float dt);
 

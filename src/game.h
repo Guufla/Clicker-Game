@@ -17,6 +17,8 @@
 #include "audioManager.h"
 #include "textRenderer.h"
 #include "menuManager.h"
+#include "bubbleManager.h"
+#include "objectManager.h"
 
 #include <iostream>
 #include <algorithm> 
@@ -46,7 +48,6 @@ public:
     bool                    isMouseActive;
     bool                    isPaused;
     std::vector<BubbleObject*> Bubbles;
-    std::vector<GameObject*> GameObjects;
     // constructor/destructor
     Game(unsigned int width, unsigned int height);
     ~Game();

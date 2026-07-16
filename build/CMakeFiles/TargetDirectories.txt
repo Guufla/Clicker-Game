@@ -1,0 +1,3 @@
+D:/Repos/Clicker-Game/build/CMakeFiles/clickGame.dir
+D:/Repos/Clicker-Game/build/CMakeFiles/edit_cache.dir
+D:/Repos/Clicker-Game/build/CMakeFiles/rebuild_cache.dir

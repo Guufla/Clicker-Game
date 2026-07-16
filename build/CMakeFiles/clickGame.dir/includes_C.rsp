@@ -1,0 +1,1 @@
+-I"D:/Repos/Clicker-Game/include" -I"D:/Repos/Clicker-Game/include/soloud" -I"D:/Repos/Clicker-Game/external/imgui" -I"D:/Repos/Clicker-Game/external/imgui/backends" -isystem C:/msys64/ucrt64/include/freetype2

@@ -14,6 +14,7 @@ TextRenderer      *Text;
 MenuManager       *Menu;
 BubbleManager     *bubbleManager;
 ObjectManager     *objectManager;
+MenuManager       *menuManager;
 
 
 
@@ -80,7 +81,7 @@ void Game::Init()
     Audio = new AudioManager(); // Initialize audio manager
 
     // Menus
-    Menu = new MenuManager(); // Initialize menus
+    menuManager = new MenuManager(); // Initialize menus
     
     // Bubble manager 
     bubbleManager = new BubbleManager(); // Initialize menus
@@ -170,6 +171,8 @@ void Game::Update(float dt)
     bubbleManager->Update(dt);
     
     objectManager->Update(dt);
+    
+    menuManager->Update(dt);
     
     // When the player clicks their mouse it will stay active for a few seconds
     if(Click->IsDisabled == false)

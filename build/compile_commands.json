@@ -1,0 +1,302 @@
+[
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\audioManager.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\audioManager.cpp",
+  "file": "D:/Repos/Clicker-Game/src/audioManager.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/audioManager.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\bubbleManager.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\bubbleManager.cpp",
+  "file": "D:/Repos/Clicker-Game/src/bubbleManager.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/bubbleManager.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\bubbleObject.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\bubbleObject.cpp",
+  "file": "D:/Repos/Clicker-Game/src/bubbleObject.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/bubbleObject.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\clickObject.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\clickObject.cpp",
+  "file": "D:/Repos/Clicker-Game/src/clickObject.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/clickObject.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\game.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\game.cpp",
+  "file": "D:/Repos/Clicker-Game/src/game.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/game.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\gameObject.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\gameObject.cpp",
+  "file": "D:/Repos/Clicker-Game/src/gameObject.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/gameObject.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\image.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\image.cpp",
+  "file": "D:/Repos/Clicker-Game/src/image.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/image.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\main.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\main.cpp",
+  "file": "D:/Repos/Clicker-Game/src/main.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\menuManager.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\menuManager.cpp",
+  "file": "D:/Repos/Clicker-Game/src/menuManager.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/menuManager.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\menuObject.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\menuObject.cpp",
+  "file": "D:/Repos/Clicker-Game/src/menuObject.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/menuObject.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\objectManager.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\objectManager.cpp",
+  "file": "D:/Repos/Clicker-Game/src/objectManager.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/objectManager.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\program.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\program.cpp",
+  "file": "D:/Repos/Clicker-Game/src/program.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/program.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\resourceManager.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\resourceManager.cpp",
+  "file": "D:/Repos/Clicker-Game/src/resourceManager.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/resourceManager.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\shader.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\shader.cpp",
+  "file": "D:/Repos/Clicker-Game/src/shader.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/shader.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\spriteRenderer.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\spriteRenderer.cpp",
+  "file": "D:/Repos/Clicker-Game/src/spriteRenderer.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/spriteRenderer.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\stb_image.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\stb_image.cpp",
+  "file": "D:/Repos/Clicker-Game/src/stb_image.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/stb_image.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\textRendering.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\textRendering.cpp",
+  "file": "D:/Repos/Clicker-Game/src/textRendering.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/textRendering.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\texture.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\texture.cpp",
+  "file": "D:/Repos/Clicker-Game/src/texture.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/texture.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\clickGame.dir\\src\\glad.c.obj -c D:\\Repos\\Clicker-Game\\src\\glad.c",
+  "file": "D:/Repos/Clicker-Game/src/glad.c",
+  "output": "CMakeFiles/clickGame.dir/src/glad.c.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\external\\imgui\\imgui.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\imgui\\imgui.cpp",
+  "file": "D:/Repos/Clicker-Game/external/imgui/imgui.cpp",
+  "output": "CMakeFiles/clickGame.dir/external/imgui/imgui.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\external\\imgui\\imgui_demo.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\imgui\\imgui_demo.cpp",
+  "file": "D:/Repos/Clicker-Game/external/imgui/imgui_demo.cpp",
+  "output": "CMakeFiles/clickGame.dir/external/imgui/imgui_demo.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\external\\imgui\\imgui_draw.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\imgui\\imgui_draw.cpp",
+  "file": "D:/Repos/Clicker-Game/external/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/clickGame.dir/external/imgui/imgui_draw.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\external\\imgui\\imgui_tables.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\imgui\\imgui_tables.cpp",
+  "file": "D:/Repos/Clicker-Game/external/imgui/imgui_tables.cpp",
+  "output": "CMakeFiles/clickGame.dir/external/imgui/imgui_tables.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\external\\imgui\\imgui_widgets.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\imgui\\imgui_widgets.cpp",
+  "file": "D:/Repos/Clicker-Game/external/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/clickGame.dir/external/imgui/imgui_widgets.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\external\\imgui\\backends\\imgui_impl_glfw.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\imgui\\backends\\imgui_impl_glfw.cpp",
+  "file": "D:/Repos/Clicker-Game/external/imgui/backends/imgui_impl_glfw.cpp",
+  "output": "CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_glfw.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\external\\imgui\\backends\\imgui_impl_opengl3.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\imgui\\backends\\imgui_impl_opengl3.cpp",
+  "file": "D:/Repos/Clicker-Game/external/imgui/backends/imgui_impl_opengl3.cpp",
+  "output": "CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_opengl3.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud.cpp",
+  "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_audiosource.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_audiosource.cpp",
+  "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_audiosource.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_audiosource.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_bus.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_bus.cpp",
+  "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_bus.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_bus.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_core_3d.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_core_3d.cpp",
+  "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_core_3d.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_3d.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_core_basicops.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_core_basicops.cpp",
+  "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_core_basicops.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_basicops.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_core_faderops.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_core_faderops.cpp",
+  "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_core_faderops.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_faderops.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_core_filterops.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_core_filterops.cpp",
+  "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_core_filterops.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_filterops.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_core_getters.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_core_getters.cpp",
+  "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_core_getters.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_getters.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_core_setters.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_core_setters.cpp",
+  "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_core_setters.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_setters.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_core_voicegroup.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_core_voicegroup.cpp",
+  "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_core_voicegroup.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_voicegroup.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_core_voiceops.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_core_voiceops.cpp",
+  "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_core_voiceops.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_voiceops.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_fader.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_fader.cpp",
+  "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_fader.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_fader.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_fft.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_fft.cpp",
+  "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_fft.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_fft.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_fft_lut.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_fft_lut.cpp",
+  "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_fft_lut.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_fft_lut.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_file.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_file.cpp",
+  "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_file.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_file.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_filter.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_filter.cpp",
+  "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_filter.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_filter.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_misc.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_misc.cpp",
+  "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_misc.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_misc.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_queue.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_queue.cpp",
+  "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_queue.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_queue.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_thread.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_thread.cpp",
+  "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_thread.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_thread.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\audiosource\\wav\\dr_impl.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\audiosource\\wav\\dr_impl.cpp",
+  "file": "D:/Repos/Clicker-Game/src/soloud/audiosource/wav/dr_impl.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/dr_impl.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\audiosource\\wav\\soloud_wav.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\audiosource\\wav\\soloud_wav.cpp",
+  "file": "D:/Repos/Clicker-Game/src/soloud/audiosource/wav/soloud_wav.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/soloud_wav.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\audiosource\\wav\\soloud_wavstream.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\audiosource\\wav\\soloud_wavstream.cpp",
+  "file": "D:/Repos/Clicker-Game/src/soloud/audiosource/wav/soloud_wavstream.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/soloud_wavstream.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\backend\\miniaudio\\soloud_miniaudio.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\backend\\miniaudio\\soloud_miniaudio.cpp",
+  "file": "D:/Repos/Clicker-Game/src/soloud/backend/miniaudio/soloud_miniaudio.cpp",
+  "output": "CMakeFiles/clickGame.dir/src/soloud/backend/miniaudio/soloud_miniaudio.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\clickGame.dir\\src\\soloud\\audiosource\\wav\\stb_vorbis.c.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\audiosource\\wav\\stb_vorbis.c",
+  "file": "D:/Repos/Clicker-Game/src/soloud/audiosource/wav/stb_vorbis.c",
+  "output": "CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/stb_vorbis.c.obj"
+}
+]

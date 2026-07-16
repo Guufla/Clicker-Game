@@ -10,6 +10,10 @@
 #include "resourceManager.h"
 #include "audioManager.h"
 
+#include "imgui.h"
+#include "imgui_impl_glfw.h"
+#include "imgui_impl_opengl3.h"
+
 
 #include <iostream>
 
@@ -23,6 +27,8 @@ public:
     // constructor(s)
     MenuManager();
 
+    void Update(float dt);
+
     void OpenMainMenu();
 
     void CloseMainMenu();
@@ -34,6 +40,8 @@ public:
     // Functions
 private:
 
+    bool isOpen = true;
+    float panelWidth = 300.0f;
 
 };
 

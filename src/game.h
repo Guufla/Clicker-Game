@@ -20,6 +20,10 @@
 #include "bubbleManager.h"
 #include "objectManager.h"
 
+#include "imgui.h"
+#include "imgui_impl_glfw.h"
+#include "imgui_impl_opengl3.h"
+
 #include <iostream>
 #include <algorithm> 
 #include <vector>

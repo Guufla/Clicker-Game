@@ -47,9 +47,27 @@ int main(int arc, char* argv[])
         return -1;
     }
     
+    // Setup Dear ImGui context
+    // IMGUI_CHECKVERSION();
+    // ImGui::CreateContext();
+
+    // ImGuiIO& io = ImGui::GetIO();
+    // io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;
+
+    // // Style
+    // ImGui::StyleColorsDark();
+
+    
+    
+    
     glfwSetKeyCallback(window, key_callback);
     glfwSetMouseButtonCallback(window, mouse_button_callback);
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
+    
+    
+    // Setup Platform/Renderer backends
+    // ImGui_ImplGlfw_InitForOpenGL(window, true);
+    // ImGui_ImplOpenGL3_Init("#version 330");
     
     
     // OpenGL configuration
@@ -73,6 +91,12 @@ int main(int arc, char* argv[])
         float currentFrame = glfwGetTime();
         deltaTime = currentFrame - lastFrame;
         lastFrame = currentFrame;
+        
+        // Start ImGui frame
+        // ImGui_ImplOpenGL3_NewFrame();
+        // ImGui_ImplGlfw_NewFrame();
+        // ImGui::NewFrame();
+        
         glfwPollEvents();
 
         // manage user input
@@ -88,6 +112,20 @@ int main(int arc, char* argv[])
         glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
         BubbleBop.Render();
+        
+        // ImGui::Begin("Debug Menu");
+        // ImGui::Text("Hello from Dear ImGui!");
+        // ImGui::Text("FPS: %.1f", ImGui::GetIO().Framerate);
+
+        // if (ImGui::Button("Test Button"))
+        // {
+        //     std::cout << "Button clicked!" << std::endl;
+        // }
+
+        // ImGui::End();
+        
+        // ImGui::Render();
+        // ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
         
         // check collisions
         // ---------------

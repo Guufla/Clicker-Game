@@ -2,41 +2,28 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "type": "cppbuild",
-            "label": "C/C++: g++.exe build active file",
-            "command": "C:/msys64/ucrt64/bin/g++.exe",
+            "label": "CMake Build Clicker Game",
+            "type": "shell",
+            "command": "C:/Program Files/CMake/bin/cmake.exe",
             "args": [
-                "-g",
-                "-std=c++17",
-                "-DWITH_MINIAUDIO",
-                "-I${workspaceFolder}/include",
-                "-IC:/msys64/ucrt64/include",
-                "-I${workspaceFolder}/include/soloud",
-                "-L${workspaceFolder}/lib",
-                "${workspaceFolder}/src/*.cpp",
-                "${workspaceFolder}/src/glad.c",
-                "${workspaceFolder}/src/soloud/core/*.cpp",
-                "${workspaceFolder}/src/soloud/audiosource/wav/*.cpp",
-                "${workspaceFolder}/src/soloud/audiosource/wav/stb_vorbis.c",
-                "${workspaceFolder}/src/soloud/backend/miniaudio/*.cpp",
-                "-lglfw3dll",
-                "-lfreetype",
-                "-lassimp",
-                "-lwinmm",
-                "-o",
-                "${workspaceFolder}/clickGame.exe"
+                "--build",
+                "${workspaceFolder}/build",
+                "--target",
+                "clickGame"
             ],
             "options": {
-                "cwd": "${workspaceFolder}"
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PATH": "C:/msys64/ucrt64/bin;${env:PATH}"
+                }
             },
             "problemMatcher": [
                 "$gcc"
             ],
             "group": {
                 "kind": "build",
-                "isDefault": false
-            },
-            "detail": "compiler: C:/msys64/ucrt64/bin/g++.exe"
+                "isDefault": true
+            }
         }
     ]
 }

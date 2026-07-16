@@ -4,8 +4,16 @@
 
 extern Game BubbleBop;
 
+
+
 MenuManager::MenuManager()
 {
+    
+}
+
+void MenuManager::Update(float dt)
+{
+
     
 }
 

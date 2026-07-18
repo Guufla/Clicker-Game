@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Repos/Clicker-Game/src/glad.c" "CMakeFiles/clickGame.dir/src/glad.c.obj" "gcc" "CMakeFiles/clickGame.dir/src/glad.c.obj.d"
   "D:/Repos/Clicker-Game/src/soloud/audiosource/wav/stb_vorbis.c" "CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/stb_vorbis.c.obj" "gcc" "CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/stb_vorbis.c.obj.d"
+  "D:/Repos/Clicker-Game/external/RmlUi/Backends/RmlUi_Platform_GLFW.cpp" "CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Platform_GLFW.cpp.obj" "gcc" "CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Platform_GLFW.cpp.obj.d"
+  "D:/Repos/Clicker-Game/external/RmlUi/Backends/RmlUi_Renderer_GL3.cpp" "CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Renderer_GL3.cpp.obj" "gcc" "CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Renderer_GL3.cpp.obj.d"
   "D:/Repos/Clicker-Game/external/imgui/backends/imgui_impl_glfw.cpp" "CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_glfw.cpp.obj" "gcc" "CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_glfw.cpp.obj.d"
   "D:/Repos/Clicker-Game/external/imgui/backends/imgui_impl_opengl3.cpp" "CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_opengl3.cpp.obj" "gcc" "CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_opengl3.cpp.obj.d"
   "D:/Repos/Clicker-Game/external/imgui/imgui.cpp" "CMakeFiles/clickGame.dir/external/imgui/imgui.cpp.obj" "gcc" "CMakeFiles/clickGame.dir/external/imgui/imgui.cpp.obj.d"
@@ -24,7 +26,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Repos/Clicker-Game/src/game.cpp" "CMakeFiles/clickGame.dir/src/game.cpp.obj" "gcc" "CMakeFiles/clickGame.dir/src/game.cpp.obj.d"
   "D:/Repos/Clicker-Game/src/gameObject.cpp" "CMakeFiles/clickGame.dir/src/gameObject.cpp.obj" "gcc" "CMakeFiles/clickGame.dir/src/gameObject.cpp.obj.d"
   "D:/Repos/Clicker-Game/src/image.cpp" "CMakeFiles/clickGame.dir/src/image.cpp.obj" "gcc" "CMakeFiles/clickGame.dir/src/image.cpp.obj.d"
-  "D:/Repos/Clicker-Game/src/main.cpp" "CMakeFiles/clickGame.dir/src/main.cpp.obj" "gcc" "CMakeFiles/clickGame.dir/src/main.cpp.obj.d"
   "D:/Repos/Clicker-Game/src/menuManager.cpp" "CMakeFiles/clickGame.dir/src/menuManager.cpp.obj" "gcc" "CMakeFiles/clickGame.dir/src/menuManager.cpp.obj.d"
   "D:/Repos/Clicker-Game/src/menuObject.cpp" "CMakeFiles/clickGame.dir/src/menuObject.cpp.obj" "gcc" "CMakeFiles/clickGame.dir/src/menuObject.cpp.obj.d"
   "D:/Repos/Clicker-Game/src/objectManager.cpp" "CMakeFiles/clickGame.dir/src/objectManager.cpp.obj" "gcc" "CMakeFiles/clickGame.dir/src/objectManager.cpp.obj.d"

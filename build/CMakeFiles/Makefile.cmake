@@ -15,6 +15,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/msys64/ucrt64/lib/cmake/glfw3/glfw3ConfigVersion.cmake"
   "C:/msys64/ucrt64/lib/cmake/glfw3/glfw3Targets-release.cmake"
   "C:/msys64/ucrt64/lib/cmake/glfw3/glfw3Targets.cmake"
+  "C:/msys64/ucrt64/share/cmake/Modules/BasicConfigVersion-ExactVersion.cmake.in"
   "C:/msys64/ucrt64/share/cmake/Modules/CMakeCInformation.cmake"
   "C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXInformation.cmake"
   "C:/msys64/ucrt64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
@@ -22,6 +23,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/msys64/ucrt64/share/cmake/Modules/CMakeGenericSystem.cmake"
   "C:/msys64/ucrt64/share/cmake/Modules/CMakeInitializeConfigs.cmake"
   "C:/msys64/ucrt64/share/cmake/Modules/CMakeLanguageInformation.cmake"
+  "C:/msys64/ucrt64/share/cmake/Modules/CMakePackageConfigHelpers.cmake"
   "C:/msys64/ucrt64/share/cmake/Modules/CMakeRCInformation.cmake"
   "C:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
   "C:/msys64/ucrt64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
@@ -37,6 +39,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/msys64/ucrt64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
   "C:/msys64/ucrt64/share/cmake/Modules/FindPackageMessage.cmake"
   "C:/msys64/ucrt64/share/cmake/Modules/FindThreads.cmake"
+  "C:/msys64/ucrt64/share/cmake/Modules/GNUInstallDirs.cmake"
   "C:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake"
   "C:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake"
   "C:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake"
@@ -58,6 +61,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/msys64/ucrt64/share/cmake/Modules/Platform/Windows.cmake"
   "C:/msys64/ucrt64/share/cmake/Modules/Platform/WindowsPaths.cmake"
   "C:/msys64/ucrt64/share/cmake/Modules/SelectLibraryConfigurations.cmake"
+  "C:/msys64/ucrt64/share/cmake/Modules/WriteBasicConfigVersionFile.cmake"
   "D:/Repos/Clicker-Game/CMakeLists.txt"
   "CMakeFiles/4.3.3/CMakeCCompiler.cmake"
   "CMakeFiles/4.3.3/CMakeCXXCompiler.cmake"
@@ -65,6 +69,20 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.3.3/CMakeSystem.cmake"
   "CMakeFiles/VerifyGlobs.cmake"
   "CMakeFiles/cmake.verify_globs"
+  "D:/Repos/Clicker-Game/external/RmlUi/CMake/Dependencies.cmake"
+  "D:/Repos/Clicker-Game/external/RmlUi/CMake/OptionsLists.cmake"
+  "D:/Repos/Clicker-Game/external/RmlUi/CMake/PackageUtilities.cmake"
+  "D:/Repos/Clicker-Game/external/RmlUi/CMake/RmlUiConfig.cmake.in"
+  "D:/Repos/Clicker-Game/external/RmlUi/CMake/RuntimeUtilities.cmake"
+  "D:/Repos/Clicker-Game/external/RmlUi/CMake/Utilities.cmake"
+  "D:/Repos/Clicker-Game/external/RmlUi/CMakeLists.txt"
+  "D:/Repos/Clicker-Game/external/RmlUi/Samples/CMakeLists.txt"
+  "D:/Repos/Clicker-Game/external/RmlUi/Source/CMakeLists.txt"
+  "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/CMakeLists.txt"
+  "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/CMakeLists.txt"
+  "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/FontEngineDefault/CMakeLists.txt"
+  "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Layout/CMakeLists.txt"
+  "D:/Repos/Clicker-Game/external/RmlUi/Source/Debugger/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -76,9 +94,21 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "RmlUi/install/RmlUiConfig.cmake"
+  "RmlUi/install/RmlUiConfigVersion.cmake"
+  "RmlUi/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "RmlUi/Source/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "RmlUi/Source/Core/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "RmlUi/Source/Core/Elements/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "RmlUi/Source/Core/Layout/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "RmlUi/Source/Core/FontEngineDefault/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "RmlUi/Source/Debugger/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "RmlUi/Samples/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/clickGame.dir/DependInfo.cmake"
+  "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/DependInfo.cmake"
+  "RmlUi/Source/Debugger/CMakeFiles/rmlui_debugger.dir/DependInfo.cmake"
   )

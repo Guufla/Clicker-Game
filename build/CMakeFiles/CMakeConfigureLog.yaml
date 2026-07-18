@@ -2827,8 +2827,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-cvb1r2"
-      binary: "D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-cvb1r2"
+      source: "D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-92qhcw"
+      binary: "D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-92qhcw"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -2838,13 +2838,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-cvb1r2'
+        Change Dir: 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-92qhcw'
         
-        Run Build Command(s): C:/msys64/ucrt64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_9ffa8/fast
-        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9ffa8.dir\\build.make CMakeFiles/cmTC_9ffa8.dir/build
-        mingw32-make[1]: Entering directory 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-cvb1r2'
-        Building C object CMakeFiles/cmTC_9ffa8.dir/CMakeCCompilerABI.c.obj
-        C:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_9ffa8.dir\\CMakeCCompilerABI.c.obj -c C:\\msys64\\ucrt64\\share\\cmake\\Modules\\CMakeCCompilerABI.c
+        Run Build Command(s): C:/msys64/ucrt64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_e0a95/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e0a95.dir\\build.make CMakeFiles/cmTC_e0a95.dir/build
+        mingw32-make[1]: Entering directory 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-92qhcw'
+        Building C object CMakeFiles/cmTC_e0a95.dir/CMakeCCompilerABI.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_e0a95.dir\\CMakeCCompilerABI.c.obj -c C:\\msys64\\ucrt64\\share\\cmake\\Modules\\CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe
         Target: x86_64-w64-mingw32
@@ -2852,8 +2852,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.1.0 (Rev5, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9ffa8.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_9ffa8.dir\\'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:\\msys64\\ucrt64\\share\\cmake\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_9ffa8.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\liama\\AppData\\Local\\Temp\\cc8WeVAb.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_e0a95.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_e0a95.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:\\msys64\\ucrt64\\share\\cmake\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_e0a95.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\liama\\AppData\\Local\\Temp\\ccLMYyCg.s
         GNU C23 (Rev5, Built by MSYS2 project) version 16.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 16.1.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.27-GMP
         
@@ -2871,14 +2871,14 @@ events:
          C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/include-fixed
         End of search list.
         Compiler executable checksum: 8ce1135867793bb4ef554b26be63cf3e
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9ffa8.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_9ffa8.dir\\'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_9ffa8.dir\\CMakeCCompilerABI.c.obj C:\\Users\\liama\\AppData\\Local\\Temp\\cc8WeVAb.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_e0a95.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_e0a95.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_e0a95.dir\\CMakeCCompilerABI.c.obj C:\\Users\\liama\\AppData\\Local\\Temp\\ccLMYyCg.s
         GNU assembler version 2.46 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.46
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9ffa8.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_9ffa8.dir\\CMakeCCompilerABI.c.'
-        Linking C executable cmTC_9ffa8.exe
-        C:\\msys64\\ucrt64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_9ffa8.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_e0a95.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_e0a95.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_e0a95.exe
+        C:\\msys64\\ucrt64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_e0a95.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe
@@ -2889,16 +2889,16 @@ events:
         gcc version 16.1.0 (Rev5, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9ffa8.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_9ffa8.'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\liama\\AppData\\Local\\Temp\\ccp7e5Le.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_9ffa8.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_9ffa8.dir/objects.a --no-whole-archive --out-implib libcmTC_9ffa8.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e0a95.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_e0a95.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\liama\\AppData\\Local\\Temp\\ccjkrFfx.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_e0a95.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_e0a95.dir/objects.a --no-whole-archive --out-implib libcmTC_e0a95.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
         collect2 version 16.1.0
-        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\liama\\AppData\\Local\\Temp\\ccp7e5Le.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_9ffa8.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_9ffa8.dir/objects.a --no-whole-archive --out-implib libcmTC_9ffa8.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\liama\\AppData\\Local\\Temp\\ccjkrFfx.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_e0a95.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_e0a95.dir/objects.a --no-whole-archive --out-implib libcmTC_e0a95.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
         GNU ld (GNU Binutils) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9ffa8.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_9ffa8.'
-        C:\\msys64\\ucrt64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_9ffa8.dir/objects.a
-        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_9ffa8.dir/objects.a @CMakeFiles\\cmTC_9ffa8.dir\\objects1.rsp
-        C:\\msys64\\ucrt64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_9ffa8.dir/objects.a -Wl,--no-whole-archive -o cmTC_9ffa8.exe -Wl,--out-implib,libcmTC_9ffa8.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-cvb1r2'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e0a95.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_e0a95.'
+        C:\\msys64\\ucrt64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_e0a95.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_e0a95.dir/objects.a @CMakeFiles\\cmTC_e0a95.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_e0a95.dir/objects.a -Wl,--no-whole-archive -o cmTC_e0a95.exe -Wl,--out-implib,libcmTC_e0a95.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-92qhcw'
         
       exitCode: 0
   -
@@ -2931,13 +2931,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-cvb1r2']
+        ignore line: [Change Dir: 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-92qhcw']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/msys64/ucrt64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_9ffa8/fast]
-        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9ffa8.dir\\build.make CMakeFiles/cmTC_9ffa8.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-cvb1r2']
-        ignore line: [Building C object CMakeFiles/cmTC_9ffa8.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_9ffa8.dir\\CMakeCCompilerABI.c.obj -c C:\\msys64\\ucrt64\\share\\cmake\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): C:/msys64/ucrt64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_e0a95/fast]
+        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e0a95.dir\\build.make CMakeFiles/cmTC_e0a95.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-92qhcw']
+        ignore line: [Building C object CMakeFiles/cmTC_e0a95.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_e0a95.dir\\CMakeCCompilerABI.c.obj -c C:\\msys64\\ucrt64\\share\\cmake\\Modules\\CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -2945,8 +2945,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.1.0 (Rev5  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9ffa8.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_9ffa8.dir\\']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:\\msys64\\ucrt64\\share\\cmake\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_9ffa8.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\liama\\AppData\\Local\\Temp\\cc8WeVAb.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_e0a95.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_e0a95.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:\\msys64\\ucrt64\\share\\cmake\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_e0a95.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\liama\\AppData\\Local\\Temp\\ccLMYyCg.s]
         ignore line: [GNU C23 (Rev5  Built by MSYS2 project) version 16.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 16.1.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -2964,8 +2964,8 @@ events:
         ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 8ce1135867793bb4ef554b26be63cf3e]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9ffa8.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_9ffa8.dir\\']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_9ffa8.dir\\CMakeCCompilerABI.c.obj C:\\Users\\liama\\AppData\\Local\\Temp\\cc8WeVAb.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_e0a95.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_e0a95.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_e0a95.dir\\CMakeCCompilerABI.c.obj C:\\Users\\liama\\AppData\\Local\\Temp\\ccLMYyCg.s]
         ignore line: [GNU assembler version 2.46 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.46]
         ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
@@ -2976,9 +2976,9 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_9ffa8.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_9ffa8.dir\\CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_9ffa8.exe]
-        ignore line: [C:\\msys64\\ucrt64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_9ffa8.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_e0a95.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_e0a95.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_e0a95.exe]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_e0a95.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe]
@@ -2996,13 +2996,13 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9ffa8.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_9ffa8.']
-        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\liama\\AppData\\Local\\Temp\\ccp7e5Le.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_9ffa8.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_9ffa8.dir/objects.a --no-whole-archive --out-implib libcmTC_9ffa8.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e0a95.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_e0a95.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\liama\\AppData\\Local\\Temp\\ccjkrFfx.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_e0a95.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_e0a95.dir/objects.a --no-whole-archive --out-implib libcmTC_e0a95.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\liama\\AppData\\Local\\Temp\\ccp7e5Le.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\liama\\AppData\\Local\\Temp\\ccjkrFfx.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -3024,7 +3024,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_9ffa8.exe] ==> ignore
+          arg [cmTC_e0a95.exe] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0]
@@ -3035,10 +3035,10 @@ events:
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_9ffa8.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_e0a95.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_9ffa8.dll.a] ==> ignore
+          arg [libcmTC_e0a95.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -3063,7 +3063,7 @@ events:
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
         ignore line: [collect2 version 16.1.0]
-        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\liama\\AppData\\Local\\Temp\\ccp7e5Le.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_9ffa8.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_9ffa8.dir/objects.a --no-whole-archive --out-implib libcmTC_9ffa8.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\liama\\AppData\\Local\\Temp\\ccjkrFfx.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_e0a95.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_e0a95.dir/objects.a --no-whole-archive --out-implib libcmTC_e0a95.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
         linker tool for 'C': C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [gcc_eh]
         remove lib [msvcrt]
@@ -3104,8 +3104,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-19ussc"
-      binary: "D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-19ussc"
+      source: "D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-5cu930"
+      binary: "D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-5cu930"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -3116,13 +3116,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-19ussc'
+        Change Dir: 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-5cu930'
         
-        Run Build Command(s): C:/msys64/ucrt64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_a7349/fast
-        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a7349.dir\\build.make CMakeFiles/cmTC_a7349.dir/build
-        mingw32-make[1]: Entering directory 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-19ussc'
-        Building CXX object CMakeFiles/cmTC_a7349.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_a7349.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\msys64\\ucrt64\\share\\cmake\\Modules\\CMakeCXXCompilerABI.cpp
+        Run Build Command(s): C:/msys64/ucrt64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_f3fdb/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f3fdb.dir\\build.make CMakeFiles/cmTC_f3fdb.dir/build
+        mingw32-make[1]: Entering directory 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-5cu930'
+        Building CXX object CMakeFiles/cmTC_f3fdb.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_f3fdb.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\msys64\\ucrt64\\share\\cmake\\Modules\\CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe
         Target: x86_64-w64-mingw32
@@ -3130,8 +3130,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.1.0 (Rev5, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a7349.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a7349.dir\\'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:\\msys64\\ucrt64\\share\\cmake\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_a7349.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\liama\\AppData\\Local\\Temp\\ccNJKV8B.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_f3fdb.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_f3fdb.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:\\msys64\\ucrt64\\share\\cmake\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_f3fdb.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\liama\\AppData\\Local\\Temp\\cctdb33X.s
         GNU C++20 (Rev5, Built by MSYS2 project) version 16.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 16.1.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.27-GMP
         
@@ -3155,14 +3155,14 @@ events:
          C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/include-fixed
         End of search list.
         Compiler executable checksum: c17fb94a142b10fdb3ae88ea0e837cbf
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a7349.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a7349.dir\\'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_a7349.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\liama\\AppData\\Local\\Temp\\ccNJKV8B.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_f3fdb.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_f3fdb.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_f3fdb.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\liama\\AppData\\Local\\Temp\\cctdb33X.s
         GNU assembler version 2.46 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.46
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a7349.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a7349.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_a7349.exe
-        C:\\msys64\\ucrt64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_a7349.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_f3fdb.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_f3fdb.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_f3fdb.exe
+        C:\\msys64\\ucrt64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_f3fdb.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe
@@ -3173,16 +3173,16 @@ events:
         gcc version 16.1.0 (Rev5, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a7349.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_a7349.'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\liama\\AppData\\Local\\Temp\\ccDOeqrL.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_a7349.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_a7349.dir/objects.a --no-whole-archive --out-implib libcmTC_a7349.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f3fdb.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_f3fdb.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\liama\\AppData\\Local\\Temp\\ccPaJTj9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_f3fdb.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_f3fdb.dir/objects.a --no-whole-archive --out-implib libcmTC_f3fdb.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
         collect2 version 16.1.0
-        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\liama\\AppData\\Local\\Temp\\ccDOeqrL.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_a7349.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_a7349.dir/objects.a --no-whole-archive --out-implib libcmTC_a7349.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\liama\\AppData\\Local\\Temp\\ccPaJTj9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_f3fdb.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_f3fdb.dir/objects.a --no-whole-archive --out-implib libcmTC_f3fdb.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
         GNU ld (GNU Binutils) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a7349.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_a7349.'
-        C:\\msys64\\ucrt64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_a7349.dir/objects.a
-        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_a7349.dir/objects.a @CMakeFiles\\cmTC_a7349.dir\\objects1.rsp
-        C:\\msys64\\ucrt64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_a7349.dir/objects.a -Wl,--no-whole-archive -o cmTC_a7349.exe -Wl,--out-implib,libcmTC_a7349.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-19ussc'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f3fdb.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_f3fdb.'
+        C:\\msys64\\ucrt64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_f3fdb.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_f3fdb.dir/objects.a @CMakeFiles\\cmTC_f3fdb.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_f3fdb.dir/objects.a -Wl,--no-whole-archive -o cmTC_f3fdb.exe -Wl,--out-implib,libcmTC_f3fdb.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-5cu930'
         
       exitCode: 0
   -
@@ -3221,13 +3221,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-19ussc']
+        ignore line: [Change Dir: 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-5cu930']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/msys64/ucrt64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_a7349/fast]
-        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a7349.dir\\build.make CMakeFiles/cmTC_a7349.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-19ussc']
-        ignore line: [Building CXX object CMakeFiles/cmTC_a7349.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_a7349.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\msys64\\ucrt64\\share\\cmake\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): C:/msys64/ucrt64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_f3fdb/fast]
+        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f3fdb.dir\\build.make CMakeFiles/cmTC_f3fdb.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-5cu930']
+        ignore line: [Building CXX object CMakeFiles/cmTC_f3fdb.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_f3fdb.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\msys64\\ucrt64\\share\\cmake\\Modules\\CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -3235,8 +3235,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.1.0 (Rev5  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a7349.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a7349.dir\\']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:\\msys64\\ucrt64\\share\\cmake\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_a7349.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\liama\\AppData\\Local\\Temp\\ccNJKV8B.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_f3fdb.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_f3fdb.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:\\msys64\\ucrt64\\share\\cmake\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_f3fdb.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\liama\\AppData\\Local\\Temp\\cctdb33X.s]
         ignore line: [GNU C++20 (Rev5  Built by MSYS2 project) version 16.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 16.1.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -3260,8 +3260,8 @@ events:
         ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: c17fb94a142b10fdb3ae88ea0e837cbf]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a7349.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a7349.dir\\']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_a7349.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\liama\\AppData\\Local\\Temp\\ccNJKV8B.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_f3fdb.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_f3fdb.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_f3fdb.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\liama\\AppData\\Local\\Temp\\cctdb33X.s]
         ignore line: [GNU assembler version 2.46 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.46]
         ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
@@ -3272,9 +3272,9 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a7349.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a7349.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_a7349.exe]
-        ignore line: [C:\\msys64\\ucrt64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_a7349.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_f3fdb.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_f3fdb.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_f3fdb.exe]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_f3fdb.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe]
@@ -3292,13 +3292,13 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a7349.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_a7349.']
-        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\liama\\AppData\\Local\\Temp\\ccDOeqrL.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_a7349.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_a7349.dir/objects.a --no-whole-archive --out-implib libcmTC_a7349.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f3fdb.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_f3fdb.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\liama\\AppData\\Local\\Temp\\ccPaJTj9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_f3fdb.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_f3fdb.dir/objects.a --no-whole-archive --out-implib libcmTC_f3fdb.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\liama\\AppData\\Local\\Temp\\ccDOeqrL.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\liama\\AppData\\Local\\Temp\\ccPaJTj9.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -3320,7 +3320,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_a7349.exe] ==> ignore
+          arg [cmTC_f3fdb.exe] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0]
@@ -3331,10 +3331,10 @@ events:
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_a7349.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_f3fdb.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_a7349.dll.a] ==> ignore
+          arg [libcmTC_f3fdb.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -3360,7 +3360,7 @@ events:
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
         ignore line: [collect2 version 16.1.0]
-        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\liama\\AppData\\Local\\Temp\\ccDOeqrL.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_a7349.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_a7349.dir/objects.a --no-whole-archive --out-implib libcmTC_a7349.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\liama\\AppData\\Local\\Temp\\ccPaJTj9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_f3fdb.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_f3fdb.dir/objects.a --no-whole-archive --out-implib libcmTC_f3fdb.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
         linker tool for 'CXX': C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [msvcrt]
         remove lib [msvcrt]
@@ -3394,7 +3394,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "C:/msys64/ucrt64/share/cmake/Modules/FindFreetype.cmake:132 (find_path)"
-      - "CMakeLists.txt:11 (find_package)"
+      - "CMakeLists.txt:25 (find_package)"
     mode: "path"
     variable: "FREETYPE_INCLUDE_DIR_ft2build"
     description: "Path to a file."
@@ -3409,6 +3409,14 @@ events:
     names:
       - "ft2build.h"
     candidate_directories:
+      - "C:/msys64/ucrt64/include/include/freetype2/"
+      - "C:/msys64/ucrt64/include/include/"
+      - "C:/msys64/ucrt64/include/freetype2/"
+      - "C:/msys64/ucrt64/include/"
+      - "C:/msys64/ucrt64/include/freetype2/"
+      - "C:/msys64/ucrt64/include/"
+      - "C:/msys64/ucrt64/freetype2/"
+      - "C:/msys64/ucrt64/"
       - "C:/msys64/ucrt64/bin/include/freetype2/"
       - "C:/msys64/ucrt64/bin/include/"
       - "C:/msys64/ucrt64/bin/freetype2/"
@@ -3525,14 +3533,6 @@ events:
       - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/include/"
       - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/freetype2/"
       - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
-      - "C:/msys64/ucrt64/include/include/freetype2/"
-      - "C:/msys64/ucrt64/include/include/"
-      - "C:/msys64/ucrt64/include/freetype2/"
-      - "C:/msys64/ucrt64/include/"
-      - "C:/msys64/ucrt64/include/freetype2/"
-      - "C:/msys64/ucrt64/include/"
-      - "C:/msys64/ucrt64/freetype2/"
-      - "C:/msys64/ucrt64/"
       - "C:/Program Files/include/include/freetype2/"
       - "C:/Program Files/include/include/"
       - "C:/Program Files/include/freetype2/"
@@ -3562,126 +3562,12 @@ events:
       - "/REGISTRY-NOTFOUND/freetype2/"
       - "/REGISTRY-NOTFOUND/"
     searched_directories:
-      - "C:/msys64/ucrt64/bin/include/freetype2/ft2build.h"
-      - "C:/msys64/ucrt64/bin/include/ft2build.h"
-      - "C:/msys64/ucrt64/bin/freetype2/ft2build.h"
-      - "C:/msys64/ucrt64/bin/ft2build.h"
-      - "C:/msys64/usr/bin/include/freetype2/ft2build.h"
-      - "C:/msys64/usr/bin/include/ft2build.h"
-      - "C:/msys64/usr/bin/freetype2/ft2build.h"
-      - "C:/msys64/usr/bin/ft2build.h"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/include/freetype2/ft2build.h"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/include/ft2build.h"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/freetype2/ft2build.h"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/ft2build.h"
-      - "C:/Program Files/Oculus/Support/oculus-runtime/include/freetype2/ft2build.h"
-      - "C:/Program Files/Oculus/Support/oculus-runtime/include/ft2build.h"
-      - "C:/Program Files/Oculus/Support/oculus-runtime/freetype2/ft2build.h"
-      - "C:/Program Files/Oculus/Support/oculus-runtime/ft2build.h"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/include/freetype2/ft2build.h"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/include/ft2build.h"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/freetype2/ft2build.h"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ft2build.h"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/include/freetype2/ft2build.h"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/include/ft2build.h"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/freetype2/ft2build.h"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/ft2build.h"
-      - "C:/Windows/System32/include/freetype2/ft2build.h"
-      - "C:/Windows/System32/include/ft2build.h"
-      - "C:/Windows/System32/freetype2/ft2build.h"
-      - "C:/Windows/System32/ft2build.h"
-      - "C:/Windows/include/freetype2/ft2build.h"
-      - "C:/Windows/include/ft2build.h"
-      - "C:/Windows/freetype2/ft2build.h"
-      - "C:/Windows/ft2build.h"
-      - "C:/Windows/System32/wbem/include/freetype2/ft2build.h"
-      - "C:/Windows/System32/wbem/include/ft2build.h"
-      - "C:/Windows/System32/wbem/freetype2/ft2build.h"
-      - "C:/Windows/System32/wbem/ft2build.h"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/freetype2/ft2build.h"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/ft2build.h"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/freetype2/ft2build.h"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/ft2build.h"
-      - "C:/Windows/System32/OpenSSH/include/freetype2/ft2build.h"
-      - "C:/Windows/System32/OpenSSH/include/ft2build.h"
-      - "C:/Windows/System32/OpenSSH/freetype2/ft2build.h"
-      - "C:/Windows/System32/OpenSSH/ft2build.h"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/include/freetype2/ft2build.h"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/include/ft2build.h"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/freetype2/ft2build.h"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/ft2build.h"
-      - "C:/Program Files/dotnet/include/freetype2/ft2build.h"
-      - "C:/Program Files/dotnet/include/ft2build.h"
-      - "C:/Program Files/dotnet/freetype2/ft2build.h"
-      - "C:/Program Files/dotnet/ft2build.h"
-      - "C:/Program Files/Git/cmd/include/freetype2/ft2build.h"
-      - "C:/Program Files/Git/cmd/include/ft2build.h"
-      - "C:/Program Files/Git/cmd/freetype2/ft2build.h"
-      - "C:/Program Files/Git/cmd/ft2build.h"
-      - "C:/Program Files/Git LFS/include/freetype2/ft2build.h"
-      - "C:/Program Files/Git LFS/include/ft2build.h"
-      - "C:/Program Files/Git LFS/freetype2/ft2build.h"
-      - "C:/Program Files/Git LFS/ft2build.h"
-      - "C:/Program Files/Java/jdk-23/bin/include/freetype2/ft2build.h"
-      - "C:/Program Files/Java/jdk-23/bin/include/ft2build.h"
-      - "C:/Program Files/Java/jdk-23/bin/freetype2/ft2build.h"
-      - "C:/Program Files/Java/jdk-23/bin/ft2build.h"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/include/freetype2/ft2build.h"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/include/ft2build.h"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/freetype2/ft2build.h"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/ft2build.h"
-      - "C:/Program Files/PuTTY/include/freetype2/ft2build.h"
-      - "C:/Program Files/PuTTY/include/ft2build.h"
-      - "C:/Program Files/PuTTY/freetype2/ft2build.h"
-      - "C:/Program Files/PuTTY/ft2build.h"
-      - "C:/Users/liama/AppData/Local/nvm/include/freetype2/ft2build.h"
-      - "C:/Users/liama/AppData/Local/nvm/include/ft2build.h"
-      - "C:/Users/liama/AppData/Local/nvm/freetype2/ft2build.h"
-      - "C:/Users/liama/AppData/Local/nvm/ft2build.h"
-      - "C:/nvm4w/nodejs/include/freetype2/ft2build.h"
-      - "C:/nvm4w/nodejs/include/ft2build.h"
-      - "C:/nvm4w/nodejs/freetype2/ft2build.h"
-      - "C:/nvm4w/nodejs/ft2build.h"
-      - "C:/Program Files/CMake/bin/include/freetype2/ft2build.h"
-      - "C:/Program Files/CMake/bin/include/ft2build.h"
-      - "C:/Program Files/CMake/bin/freetype2/ft2build.h"
-      - "C:/Program Files/CMake/bin/ft2build.h"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/include/freetype2/ft2build.h"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/include/ft2build.h"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/freetype2/ft2build.h"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/ft2build.h"
-      - "C:/Program Files/Tailscale/include/freetype2/ft2build.h"
-      - "C:/Program Files/Tailscale/include/ft2build.h"
-      - "C:/Program Files/Tailscale/freetype2/ft2build.h"
-      - "C:/Program Files/Tailscale/ft2build.h"
-      - "C:/Users/liama/AppData/Local/Programs/Python/Launcher/include/freetype2/ft2build.h"
-      - "C:/Users/liama/AppData/Local/Programs/Python/Launcher/include/ft2build.h"
-      - "C:/Users/liama/AppData/Local/Programs/Python/Launcher/freetype2/ft2build.h"
-      - "C:/Users/liama/AppData/Local/Programs/Python/Launcher/ft2build.h"
-      - "C:/Users/liama/AppData/Local/Microsoft/WindowsApps/include/freetype2/ft2build.h"
-      - "C:/Users/liama/AppData/Local/Microsoft/WindowsApps/include/ft2build.h"
-      - "C:/Users/liama/AppData/Local/Microsoft/WindowsApps/freetype2/ft2build.h"
-      - "C:/Users/liama/AppData/Local/Microsoft/WindowsApps/ft2build.h"
-      - "C:/Users/liama/AppData/Local/GitHubDesktop/bin/include/freetype2/ft2build.h"
-      - "C:/Users/liama/AppData/Local/GitHubDesktop/bin/include/ft2build.h"
-      - "C:/Users/liama/AppData/Local/GitHubDesktop/bin/freetype2/ft2build.h"
-      - "C:/Users/liama/AppData/Local/GitHubDesktop/bin/ft2build.h"
-      - "C:/Users/liama/.dotnet/tools/include/freetype2/ft2build.h"
-      - "C:/Users/liama/.dotnet/tools/include/ft2build.h"
-      - "C:/Users/liama/.dotnet/tools/freetype2/ft2build.h"
-      - "C:/Users/liama/.dotnet/tools/ft2build.h"
-      - "C:/Users/liama/AppData/Local/Programs/Microsoft VS Code/bin/include/freetype2/ft2build.h"
-      - "C:/Users/liama/AppData/Local/Programs/Microsoft VS Code/bin/include/ft2build.h"
-      - "C:/Users/liama/AppData/Local/Programs/Microsoft VS Code/bin/freetype2/ft2build.h"
-      - "C:/Users/liama/AppData/Local/Programs/Microsoft VS Code/bin/ft2build.h"
-      - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/include/freetype2/ft2build.h"
-      - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/include/ft2build.h"
-      - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/freetype2/ft2build.h"
-      - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/ft2build.h"
       - "C:/msys64/ucrt64/include/include/freetype2/ft2build.h"
       - "C:/msys64/ucrt64/include/include/ft2build.h"
     found: "C:/msys64/ucrt64/include/freetype2/"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/msys64/ucrt64"
       ENV{PATH}:
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\ucrt64\\bin"
@@ -3727,7 +3613,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "C:/msys64/ucrt64/share/cmake/Modules/FindFreetype.cmake:142 (find_path)"
-      - "CMakeLists.txt:11 (find_package)"
+      - "CMakeLists.txt:25 (find_package)"
     mode: "path"
     variable: "FREETYPE_INCLUDE_DIR_freetype2"
     description: "Path to a file."
@@ -3743,6 +3629,14 @@ events:
       - "freetype/config/ftheader.h"
       - "config/ftheader.h"
     candidate_directories:
+      - "C:/msys64/ucrt64/include/include/freetype2/"
+      - "C:/msys64/ucrt64/include/include/"
+      - "C:/msys64/ucrt64/include/freetype2/"
+      - "C:/msys64/ucrt64/include/"
+      - "C:/msys64/ucrt64/include/freetype2/"
+      - "C:/msys64/ucrt64/include/"
+      - "C:/msys64/ucrt64/freetype2/"
+      - "C:/msys64/ucrt64/"
       - "C:/msys64/ucrt64/bin/include/freetype2/"
       - "C:/msys64/ucrt64/bin/include/"
       - "C:/msys64/ucrt64/bin/freetype2/"
@@ -3859,14 +3753,6 @@ events:
       - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/include/"
       - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/freetype2/"
       - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
-      - "C:/msys64/ucrt64/include/include/freetype2/"
-      - "C:/msys64/ucrt64/include/include/"
-      - "C:/msys64/ucrt64/include/freetype2/"
-      - "C:/msys64/ucrt64/include/"
-      - "C:/msys64/ucrt64/include/freetype2/"
-      - "C:/msys64/ucrt64/include/"
-      - "C:/msys64/ucrt64/freetype2/"
-      - "C:/msys64/ucrt64/"
       - "C:/Program Files/include/include/freetype2/"
       - "C:/Program Files/include/include/"
       - "C:/Program Files/include/freetype2/"
@@ -3896,126 +3782,12 @@ events:
       - "/REGISTRY-NOTFOUND/freetype2/"
       - "/REGISTRY-NOTFOUND/"
     searched_directories:
-      - "C:/msys64/ucrt64/bin/include/freetype2/freetype/config/ftheader.h"
-      - "C:/msys64/ucrt64/bin/include/freetype/config/ftheader.h"
-      - "C:/msys64/ucrt64/bin/freetype2/freetype/config/ftheader.h"
-      - "C:/msys64/ucrt64/bin/freetype/config/ftheader.h"
-      - "C:/msys64/usr/bin/include/freetype2/freetype/config/ftheader.h"
-      - "C:/msys64/usr/bin/include/freetype/config/ftheader.h"
-      - "C:/msys64/usr/bin/freetype2/freetype/config/ftheader.h"
-      - "C:/msys64/usr/bin/freetype/config/ftheader.h"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/include/freetype/config/ftheader.h"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/freetype/config/ftheader.h"
-      - "C:/Program Files/Oculus/Support/oculus-runtime/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files/Oculus/Support/oculus-runtime/include/freetype/config/ftheader.h"
-      - "C:/Program Files/Oculus/Support/oculus-runtime/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files/Oculus/Support/oculus-runtime/freetype/config/ftheader.h"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/include/freetype/config/ftheader.h"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/freetype/config/ftheader.h"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/include/freetype/config/ftheader.h"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/freetype/config/ftheader.h"
-      - "C:/Windows/System32/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Windows/System32/include/freetype/config/ftheader.h"
-      - "C:/Windows/System32/freetype2/freetype/config/ftheader.h"
-      - "C:/Windows/System32/freetype/config/ftheader.h"
-      - "C:/Windows/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Windows/include/freetype/config/ftheader.h"
-      - "C:/Windows/freetype2/freetype/config/ftheader.h"
-      - "C:/Windows/freetype/config/ftheader.h"
-      - "C:/Windows/System32/wbem/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Windows/System32/wbem/include/freetype/config/ftheader.h"
-      - "C:/Windows/System32/wbem/freetype2/freetype/config/ftheader.h"
-      - "C:/Windows/System32/wbem/freetype/config/ftheader.h"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/freetype/config/ftheader.h"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/freetype2/freetype/config/ftheader.h"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/freetype/config/ftheader.h"
-      - "C:/Windows/System32/OpenSSH/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Windows/System32/OpenSSH/include/freetype/config/ftheader.h"
-      - "C:/Windows/System32/OpenSSH/freetype2/freetype/config/ftheader.h"
-      - "C:/Windows/System32/OpenSSH/freetype/config/ftheader.h"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/include/freetype/config/ftheader.h"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/freetype/config/ftheader.h"
-      - "C:/Program Files/dotnet/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files/dotnet/include/freetype/config/ftheader.h"
-      - "C:/Program Files/dotnet/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files/dotnet/freetype/config/ftheader.h"
-      - "C:/Program Files/Git/cmd/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files/Git/cmd/include/freetype/config/ftheader.h"
-      - "C:/Program Files/Git/cmd/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files/Git/cmd/freetype/config/ftheader.h"
-      - "C:/Program Files/Git LFS/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files/Git LFS/include/freetype/config/ftheader.h"
-      - "C:/Program Files/Git LFS/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files/Git LFS/freetype/config/ftheader.h"
-      - "C:/Program Files/Java/jdk-23/bin/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files/Java/jdk-23/bin/include/freetype/config/ftheader.h"
-      - "C:/Program Files/Java/jdk-23/bin/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files/Java/jdk-23/bin/freetype/config/ftheader.h"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/include/freetype/config/ftheader.h"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/freetype/config/ftheader.h"
-      - "C:/Program Files/PuTTY/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files/PuTTY/include/freetype/config/ftheader.h"
-      - "C:/Program Files/PuTTY/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files/PuTTY/freetype/config/ftheader.h"
-      - "C:/Users/liama/AppData/Local/nvm/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Users/liama/AppData/Local/nvm/include/freetype/config/ftheader.h"
-      - "C:/Users/liama/AppData/Local/nvm/freetype2/freetype/config/ftheader.h"
-      - "C:/Users/liama/AppData/Local/nvm/freetype/config/ftheader.h"
-      - "C:/nvm4w/nodejs/include/freetype2/freetype/config/ftheader.h"
-      - "C:/nvm4w/nodejs/include/freetype/config/ftheader.h"
-      - "C:/nvm4w/nodejs/freetype2/freetype/config/ftheader.h"
-      - "C:/nvm4w/nodejs/freetype/config/ftheader.h"
-      - "C:/Program Files/CMake/bin/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files/CMake/bin/include/freetype/config/ftheader.h"
-      - "C:/Program Files/CMake/bin/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files/CMake/bin/freetype/config/ftheader.h"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/include/freetype/config/ftheader.h"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/freetype/config/ftheader.h"
-      - "C:/Program Files/Tailscale/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files/Tailscale/include/freetype/config/ftheader.h"
-      - "C:/Program Files/Tailscale/freetype2/freetype/config/ftheader.h"
-      - "C:/Program Files/Tailscale/freetype/config/ftheader.h"
-      - "C:/Users/liama/AppData/Local/Programs/Python/Launcher/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Users/liama/AppData/Local/Programs/Python/Launcher/include/freetype/config/ftheader.h"
-      - "C:/Users/liama/AppData/Local/Programs/Python/Launcher/freetype2/freetype/config/ftheader.h"
-      - "C:/Users/liama/AppData/Local/Programs/Python/Launcher/freetype/config/ftheader.h"
-      - "C:/Users/liama/AppData/Local/Microsoft/WindowsApps/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Users/liama/AppData/Local/Microsoft/WindowsApps/include/freetype/config/ftheader.h"
-      - "C:/Users/liama/AppData/Local/Microsoft/WindowsApps/freetype2/freetype/config/ftheader.h"
-      - "C:/Users/liama/AppData/Local/Microsoft/WindowsApps/freetype/config/ftheader.h"
-      - "C:/Users/liama/AppData/Local/GitHubDesktop/bin/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Users/liama/AppData/Local/GitHubDesktop/bin/include/freetype/config/ftheader.h"
-      - "C:/Users/liama/AppData/Local/GitHubDesktop/bin/freetype2/freetype/config/ftheader.h"
-      - "C:/Users/liama/AppData/Local/GitHubDesktop/bin/freetype/config/ftheader.h"
-      - "C:/Users/liama/.dotnet/tools/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Users/liama/.dotnet/tools/include/freetype/config/ftheader.h"
-      - "C:/Users/liama/.dotnet/tools/freetype2/freetype/config/ftheader.h"
-      - "C:/Users/liama/.dotnet/tools/freetype/config/ftheader.h"
-      - "C:/Users/liama/AppData/Local/Programs/Microsoft VS Code/bin/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Users/liama/AppData/Local/Programs/Microsoft VS Code/bin/include/freetype/config/ftheader.h"
-      - "C:/Users/liama/AppData/Local/Programs/Microsoft VS Code/bin/freetype2/freetype/config/ftheader.h"
-      - "C:/Users/liama/AppData/Local/Programs/Microsoft VS Code/bin/freetype/config/ftheader.h"
-      - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/include/freetype2/freetype/config/ftheader.h"
-      - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/include/freetype/config/ftheader.h"
-      - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/freetype2/freetype/config/ftheader.h"
-      - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/freetype/config/ftheader.h"
       - "C:/msys64/ucrt64/include/include/freetype2/freetype/config/ftheader.h"
       - "C:/msys64/ucrt64/include/include/freetype/config/ftheader.h"
     found: "C:/msys64/ucrt64/include/freetype2/"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/msys64/ucrt64"
       ENV{PATH}:
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\ucrt64\\bin"
@@ -4061,7 +3833,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "C:/msys64/ucrt64/share/cmake/Modules/FindFreetype.cmake:155 (find_library)"
-      - "CMakeLists.txt:11 (find_package)"
+      - "CMakeLists.txt:25 (find_package)"
     mode: "library"
     variable: "FREETYPE_LIBRARY_RELEASE"
     description: "Path to a library."
@@ -4078,6 +3850,10 @@ events:
       - "libfreetype"
       - "freetype219"
     candidate_directories:
+      - "C:/msys64/ucrt64/lib/lib/"
+      - "C:/msys64/ucrt64/lib/"
+      - "C:/msys64/ucrt64/lib/"
+      - "C:/msys64/ucrt64/"
       - "C:/msys64/ucrt64/bin/lib/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/lib/"
@@ -4136,10 +3912,6 @@ events:
       - "C:/Users/liama/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lib/"
       - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
-      - "C:/msys64/ucrt64/lib/lib/"
-      - "C:/msys64/ucrt64/lib/"
-      - "C:/msys64/ucrt64/lib/"
-      - "C:/msys64/ucrt64/"
       - "C:/Program Files/lib/lib/"
       - "C:/Program Files/lib/"
       - "C:/Program Files/lib/"
@@ -4159,67 +3931,11 @@ events:
       - "/REGISTRY-NOTFOUND/lib/"
       - "/REGISTRY-NOTFOUND/"
     searched_directories:
-      - "C:/msys64/ucrt64/bin/lib/"
-      - "C:/msys64/ucrt64/bin/"
-      - "C:/msys64/usr/bin/lib/"
-      - "C:/msys64/usr/bin/"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/lib/"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
-      - "C:/Program Files/Oculus/Support/oculus-runtime/lib/"
-      - "C:/Program Files/Oculus/Support/oculus-runtime/"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib/"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lib/"
-      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
-      - "C:/Windows/System32/lib/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/lib/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/lib/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/lib/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files/dotnet/lib/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Program Files/Git/cmd/lib/"
-      - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files/Git LFS/lib/"
-      - "C:/Program Files/Git LFS/"
-      - "C:/Program Files/Java/jdk-23/bin/lib/"
-      - "C:/Program Files/Java/jdk-23/bin/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lib/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/PuTTY/lib/"
-      - "C:/Program Files/PuTTY/"
-      - "C:/Users/liama/AppData/Local/nvm/lib/"
-      - "C:/Users/liama/AppData/Local/nvm/"
-      - "C:/nvm4w/nodejs/lib/"
-      - "C:/nvm4w/nodejs/"
-      - "C:/Program Files/CMake/bin/lib/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/Tailscale/lib/"
-      - "C:/Program Files/Tailscale/"
-      - "C:/Users/liama/AppData/Local/Programs/Python/Launcher/lib/"
-      - "C:/Users/liama/AppData/Local/Programs/Python/Launcher/"
-      - "C:/Users/liama/AppData/Local/Microsoft/WindowsApps/lib/"
-      - "C:/Users/liama/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/liama/AppData/Local/GitHubDesktop/bin/lib/"
-      - "C:/Users/liama/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Users/liama/.dotnet/tools/lib/"
-      - "C:/Users/liama/.dotnet/tools/"
-      - "C:/Users/liama/AppData/Local/Programs/Microsoft VS Code/bin/lib/"
-      - "C:/Users/liama/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lib/"
-      - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
       - "C:/msys64/ucrt64/lib/lib/"
     found: "C:/msys64/ucrt64/lib/libfreetype.dll.a"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/msys64/ucrt64"
       ENV{PATH}:
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\ucrt64\\bin"
@@ -4269,7 +3985,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "C:/msys64/ucrt64/share/cmake/Modules/FindFreetype.cmake:164 (find_library)"
-      - "CMakeLists.txt:11 (find_package)"
+      - "CMakeLists.txt:25 (find_package)"
     mode: "library"
     variable: "FREETYPE_LIBRARY_DEBUG"
     description: "Path to a library."
@@ -4286,6 +4002,10 @@ events:
       - "libfreetyped"
       - "freetype219d"
     candidate_directories:
+      - "C:/msys64/ucrt64/lib/lib/"
+      - "C:/msys64/ucrt64/lib/"
+      - "C:/msys64/ucrt64/lib/"
+      - "C:/msys64/ucrt64/"
       - "C:/msys64/ucrt64/bin/lib/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/lib/"
@@ -4344,10 +4064,6 @@ events:
       - "C:/Users/liama/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lib/"
       - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
-      - "C:/msys64/ucrt64/lib/lib/"
-      - "C:/msys64/ucrt64/lib/"
-      - "C:/msys64/ucrt64/lib/"
-      - "C:/msys64/ucrt64/"
       - "C:/Program Files/lib/lib/"
       - "C:/Program Files/lib/"
       - "C:/Program Files/lib/"
@@ -4367,6 +4083,10 @@ events:
       - "/REGISTRY-NOTFOUND/lib/"
       - "/REGISTRY-NOTFOUND/"
     searched_directories:
+      - "C:/msys64/ucrt64/lib/lib/"
+      - "C:/msys64/ucrt64/lib/"
+      - "C:/msys64/ucrt64/lib/"
+      - "C:/msys64/ucrt64/"
       - "C:/msys64/ucrt64/bin/lib/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/lib/"
@@ -4425,10 +4145,6 @@ events:
       - "C:/Users/liama/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lib/"
       - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
-      - "C:/msys64/ucrt64/lib/lib/"
-      - "C:/msys64/ucrt64/lib/"
-      - "C:/msys64/ucrt64/lib/"
-      - "C:/msys64/ucrt64/"
       - "C:/Program Files/lib/lib/"
       - "C:/Program Files/lib/"
       - "C:/Program Files/lib/"
@@ -4447,6 +4163,10 @@ events:
       - "/bin/"
       - "/REGISTRY-NOTFOUND/lib/"
       - "/REGISTRY-NOTFOUND/"
+      - "C:/msys64/ucrt64/lib/lib/"
+      - "C:/msys64/ucrt64/lib/"
+      - "C:/msys64/ucrt64/lib/"
+      - "C:/msys64/ucrt64/"
       - "C:/msys64/ucrt64/bin/lib/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/lib/"
@@ -4505,10 +4225,6 @@ events:
       - "C:/Users/liama/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lib/"
       - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
-      - "C:/msys64/ucrt64/lib/lib/"
-      - "C:/msys64/ucrt64/lib/"
-      - "C:/msys64/ucrt64/lib/"
-      - "C:/msys64/ucrt64/"
       - "C:/Program Files/lib/lib/"
       - "C:/Program Files/lib/"
       - "C:/Program Files/lib/"
@@ -4527,6 +4243,10 @@ events:
       - "/bin/"
       - "/REGISTRY-NOTFOUND/lib/"
       - "/REGISTRY-NOTFOUND/"
+      - "C:/msys64/ucrt64/lib/lib/"
+      - "C:/msys64/ucrt64/lib/"
+      - "C:/msys64/ucrt64/lib/"
+      - "C:/msys64/ucrt64/"
       - "C:/msys64/ucrt64/bin/lib/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/lib/"
@@ -4585,10 +4305,6 @@ events:
       - "C:/Users/liama/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lib/"
       - "C:/Users/liama/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
-      - "C:/msys64/ucrt64/lib/lib/"
-      - "C:/msys64/ucrt64/lib/"
-      - "C:/msys64/ucrt64/lib/"
-      - "C:/msys64/ucrt64/"
       - "C:/Program Files/lib/lib/"
       - "C:/Program Files/lib/"
       - "C:/Program Files/lib/"
@@ -4609,6 +4325,8 @@ events:
       - "/REGISTRY-NOTFOUND/"
     found: false
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/msys64/ucrt64"
       ENV{PATH}:
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\ucrt64\\bin"
@@ -4657,7 +4375,7 @@ events:
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:12 (find_package)"
+      - "CMakeLists.txt:26 (find_package)"
     name: "assimp"
     configs:
       -
@@ -4729,6 +4447,8 @@ events:
       mode: "config"
       version: "6.0.5"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/msys64/ucrt64"
       ENV{PATH}:
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\ucrt64\\bin"
@@ -4780,12 +4500,12 @@ events:
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
       - "C:/msys64/ucrt64/lib/cmake/glfw3/glfw3Config.cmake:2 (find_dependency)"
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:27 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-lbwbh7"
-      binary: "D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-lbwbh7"
+      source: "D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-735ege"
+      binary: "D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-735ege"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -4795,25 +4515,25 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-lbwbh7'
+        Change Dir: 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-735ege'
         
-        Run Build Command(s): C:/msys64/ucrt64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_28a20/fast
-        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_28a20.dir\\build.make CMakeFiles/cmTC_28a20.dir/build
-        mingw32-make[1]: Entering directory 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-lbwbh7'
-        Building C object CMakeFiles/cmTC_28a20.dir/src.c.obj
-        C:\\msys64\\ucrt64\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu11 -o CMakeFiles\\cmTC_28a20.dir\\src.c.obj -c D:\\Repos\\Clicker-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lbwbh7\\src.c
-        Linking C executable cmTC_28a20.exe
-        C:\\msys64\\ucrt64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_28a20.dir\\link.txt --verbose=1
-        C:\\msys64\\ucrt64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_28a20.dir/objects.a
-        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_28a20.dir/objects.a @CMakeFiles\\cmTC_28a20.dir\\objects1.rsp
-        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_28a20.dir/objects.a -Wl,--no-whole-archive -o cmTC_28a20.exe -Wl,--out-implib,libcmTC_28a20.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_28a20.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-lbwbh7'
+        Run Build Command(s): C:/msys64/ucrt64/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_c91ae/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c91ae.dir\\build.make CMakeFiles/cmTC_c91ae.dir/build
+        mingw32-make[1]: Entering directory 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-735ege'
+        Building C object CMakeFiles/cmTC_c91ae.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu11 -o CMakeFiles\\cmTC_c91ae.dir\\src.c.obj -c D:\\Repos\\Clicker-Game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-735ege\\src.c
+        Linking C executable cmTC_c91ae.exe
+        C:\\msys64\\ucrt64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_c91ae.dir\\link.txt --verbose=1
+        C:\\msys64\\ucrt64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_c91ae.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_c91ae.dir/objects.a @CMakeFiles\\cmTC_c91ae.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_c91ae.dir/objects.a -Wl,--no-whole-archive -o cmTC_c91ae.exe -Wl,--out-implib,libcmTC_c91ae.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_c91ae.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'D:/Repos/Clicker-Game/build/CMakeFiles/CMakeScratch/TryCompile-735ege'
         
       exitCode: 0
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:27 (find_package)"
     name: "glfw3"
     configs:
       -
@@ -4885,6 +4605,8 @@ events:
       mode: "config"
       version: "3.4.0"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/msys64/ucrt64"
       ENV{PATH}:
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\ucrt64\\bin"

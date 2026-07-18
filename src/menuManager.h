@@ -1,21 +1,8 @@
 #ifndef MENUMANAGER_H
 #define MENUMANAGER_H
 
-#include <glad/glad.h>
-#include <glm/glm.hpp>
-
-#include "texture.h"
-#include "spriteRenderer.h"
-#include "gameObject.h"
-#include "resourceManager.h"
-#include "audioManager.h"
-
-#include "imgui.h"
-#include "imgui_impl_glfw.h"
-#include "imgui_impl_opengl3.h"
-
-
-#include <iostream>
+#include <RmlUi/Core.h>
+#include <learnopengl/filesystem.h>
 
 
 class MenuManager
@@ -26,22 +13,23 @@ public:
 
     // constructor(s)
     MenuManager();
+    ~MenuManager();
+    
+    bool Initialize(Rml::Context* context);
 
     void Update(float dt);
+    
+    void Render(float dt);
 
-    void OpenMainMenu();
-
-    void CloseMainMenu();
-
-    void InitializeBuyMenu();
-
-    void HideBuyMenu(); // This will be later on when i learn how to properly resize the window
-
-    // Functions
+    void ShowMenu();
+    void HideMenu();
+    void Shutdown();
+    
+    void ReloadMenu();
 private:
 
-    bool isOpen = true;
-    float panelWidth = 300.0f;
+    Rml::Context* context = nullptr;
+    Rml::ElementDocument* menuDocument = nullptr;
 
 };
 

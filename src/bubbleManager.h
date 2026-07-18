@@ -29,6 +29,7 @@ public:
     BubbleManager(float bubbleAdd, float bubbleMult, float spawnRate);
 
     void Update(float dt);
+    void RenderDebugCenters(SpriteRenderer& renderer);
 
     // Functions
     void SpawnBubble(glm::vec2 pos,

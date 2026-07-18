@@ -1,302 +1,1508 @@
 [
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\audioManager.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\audioManager.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\audioManager.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\audioManager.cpp",
   "file": "D:/Repos/Clicker-Game/src/audioManager.cpp",
   "output": "CMakeFiles/clickGame.dir/src/audioManager.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\bubbleManager.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\bubbleManager.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\bubbleManager.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\bubbleManager.cpp",
   "file": "D:/Repos/Clicker-Game/src/bubbleManager.cpp",
   "output": "CMakeFiles/clickGame.dir/src/bubbleManager.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\bubbleObject.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\bubbleObject.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\bubbleObject.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\bubbleObject.cpp",
   "file": "D:/Repos/Clicker-Game/src/bubbleObject.cpp",
   "output": "CMakeFiles/clickGame.dir/src/bubbleObject.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\clickObject.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\clickObject.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\clickObject.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\clickObject.cpp",
   "file": "D:/Repos/Clicker-Game/src/clickObject.cpp",
   "output": "CMakeFiles/clickGame.dir/src/clickObject.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\game.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\game.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\game.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\game.cpp",
   "file": "D:/Repos/Clicker-Game/src/game.cpp",
   "output": "CMakeFiles/clickGame.dir/src/game.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\gameObject.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\gameObject.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\gameObject.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\gameObject.cpp",
   "file": "D:/Repos/Clicker-Game/src/gameObject.cpp",
   "output": "CMakeFiles/clickGame.dir/src/gameObject.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\image.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\image.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\image.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\image.cpp",
   "file": "D:/Repos/Clicker-Game/src/image.cpp",
   "output": "CMakeFiles/clickGame.dir/src/image.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\main.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\main.cpp",
-  "file": "D:/Repos/Clicker-Game/src/main.cpp",
-  "output": "CMakeFiles/clickGame.dir/src/main.cpp.obj"
-},
-{
-  "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\menuManager.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\menuManager.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\menuManager.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\menuManager.cpp",
   "file": "D:/Repos/Clicker-Game/src/menuManager.cpp",
   "output": "CMakeFiles/clickGame.dir/src/menuManager.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\menuObject.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\menuObject.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\menuObject.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\menuObject.cpp",
   "file": "D:/Repos/Clicker-Game/src/menuObject.cpp",
   "output": "CMakeFiles/clickGame.dir/src/menuObject.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\objectManager.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\objectManager.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\objectManager.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\objectManager.cpp",
   "file": "D:/Repos/Clicker-Game/src/objectManager.cpp",
   "output": "CMakeFiles/clickGame.dir/src/objectManager.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\program.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\program.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\program.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\program.cpp",
   "file": "D:/Repos/Clicker-Game/src/program.cpp",
   "output": "CMakeFiles/clickGame.dir/src/program.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\resourceManager.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\resourceManager.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\resourceManager.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\resourceManager.cpp",
   "file": "D:/Repos/Clicker-Game/src/resourceManager.cpp",
   "output": "CMakeFiles/clickGame.dir/src/resourceManager.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\shader.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\shader.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\shader.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\shader.cpp",
   "file": "D:/Repos/Clicker-Game/src/shader.cpp",
   "output": "CMakeFiles/clickGame.dir/src/shader.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\spriteRenderer.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\spriteRenderer.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\spriteRenderer.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\spriteRenderer.cpp",
   "file": "D:/Repos/Clicker-Game/src/spriteRenderer.cpp",
   "output": "CMakeFiles/clickGame.dir/src/spriteRenderer.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\stb_image.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\stb_image.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\stb_image.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\stb_image.cpp",
   "file": "D:/Repos/Clicker-Game/src/stb_image.cpp",
   "output": "CMakeFiles/clickGame.dir/src/stb_image.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\textRendering.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\textRendering.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\textRendering.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\textRendering.cpp",
   "file": "D:/Repos/Clicker-Game/src/textRendering.cpp",
   "output": "CMakeFiles/clickGame.dir/src/textRendering.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\texture.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\texture.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\texture.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\texture.cpp",
   "file": "D:/Repos/Clicker-Game/src/texture.cpp",
   "output": "CMakeFiles/clickGame.dir/src/texture.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\clickGame.dir\\src\\glad.c.obj -c D:\\Repos\\Clicker-Game\\src\\glad.c",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\clickGame.dir\\src\\glad.c.obj -c D:\\Repos\\Clicker-Game\\src\\glad.c",
   "file": "D:/Repos/Clicker-Game/src/glad.c",
   "output": "CMakeFiles/clickGame.dir/src/glad.c.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\external\\imgui\\imgui.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\imgui\\imgui.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\external\\imgui\\imgui.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\imgui\\imgui.cpp",
   "file": "D:/Repos/Clicker-Game/external/imgui/imgui.cpp",
   "output": "CMakeFiles/clickGame.dir/external/imgui/imgui.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\external\\imgui\\imgui_demo.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\imgui\\imgui_demo.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\external\\imgui\\imgui_demo.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\imgui\\imgui_demo.cpp",
   "file": "D:/Repos/Clicker-Game/external/imgui/imgui_demo.cpp",
   "output": "CMakeFiles/clickGame.dir/external/imgui/imgui_demo.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\external\\imgui\\imgui_draw.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\imgui\\imgui_draw.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\external\\imgui\\imgui_draw.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\imgui\\imgui_draw.cpp",
   "file": "D:/Repos/Clicker-Game/external/imgui/imgui_draw.cpp",
   "output": "CMakeFiles/clickGame.dir/external/imgui/imgui_draw.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\external\\imgui\\imgui_tables.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\imgui\\imgui_tables.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\external\\imgui\\imgui_tables.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\imgui\\imgui_tables.cpp",
   "file": "D:/Repos/Clicker-Game/external/imgui/imgui_tables.cpp",
   "output": "CMakeFiles/clickGame.dir/external/imgui/imgui_tables.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\external\\imgui\\imgui_widgets.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\imgui\\imgui_widgets.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\external\\imgui\\imgui_widgets.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\imgui\\imgui_widgets.cpp",
   "file": "D:/Repos/Clicker-Game/external/imgui/imgui_widgets.cpp",
   "output": "CMakeFiles/clickGame.dir/external/imgui/imgui_widgets.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\external\\imgui\\backends\\imgui_impl_glfw.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\imgui\\backends\\imgui_impl_glfw.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\external\\imgui\\backends\\imgui_impl_glfw.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\imgui\\backends\\imgui_impl_glfw.cpp",
   "file": "D:/Repos/Clicker-Game/external/imgui/backends/imgui_impl_glfw.cpp",
   "output": "CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_glfw.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\external\\imgui\\backends\\imgui_impl_opengl3.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\imgui\\backends\\imgui_impl_opengl3.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\external\\imgui\\backends\\imgui_impl_opengl3.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\imgui\\backends\\imgui_impl_opengl3.cpp",
   "file": "D:/Repos/Clicker-Game/external/imgui/backends/imgui_impl_opengl3.cpp",
   "output": "CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_opengl3.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud.cpp",
   "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud.cpp",
   "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_audiosource.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_audiosource.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_audiosource.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_audiosource.cpp",
   "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_audiosource.cpp",
   "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_audiosource.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_bus.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_bus.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_bus.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_bus.cpp",
   "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_bus.cpp",
   "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_bus.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_core_3d.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_core_3d.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_core_3d.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_core_3d.cpp",
   "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_core_3d.cpp",
   "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_3d.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_core_basicops.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_core_basicops.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_core_basicops.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_core_basicops.cpp",
   "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_core_basicops.cpp",
   "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_basicops.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_core_faderops.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_core_faderops.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_core_faderops.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_core_faderops.cpp",
   "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_core_faderops.cpp",
   "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_faderops.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_core_filterops.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_core_filterops.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_core_filterops.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_core_filterops.cpp",
   "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_core_filterops.cpp",
   "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_filterops.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_core_getters.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_core_getters.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_core_getters.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_core_getters.cpp",
   "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_core_getters.cpp",
   "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_getters.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_core_setters.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_core_setters.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_core_setters.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_core_setters.cpp",
   "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_core_setters.cpp",
   "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_setters.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_core_voicegroup.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_core_voicegroup.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_core_voicegroup.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_core_voicegroup.cpp",
   "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_core_voicegroup.cpp",
   "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_voicegroup.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_core_voiceops.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_core_voiceops.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_core_voiceops.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_core_voiceops.cpp",
   "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_core_voiceops.cpp",
   "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_voiceops.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_fader.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_fader.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_fader.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_fader.cpp",
   "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_fader.cpp",
   "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_fader.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_fft.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_fft.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_fft.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_fft.cpp",
   "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_fft.cpp",
   "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_fft.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_fft_lut.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_fft_lut.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_fft_lut.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_fft_lut.cpp",
   "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_fft_lut.cpp",
   "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_fft_lut.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_file.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_file.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_file.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_file.cpp",
   "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_file.cpp",
   "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_file.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_filter.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_filter.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_filter.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_filter.cpp",
   "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_filter.cpp",
   "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_filter.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_misc.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_misc.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_misc.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_misc.cpp",
   "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_misc.cpp",
   "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_misc.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_queue.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_queue.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_queue.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_queue.cpp",
   "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_queue.cpp",
   "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_queue.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_thread.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_thread.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\core\\soloud_thread.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\core\\soloud_thread.cpp",
   "file": "D:/Repos/Clicker-Game/src/soloud/core/soloud_thread.cpp",
   "output": "CMakeFiles/clickGame.dir/src/soloud/core/soloud_thread.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\audiosource\\wav\\dr_impl.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\audiosource\\wav\\dr_impl.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\audiosource\\wav\\dr_impl.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\audiosource\\wav\\dr_impl.cpp",
   "file": "D:/Repos/Clicker-Game/src/soloud/audiosource/wav/dr_impl.cpp",
   "output": "CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/dr_impl.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\audiosource\\wav\\soloud_wav.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\audiosource\\wav\\soloud_wav.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\audiosource\\wav\\soloud_wav.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\audiosource\\wav\\soloud_wav.cpp",
   "file": "D:/Repos/Clicker-Game/src/soloud/audiosource/wav/soloud_wav.cpp",
   "output": "CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/soloud_wav.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\audiosource\\wav\\soloud_wavstream.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\audiosource\\wav\\soloud_wavstream.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\audiosource\\wav\\soloud_wavstream.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\audiosource\\wav\\soloud_wavstream.cpp",
   "file": "D:/Repos/Clicker-Game/src/soloud/audiosource/wav/soloud_wavstream.cpp",
   "output": "CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/soloud_wavstream.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\backend\\miniaudio\\soloud_miniaudio.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\backend\\miniaudio\\soloud_miniaudio.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\src\\soloud\\backend\\miniaudio\\soloud_miniaudio.cpp.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\backend\\miniaudio\\soloud_miniaudio.cpp",
   "file": "D:/Repos/Clicker-Game/src/soloud/backend/miniaudio/soloud_miniaudio.cpp",
   "output": "CMakeFiles/clickGame.dir/src/soloud/backend/miniaudio/soloud_miniaudio.cpp.obj"
 },
 {
   "directory": "D:/Repos/Clicker-Game/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DGLFW_DLL -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\clickGame.dir\\src\\soloud\\audiosource\\wav\\stb_vorbis.c.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\audiosource\\wav\\stb_vorbis.c",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\clickGame.dir\\src\\soloud\\audiosource\\wav\\stb_vorbis.c.obj -c D:\\Repos\\Clicker-Game\\src\\soloud\\audiosource\\wav\\stb_vorbis.c",
   "file": "D:/Repos/Clicker-Game/src/soloud/audiosource/wav/stb_vorbis.c",
   "output": "CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/stb_vorbis.c.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\external\\RmlUi\\Backends\\RmlUi_Platform_GLFW.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Backends\\RmlUi_Platform_GLFW.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Backends/RmlUi_Platform_GLFW.cpp",
+  "output": "CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Platform_GLFW.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER=\"<glad/glad.h>\" -DWITH_MINIAUDIO @CMakeFiles/clickGame.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\clickGame.dir\\external\\RmlUi\\Backends\\RmlUi_Renderer_GL3.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Backends\\RmlUi_Renderer_GL3.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Backends/RmlUi_Renderer_GL3.cpp",
+  "output": "CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Renderer_GL3.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -x c++-header -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\cmake_pch.hxx.gch -c D:\\Repos\\Clicker-Game\\build\\RmlUi\\Source\\Core\\CMakeFiles\\rmlui_core.dir\\cmake_pch.hxx.cxx",
+  "file": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx.cxx",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx.gch"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\BaseXMLParser.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\BaseXMLParser.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/BaseXMLParser.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/BaseXMLParser.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Box.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Box.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Box.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Box.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\BoxShadowCache.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\BoxShadowCache.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/BoxShadowCache.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/BoxShadowCache.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\CallbackTexture.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\CallbackTexture.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/CallbackTexture.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/CallbackTexture.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Clock.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Clock.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Clock.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Clock.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\CompiledFilterShader.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\CompiledFilterShader.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/CompiledFilterShader.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/CompiledFilterShader.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\ComputedValues.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\ComputedValues.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/ComputedValues.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/ComputedValues.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\ComputeProperty.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\ComputeProperty.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/ComputeProperty.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/ComputeProperty.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Context.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Context.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Context.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Context.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\ContextInstancer.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\ContextInstancer.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/ContextInstancer.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/ContextInstancer.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\ContextInstancerDefault.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\ContextInstancerDefault.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/ContextInstancerDefault.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/ContextInstancerDefault.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\ConvolutionFilter.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\ConvolutionFilter.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/ConvolutionFilter.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/ConvolutionFilter.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Core.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Core.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Core.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Core.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\DataController.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\DataController.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/DataController.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/DataController.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\DataControllerDefault.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\DataControllerDefault.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/DataControllerDefault.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/DataControllerDefault.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\DataExpression.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\DataExpression.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/DataExpression.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/DataExpression.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\DataModel.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\DataModel.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/DataModel.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/DataModel.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\DataModelHandle.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\DataModelHandle.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/DataModelHandle.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/DataModelHandle.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\DataTypeRegister.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\DataTypeRegister.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/DataTypeRegister.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/DataTypeRegister.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\DataVariable.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\DataVariable.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/DataVariable.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/DataVariable.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\DataView.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\DataView.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/DataView.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/DataView.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\DataViewDefault.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\DataViewDefault.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/DataViewDefault.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/DataViewDefault.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Decorator.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Decorator.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Decorator.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Decorator.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\DecoratorGradient.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\DecoratorGradient.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/DecoratorGradient.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/DecoratorGradient.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\DecoratorNinePatch.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\DecoratorNinePatch.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/DecoratorNinePatch.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/DecoratorNinePatch.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\DecoratorShader.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\DecoratorShader.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/DecoratorShader.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/DecoratorShader.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\DecoratorText.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\DecoratorText.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/DecoratorText.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/DecoratorText.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\DecoratorTiled.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\DecoratorTiled.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/DecoratorTiled.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/DecoratorTiled.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\DecoratorTiledBox.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\DecoratorTiledBox.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/DecoratorTiledBox.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/DecoratorTiledBox.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\DecoratorTiledHorizontal.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\DecoratorTiledHorizontal.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/DecoratorTiledHorizontal.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/DecoratorTiledHorizontal.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\DecoratorTiledImage.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\DecoratorTiledImage.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/DecoratorTiledImage.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/DecoratorTiledImage.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\DecoratorTiledVertical.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\DecoratorTiledVertical.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/DecoratorTiledVertical.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/DecoratorTiledVertical.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\DecoratorUtilities.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\DecoratorUtilities.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/DecoratorUtilities.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/DecoratorUtilities.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\DocumentHeader.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\DocumentHeader.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/DocumentHeader.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/DocumentHeader.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\EffectSpecification.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\EffectSpecification.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/EffectSpecification.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/EffectSpecification.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Element.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Element.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Element.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Element.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\ElementAnimation.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\ElementAnimation.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/ElementAnimation.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/ElementAnimation.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\ElementBackgroundBorder.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\ElementBackgroundBorder.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/ElementBackgroundBorder.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/ElementBackgroundBorder.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\ElementDefinition.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\ElementDefinition.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/ElementDefinition.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/ElementDefinition.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\ElementDocument.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\ElementDocument.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/ElementDocument.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/ElementDocument.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\ElementEffects.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\ElementEffects.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/ElementEffects.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/ElementEffects.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\ElementHandle.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\ElementHandle.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/ElementHandle.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/ElementHandle.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\ElementInstancer.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\ElementInstancer.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/ElementInstancer.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/ElementInstancer.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\ElementMeta.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\ElementMeta.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/ElementMeta.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/ElementMeta.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\ElementScroll.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\ElementScroll.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/ElementScroll.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/ElementScroll.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\ElementStyle.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\ElementStyle.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/ElementStyle.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/ElementStyle.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\ElementText.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\ElementText.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/ElementText.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/ElementText.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\ElementUtilities.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\ElementUtilities.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/ElementUtilities.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/ElementUtilities.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Event.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Event.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Event.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Event.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\EventDispatcher.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\EventDispatcher.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/EventDispatcher.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/EventDispatcher.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\EventInstancer.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\EventInstancer.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/EventInstancer.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/EventInstancer.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\EventInstancerDefault.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\EventInstancerDefault.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/EventInstancerDefault.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/EventInstancerDefault.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\EventListenerInstancer.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\EventListenerInstancer.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/EventListenerInstancer.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/EventListenerInstancer.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\EventSpecification.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\EventSpecification.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/EventSpecification.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/EventSpecification.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Factory.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Factory.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Factory.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Factory.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\FileInterface.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\FileInterface.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/FileInterface.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/FileInterface.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\FileInterfaceDefault.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\FileInterfaceDefault.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/FileInterfaceDefault.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/FileInterfaceDefault.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Filter.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Filter.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Filter.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Filter.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\FilterBasic.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\FilterBasic.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/FilterBasic.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/FilterBasic.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\FilterBlur.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\FilterBlur.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/FilterBlur.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/FilterBlur.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\FilterDropShadow.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\FilterDropShadow.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/FilterDropShadow.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/FilterDropShadow.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\FontEffect.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\FontEffect.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/FontEffect.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/FontEffect.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\FontEffectBlur.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\FontEffectBlur.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/FontEffectBlur.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/FontEffectBlur.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\FontEffectGlow.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\FontEffectGlow.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/FontEffectGlow.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/FontEffectGlow.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\FontEffectInstancer.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\FontEffectInstancer.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/FontEffectInstancer.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/FontEffectInstancer.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\FontEffectOutline.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\FontEffectOutline.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/FontEffectOutline.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/FontEffectOutline.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\FontEffectShadow.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\FontEffectShadow.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/FontEffectShadow.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/FontEffectShadow.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\FontEngineInterface.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\FontEngineInterface.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/FontEngineInterface.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/FontEngineInterface.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Geometry.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Geometry.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Geometry.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Geometry.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\GeometryBackgroundBorder.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\GeometryBackgroundBorder.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/GeometryBackgroundBorder.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/GeometryBackgroundBorder.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\GeometryBoxShadow.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\GeometryBoxShadow.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/GeometryBoxShadow.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/GeometryBoxShadow.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Log.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Log.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Log.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Log.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\LogDefault.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\LogDefault.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/LogDefault.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/LogDefault.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Math.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Math.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Math.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Math.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Memory.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Memory.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Memory.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Memory.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\MeshUtilities.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\MeshUtilities.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/MeshUtilities.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/MeshUtilities.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\ObserverPtr.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\ObserverPtr.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/ObserverPtr.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/ObserverPtr.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Plugin.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Plugin.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Plugin.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Plugin.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\PluginRegistry.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\PluginRegistry.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/PluginRegistry.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/PluginRegistry.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Profiling.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Profiling.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Profiling.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Profiling.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\PropertiesIteratorView.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\PropertiesIteratorView.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/PropertiesIteratorView.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/PropertiesIteratorView.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Property.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Property.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Property.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Property.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\PropertyDefinition.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\PropertyDefinition.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/PropertyDefinition.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/PropertyDefinition.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\PropertyDictionary.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\PropertyDictionary.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/PropertyDictionary.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/PropertyDictionary.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\PropertyParserAnimation.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\PropertyParserAnimation.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/PropertyParserAnimation.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/PropertyParserAnimation.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\PropertyParserBoxShadow.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\PropertyParserBoxShadow.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/PropertyParserBoxShadow.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/PropertyParserBoxShadow.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\PropertyParserColorStopList.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\PropertyParserColorStopList.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/PropertyParserColorStopList.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/PropertyParserColorStopList.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\PropertyParserColour.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\PropertyParserColour.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/PropertyParserColour.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/PropertyParserColour.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\PropertyParserDecorator.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\PropertyParserDecorator.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/PropertyParserDecorator.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/PropertyParserDecorator.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\PropertyParserFilter.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\PropertyParserFilter.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/PropertyParserFilter.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/PropertyParserFilter.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\PropertyParserFontEffect.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\PropertyParserFontEffect.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/PropertyParserFontEffect.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/PropertyParserFontEffect.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\PropertyParserKeyword.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\PropertyParserKeyword.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/PropertyParserKeyword.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/PropertyParserKeyword.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\PropertyParserNumber.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\PropertyParserNumber.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/PropertyParserNumber.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/PropertyParserNumber.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\PropertyParserRatio.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\PropertyParserRatio.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/PropertyParserRatio.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/PropertyParserRatio.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\PropertyParserString.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\PropertyParserString.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/PropertyParserString.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/PropertyParserString.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\PropertyParserTransform.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\PropertyParserTransform.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/PropertyParserTransform.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/PropertyParserTransform.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\PropertySpecification.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\PropertySpecification.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/PropertySpecification.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/PropertySpecification.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\RenderInterface.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\RenderInterface.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/RenderInterface.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/RenderInterface.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\RenderInterfaceCompatibility.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\RenderInterfaceCompatibility.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/RenderInterfaceCompatibility.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/RenderInterfaceCompatibility.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\RenderManager.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\RenderManager.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/RenderManager.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/RenderManager.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\RenderManagerAccess.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\RenderManagerAccess.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/RenderManagerAccess.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/RenderManagerAccess.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\ScrollController.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\ScrollController.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/ScrollController.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/ScrollController.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Spritesheet.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Spritesheet.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Spritesheet.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Spritesheet.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Stream.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Stream.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Stream.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Stream.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\StreamFile.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\StreamFile.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/StreamFile.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/StreamFile.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\StreamMemory.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\StreamMemory.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/StreamMemory.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/StreamMemory.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\StringUtilities.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\StringUtilities.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/StringUtilities.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/StringUtilities.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\StyleSheet.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\StyleSheet.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/StyleSheet.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/StyleSheet.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\StyleSheetContainer.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\StyleSheetContainer.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/StyleSheetContainer.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/StyleSheetContainer.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\StyleSheetFactory.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\StyleSheetFactory.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/StyleSheetFactory.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/StyleSheetFactory.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\StyleSheetNode.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\StyleSheetNode.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/StyleSheetNode.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/StyleSheetNode.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\StyleSheetParser.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\StyleSheetParser.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/StyleSheetParser.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/StyleSheetParser.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\StyleSheetSelector.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\StyleSheetSelector.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/StyleSheetSelector.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/StyleSheetSelector.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\StyleSheetSpecification.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\StyleSheetSpecification.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/StyleSheetSpecification.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/StyleSheetSpecification.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\SystemInterface.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\SystemInterface.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/SystemInterface.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/SystemInterface.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Template.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Template.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Template.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Template.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\TemplateCache.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\TemplateCache.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/TemplateCache.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/TemplateCache.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Texture.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Texture.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Texture.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Texture.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\TextureDatabase.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\TextureDatabase.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/TextureDatabase.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/TextureDatabase.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\TextureLayout.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\TextureLayout.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/TextureLayout.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/TextureLayout.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\TextureLayoutRectangle.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\TextureLayoutRectangle.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/TextureLayoutRectangle.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/TextureLayoutRectangle.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\TextureLayoutRow.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\TextureLayoutRow.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/TextureLayoutRow.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/TextureLayoutRow.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\TextureLayoutTexture.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\TextureLayoutTexture.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/TextureLayoutTexture.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/TextureLayoutTexture.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Traits.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Traits.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Traits.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Traits.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Transform.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Transform.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Transform.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Transform.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\TransformPrimitive.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\TransformPrimitive.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/TransformPrimitive.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/TransformPrimitive.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\TransformState.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\TransformState.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/TransformState.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/TransformState.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\TransformUtilities.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\TransformUtilities.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/TransformUtilities.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/TransformUtilities.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Tween.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Tween.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Tween.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Tween.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\TypeConverter.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\TypeConverter.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/TypeConverter.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/TypeConverter.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\URL.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\URL.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/URL.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/URL.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Variant.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Variant.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Variant.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Variant.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\WidgetScroll.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\WidgetScroll.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/WidgetScroll.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/WidgetScroll.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\XMLNodeHandler.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\XMLNodeHandler.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/XMLNodeHandler.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/XMLNodeHandler.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\XMLNodeHandlerBody.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\XMLNodeHandlerBody.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/XMLNodeHandlerBody.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/XMLNodeHandlerBody.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\XMLNodeHandlerDefault.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\XMLNodeHandlerDefault.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/XMLNodeHandlerDefault.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/XMLNodeHandlerDefault.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\XMLNodeHandlerHead.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\XMLNodeHandlerHead.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/XMLNodeHandlerHead.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/XMLNodeHandlerHead.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\XMLNodeHandlerTemplate.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\XMLNodeHandlerTemplate.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/XMLNodeHandlerTemplate.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/XMLNodeHandlerTemplate.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\XMLParser.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\XMLParser.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/XMLParser.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/XMLParser.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\XMLParseTools.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\XMLParseTools.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/XMLParseTools.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/XMLParseTools.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\ElementFormControl.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\ElementFormControl.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/ElementFormControl.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/ElementFormControl.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\ElementFormControlInput.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\ElementFormControlInput.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/ElementFormControlInput.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/ElementFormControlInput.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\ElementFormControlSelect.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\ElementFormControlSelect.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/ElementFormControlSelect.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/ElementFormControlSelect.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\ElementFormControlTextArea.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\ElementFormControlTextArea.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/ElementFormControlTextArea.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/ElementFormControlTextArea.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\ElementForm.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\ElementForm.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/ElementForm.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/ElementForm.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\ElementImage.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\ElementImage.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/ElementImage.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/ElementImage.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\ElementLabel.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\ElementLabel.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/ElementLabel.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/ElementLabel.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\ElementProgress.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\ElementProgress.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/ElementProgress.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/ElementProgress.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\ElementTabSet.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\ElementTabSet.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/ElementTabSet.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/ElementTabSet.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\ElementTextSelection.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\ElementTextSelection.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/ElementTextSelection.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/ElementTextSelection.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\InputTypeButton.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\InputTypeButton.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/InputTypeButton.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/InputTypeButton.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\InputTypeCheckbox.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\InputTypeCheckbox.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/InputTypeCheckbox.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/InputTypeCheckbox.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\InputType.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\InputType.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/InputType.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/InputType.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\InputTypeRadio.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\InputTypeRadio.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/InputTypeRadio.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/InputTypeRadio.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\InputTypeRange.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\InputTypeRange.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/InputTypeRange.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/InputTypeRange.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\InputTypeSubmit.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\InputTypeSubmit.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/InputTypeSubmit.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/InputTypeSubmit.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\InputTypeText.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\InputTypeText.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/InputTypeText.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/InputTypeText.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\WidgetDropDown.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\WidgetDropDown.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/WidgetDropDown.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/WidgetDropDown.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\WidgetSlider.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\WidgetSlider.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/WidgetSlider.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/WidgetSlider.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\WidgetTextInput.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\WidgetTextInput.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/WidgetTextInput.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/WidgetTextInput.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\WidgetTextInputMultiLine.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\WidgetTextInputMultiLine.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/WidgetTextInputMultiLine.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/WidgetTextInputMultiLine.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\WidgetTextInputSingleLine.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\WidgetTextInputSingleLine.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/WidgetTextInputSingleLine.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/WidgetTextInputSingleLine.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\WidgetTextInputSingleLinePassword.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\WidgetTextInputSingleLinePassword.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/WidgetTextInputSingleLinePassword.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/WidgetTextInputSingleLinePassword.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\XMLNodeHandlerSelect.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\XMLNodeHandlerSelect.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/XMLNodeHandlerSelect.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/XMLNodeHandlerSelect.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\XMLNodeHandlerTabSet.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\XMLNodeHandlerTabSet.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/XMLNodeHandlerTabSet.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/XMLNodeHandlerTabSet.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Elements\\XMLNodeHandlerTextArea.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Elements\\XMLNodeHandlerTextArea.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Elements/XMLNodeHandlerTextArea.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Elements/XMLNodeHandlerTextArea.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Layout\\BlockContainer.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Layout\\BlockContainer.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Layout/BlockContainer.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Layout/BlockContainer.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Layout\\BlockFormattingContext.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Layout\\BlockFormattingContext.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Layout/BlockFormattingContext.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Layout/BlockFormattingContext.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Layout\\ContainerBox.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Layout\\ContainerBox.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Layout/ContainerBox.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Layout/ContainerBox.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Layout\\FlexFormattingContext.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Layout\\FlexFormattingContext.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Layout/FlexFormattingContext.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Layout/FlexFormattingContext.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Layout\\FloatedBoxSpace.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Layout\\FloatedBoxSpace.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Layout/FloatedBoxSpace.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Layout/FloatedBoxSpace.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Layout\\FormattingContext.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Layout\\FormattingContext.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Layout/FormattingContext.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Layout/FormattingContext.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Layout\\InlineBox.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Layout\\InlineBox.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Layout/InlineBox.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Layout/InlineBox.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Layout\\InlineContainer.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Layout\\InlineContainer.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Layout/InlineContainer.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Layout/InlineContainer.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Layout\\InlineLevelBox.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Layout\\InlineLevelBox.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Layout/InlineLevelBox.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Layout/InlineLevelBox.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Layout\\LayoutBox.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Layout\\LayoutBox.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Layout/LayoutBox.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Layout/LayoutBox.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Layout\\LayoutDetails.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Layout\\LayoutDetails.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Layout/LayoutDetails.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Layout/LayoutDetails.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Layout\\LayoutEngine.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Layout\\LayoutEngine.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Layout/LayoutEngine.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Layout/LayoutEngine.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Layout\\LayoutPools.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Layout\\LayoutPools.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Layout/LayoutPools.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Layout/LayoutPools.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Layout\\LineBox.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Layout\\LineBox.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Layout/LineBox.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Layout/LineBox.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Layout\\ReplacedFormattingContext.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Layout\\ReplacedFormattingContext.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Layout/ReplacedFormattingContext.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Layout/ReplacedFormattingContext.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Layout\\TableFormattingContext.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Layout\\TableFormattingContext.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Layout/TableFormattingContext.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Layout/TableFormattingContext.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\Layout\\TableFormattingDetails.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\Layout\\TableFormattingDetails.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/Layout/TableFormattingDetails.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/Layout/TableFormattingDetails.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\FontEngineDefault\\FontEngineInterfaceDefault.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\FontEngineDefault\\FontEngineInterfaceDefault.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/FontEngineDefault/FontEngineInterfaceDefault.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/FontEngineDefault/FontEngineInterfaceDefault.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\FontEngineDefault\\FontFace.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\FontEngineDefault\\FontFace.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/FontEngineDefault/FontFace.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/FontEngineDefault/FontFace.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\FontEngineDefault\\FontFaceHandleDefault.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\FontEngineDefault\\FontFaceHandleDefault.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/FontEngineDefault/FontFaceHandleDefault.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/FontEngineDefault/FontFaceHandleDefault.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\FontEngineDefault\\FontFaceLayer.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\FontEngineDefault\\FontFaceLayer.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/FontEngineDefault/FontFaceLayer.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/FontEngineDefault/FontFaceLayer.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\FontEngineDefault\\FontFamily.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\FontEngineDefault\\FontFamily.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/FontEngineDefault/FontFamily.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/FontEngineDefault/FontFamily.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\FontEngineDefault\\FontProvider.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\FontEngineDefault\\FontProvider.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/FontEngineDefault/FontProvider.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/FontEngineDefault/FontProvider.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_CORE_EXPORTS -DRMLUI_FONT_ENGINE_FREETYPE -DRMLUI_VERSION=\\\"6.3-dev\\\" -Drmlui_core_EXPORTS @CMakeFiles/rmlui_core.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -Winvalid-pch -include D:/Repos/Clicker-Game/build/RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/cmake_pch.hxx -o CMakeFiles\\rmlui_core.dir\\FontEngineDefault\\FreeTypeInterface.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Core\\FontEngineDefault\\FreeTypeInterface.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Core/FontEngineDefault/FreeTypeInterface.cpp",
+  "output": "RmlUi/Source/Core/CMakeFiles/rmlui_core.dir/FontEngineDefault/FreeTypeInterface.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Debugger",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_DEBUGGER_EXPORTS -Drmlui_debugger_EXPORTS @CMakeFiles/rmlui_debugger.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -o CMakeFiles\\rmlui_debugger.dir\\Debugger.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Debugger\\Debugger.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Debugger/Debugger.cpp",
+  "output": "RmlUi/Source/Debugger/CMakeFiles/rmlui_debugger.dir/Debugger.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Debugger",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_DEBUGGER_EXPORTS -Drmlui_debugger_EXPORTS @CMakeFiles/rmlui_debugger.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -o CMakeFiles\\rmlui_debugger.dir\\DebuggerPlugin.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Debugger\\DebuggerPlugin.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Debugger/DebuggerPlugin.cpp",
+  "output": "RmlUi/Source/Debugger/CMakeFiles/rmlui_debugger.dir/DebuggerPlugin.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Debugger",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_DEBUGGER_EXPORTS -Drmlui_debugger_EXPORTS @CMakeFiles/rmlui_debugger.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -o CMakeFiles\\rmlui_debugger.dir\\DebuggerSystemInterface.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Debugger\\DebuggerSystemInterface.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Debugger/DebuggerSystemInterface.cpp",
+  "output": "RmlUi/Source/Debugger/CMakeFiles/rmlui_debugger.dir/DebuggerSystemInterface.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Debugger",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_DEBUGGER_EXPORTS -Drmlui_debugger_EXPORTS @CMakeFiles/rmlui_debugger.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -o CMakeFiles\\rmlui_debugger.dir\\ElementContextHook.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Debugger\\ElementContextHook.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Debugger/ElementContextHook.cpp",
+  "output": "RmlUi/Source/Debugger/CMakeFiles/rmlui_debugger.dir/ElementContextHook.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Debugger",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_DEBUGGER_EXPORTS -Drmlui_debugger_EXPORTS @CMakeFiles/rmlui_debugger.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -o CMakeFiles\\rmlui_debugger.dir\\ElementDataModels.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Debugger\\ElementDataModels.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Debugger/ElementDataModels.cpp",
+  "output": "RmlUi/Source/Debugger/CMakeFiles/rmlui_debugger.dir/ElementDataModels.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Debugger",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_DEBUGGER_EXPORTS -Drmlui_debugger_EXPORTS @CMakeFiles/rmlui_debugger.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -o CMakeFiles\\rmlui_debugger.dir\\ElementDebugDocument.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Debugger\\ElementDebugDocument.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Debugger/ElementDebugDocument.cpp",
+  "output": "RmlUi/Source/Debugger/CMakeFiles/rmlui_debugger.dir/ElementDebugDocument.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Debugger",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_DEBUGGER_EXPORTS -Drmlui_debugger_EXPORTS @CMakeFiles/rmlui_debugger.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -o CMakeFiles\\rmlui_debugger.dir\\ElementInfo.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Debugger\\ElementInfo.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Debugger/ElementInfo.cpp",
+  "output": "RmlUi/Source/Debugger/CMakeFiles/rmlui_debugger.dir/ElementInfo.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Debugger",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_DEBUGGER_EXPORTS -Drmlui_debugger_EXPORTS @CMakeFiles/rmlui_debugger.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -o CMakeFiles\\rmlui_debugger.dir\\ElementLog.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Debugger\\ElementLog.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Debugger/ElementLog.cpp",
+  "output": "RmlUi/Source/Debugger/CMakeFiles/rmlui_debugger.dir/ElementLog.cpp.obj"
+},
+{
+  "directory": "D:/Repos/Clicker-Game/build/RmlUi/Source/Debugger",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DRMLUI_DEBUGGER_EXPORTS -Drmlui_debugger_EXPORTS @CMakeFiles/rmlui_debugger.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -pedantic -Wno-stringop-overflow -o CMakeFiles\\rmlui_debugger.dir\\Geometry.cpp.obj -c D:\\Repos\\Clicker-Game\\external\\RmlUi\\Source\\Debugger\\Geometry.cpp",
+  "file": "D:/Repos/Clicker-Game/external/RmlUi/Source/Debugger/Geometry.cpp",
+  "output": "RmlUi/Source/Debugger/CMakeFiles/rmlui_debugger.dir/Geometry.cpp.obj"
 }
 ]

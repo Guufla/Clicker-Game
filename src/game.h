@@ -24,6 +24,11 @@
 #include "imgui_impl_glfw.h"
 #include "imgui_impl_opengl3.h"
 
+#include <RmlUi/Core.h>
+#include <RmlUi/Debugger.h>
+#include "RmlUi_Platform_GLFW.h"
+#include "RmlUi_Renderer_GL3.h"
+
 #include <iostream>
 #include <algorithm> 
 #include <vector>
@@ -56,12 +61,18 @@ public:
     Game(unsigned int width, unsigned int height);
     ~Game();
     // initialize game state (load all shaders/textures/levels)
-    void Init();
+    bool Init(GLFWwindow* glfwWindow);
     // game loop
     void ProcessInput(float dt,bool mouseClicked);
-    void Update(float dt);
+    void Update(float dt, double mouseX, double mouseY);
     void Render();
     void DoCollisions(float dt);
+    
+    
+    void Resize(int width, int height);
+    Rml::Context* GetRmlContext() const;
+    void ShutdownRmlUi();
+    
     
     void SpawnBubble(glm::vec2 pos,
                      float radius,
@@ -83,9 +94,38 @@ public:
 
     // buy an item from the shop
     //void BuyItem(std::string item);
-
     
 
+    // Game managers
+    AudioManager      *Audio;
+    TextRenderer      *Text;
+    BubbleManager     *bubbleManager;
+    ObjectManager     *objectManager;
+    MenuManager       *menuManager;
+
+
+private:
+
+    // Sprite renderer
+    SpriteRenderer    *Renderer;
+    
+    // Persistent Game Objects
+    ClickObject       *Click;
+    // GameObject        *Wall1;
+    // GameObject        *Wall2;
+    // GameObject        *Wall3;
+    // GameObject        *Wall4;
+    
+
+
+    GLFWwindow* window = nullptr;
+
+    std::unique_ptr<SystemInterface_GLFW> rmlSystem;
+    std::unique_ptr<RenderInterface_GL3> rmlRenderer;
+
+    Rml::Context* rmlContext = nullptr;
+
+    bool InitializeRmlUi();
 };
 
 #endif

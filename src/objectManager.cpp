@@ -16,6 +16,30 @@ void ObjectManager::Update(float dt)
     {
         obj->Position.x += obj->Velocity.x * dt * 100.0f;
         obj->Position.y += obj->Velocity.y * dt * 100.0f;
+        
+        if(obj->Tag == 1) // If the object is a bubble, make sure it does not go outside the screen bounds
+        {
+            if(obj->Position.x < 0.0f)
+            {
+                obj->Position.x = 0.0f;
+                obj->Velocity.x *= -1.0f;
+            }
+            else if(obj->Position.x + obj->Size.x*0.5 > BubbleBop.Width)
+            {
+                obj->Position.x = BubbleBop.Width - obj->Size.x*0.5;
+                obj->Velocity.x *= -1.0f;
+            }
+            if(obj->Position.y - obj->Size.y*0.5 < 0.0f)
+            {
+                obj->Position.y = obj->Size.y*0.5;
+                obj->Velocity.y *= -1.0f;
+            }
+            else if(obj->Position.y + obj->Size.y*0.5 > BubbleBop.Height)
+            {
+                obj->Position.y = BubbleBop.Height - obj->Size.y*0.5;
+                obj->Velocity.y *= -1.0f;
+            }
+        }
     }
 }
 

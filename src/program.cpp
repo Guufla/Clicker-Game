@@ -4,18 +4,26 @@
 #include "game.h"
 #include "resourceManager.h"
 
+#include <RmlUi/Core.h>
+#include "RmlUi_Platform_GLFW.h"
+#include "RmlUi_Renderer_GL3.h"
+
 #include <iostream>
 
 // GLFW function declarations
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void key_callback(GLFWwindow* window, int key, int scancode, int action, int mode);
 void mouse_button_callback(GLFWwindow* window, int button, int action, int mods);
+void cursor_position_callback(GLFWwindow* window,double xpos,double ypos);
 
 
 const unsigned int SCR_WIDTH = 1280;
 const unsigned int SCR_HEIGHT = 600;
 
 Game BubbleBop(SCR_WIDTH, SCR_HEIGHT);
+
+double mouseX = 0.0;
+double mouseY = 0.0;
 
 bool mouseClicked = false;
 bool mouseReleased = false;
@@ -46,16 +54,6 @@ int main(int arc, char* argv[])
         std::cout << "Failed to initialize GLAD" << std::endl;
         return -1;
     }
-    
-    // Setup Dear ImGui context
-    // IMGUI_CHECKVERSION();
-    // ImGui::CreateContext();
-
-    // ImGuiIO& io = ImGui::GetIO();
-    // io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;
-
-    // // Style
-    // ImGui::StyleColorsDark();
 
     
     
@@ -63,6 +61,7 @@ int main(int arc, char* argv[])
     glfwSetKeyCallback(window, key_callback);
     glfwSetMouseButtonCallback(window, mouse_button_callback);
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
+    glfwSetCursorPosCallback(window, cursor_position_callback);
     
     
     // Setup Platform/Renderer backends
@@ -78,8 +77,16 @@ int main(int arc, char* argv[])
     
     // initialize game
     // ---------------
-    BubbleBop.Init();
-    
+    if (!BubbleBop.Init(window))
+    {
+        std::cerr << "Failed to initialize game.\n";
+
+        glfwDestroyWindow(window);
+        glfwTerminate();
+
+        return -1;
+    }
+
     // deltaTime variables
     // -------------------
     float deltaTime = 0.0f;
@@ -92,10 +99,6 @@ int main(int arc, char* argv[])
         deltaTime = currentFrame - lastFrame;
         lastFrame = currentFrame;
         
-        // Start ImGui frame
-        // ImGui_ImplOpenGL3_NewFrame();
-        // ImGui_ImplGlfw_NewFrame();
-        // ImGui::NewFrame();
         
         glfwPollEvents();
 
@@ -105,7 +108,7 @@ int main(int arc, char* argv[])
 
         // update game state
         // -----------------
-        BubbleBop.Update(deltaTime);
+        BubbleBop.Update(deltaTime,mouseX,mouseY);
 
         // render
         // ----------------
@@ -113,19 +116,7 @@ int main(int arc, char* argv[])
         glClear(GL_COLOR_BUFFER_BIT);
         BubbleBop.Render();
         
-        // ImGui::Begin("Debug Menu");
-        // ImGui::Text("Hello from Dear ImGui!");
-        // ImGui::Text("FPS: %.1f", ImGui::GetIO().Framerate);
-
-        // if (ImGui::Button("Test Button"))
-        // {
-        //     std::cout << "Button clicked!" << std::endl;
-        // }
-
-        // ImGui::End();
         
-        // ImGui::Render();
-        // ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
         
         // check collisions
         // ---------------
@@ -134,6 +125,9 @@ int main(int arc, char* argv[])
         glfwSwapBuffers(window);
     }
 
+    BubbleBop.ShutdownRmlUi();
+
+    glfwDestroyWindow(window);
     glfwTerminate();
     return 0;
 
@@ -157,6 +151,18 @@ void key_callback(GLFWwindow* window, int key, int scancode, int action, int mod
 }
 void mouse_button_callback(GLFWwindow* window, int button, int action, int mods)
 {
+    Rml::Context* context = BubbleBop.GetRmlContext();
+
+    if (context != nullptr)
+    {
+        RmlGLFW::ProcessMouseButtonCallback(
+            context,
+            button,
+            action,
+            mods
+        );
+    }
+
     if (button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_PRESS)
     {
         //printf("Mouse Clicked\n");
@@ -174,4 +180,25 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height)
     // make sure the viewport matches the new window dimensions; note that width and 
     // height will be significantly larger than specified on retina displays.
     glViewport(0, 0, width, height);
+    BubbleBop.Resize(width, height);
+}
+
+void cursor_position_callback(GLFWwindow* window,double xpos,double ypos)
+{
+    mouseX = xpos;
+    mouseY = ypos;
+    
+    Rml::Context* context = BubbleBop.GetRmlContext();
+
+    if (context != nullptr)
+    {
+        RmlGLFW::ProcessCursorPosCallback(
+            context,
+            window,
+            xpos,
+            ypos,
+            0
+        );
+    }
+    //printf("Mouse Position: %f, %f\n",xpos,ypos);
 }

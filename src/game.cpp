@@ -3,21 +3,6 @@
 #include "game.h"
 
 
-SpriteRenderer    *Renderer;
-ClickObject       *Click;
-GameObject        *Wall1;
-GameObject        *Wall2;
-GameObject        *Wall3;
-GameObject        *Wall4;
-AudioManager      *Audio;
-TextRenderer      *Text;
-MenuManager       *Menu;
-BubbleManager     *bubbleManager;
-ObjectManager     *objectManager;
-MenuManager       *menuManager;
-
-
-
 Game::Game(unsigned int width, unsigned int height) 
     : Keys(), 
     KeysProcessed(), 
@@ -44,8 +29,10 @@ Game::~Game()
     delete Renderer;
 }
 // Initializes the game state (load all shaders/textures/levels)
-void Game::Init()
+bool Game::Init(GLFWwindow* glfwWindow)
 {
+    window = glfwWindow;
+
     // load shaders
     ResourceManager::LoadShader(
         FileSystem::getPath("src/sprite.vs").c_str(),
@@ -89,7 +76,15 @@ void Game::Init()
     // Object Manager
     objectManager = new ObjectManager();
     
-    
+    if (!InitializeRmlUi())
+    {
+        std::cerr << "Failed to initialize RmlUi.\n";
+        return false;
+    }
+    if (!Rml::Debugger::Initialise(rmlContext))
+    {
+        std::cerr << "Failed to initialize RmlUi debugger.\n";
+    }
     
 
     // configure game objects
@@ -98,66 +93,69 @@ void Game::Init()
     Click->Tag = 2; // When collisions occur this will help identify the object as the click object
     objectManager->CreateObject(Click);
     
-    // Walls used as the bounding boxes for the bubbles
-    Wall1 = new GameObject(
-        glm::vec2(0.0f, -wallThickness),
-        glm::vec2(static_cast<float>(this->Width), wallThickness),
-        ResourceManager::GetTexture("blackSquare"),
-        false,
-        glm::vec3(static_cast<float>(this->Width), wallThickness, 2.0f),
-        glm::vec3(1.0f),
-        glm::vec2(0.0f)
-    );
+    // // Walls used as the bounding boxes for the bubbles
+    // Wall1 = new GameObject(
+    //     glm::vec2(0.0f, -wallThickness),
+    //     glm::vec2(static_cast<float>(this->Width), wallThickness),
+    //     ResourceManager::GetTexture("blackSquare"),
+    //     false,
+    //     glm::vec3(static_cast<float>(this->Width), wallThickness, 2.0f),
+    //     glm::vec3(1.0f),
+    //     glm::vec2(0.0f)
+    // );
 
-    // Walls used as the bounding boxes for the bubbles
-    Wall2 = new GameObject(
-        glm::vec2(0.0f, static_cast<float>(this->Height)),
-        glm::vec2(static_cast<float>(this->Width), wallThickness),
-        ResourceManager::GetTexture("blackSquare"),
-        false,
-        glm::vec3(static_cast<float>(this->Width), wallThickness, 2.0f),
-        glm::vec3(1.0f),
-        glm::vec2(0.0f)
-    );
+    // // Walls used as the bounding boxes for the bubbles
+    // Wall2 = new GameObject(
+    //     glm::vec2(0.0f, static_cast<float>(this->Height)),
+    //     glm::vec2(static_cast<float>(this->Width), wallThickness),
+    //     ResourceManager::GetTexture("blackSquare"),
+    //     false,
+    //     glm::vec3(static_cast<float>(this->Width), wallThickness, 2.0f),
+    //     glm::vec3(1.0f),
+    //     glm::vec2(0.0f)
+    // );
 
-    // Walls used as the bounding boxes for the bubbles
-    Wall3 = new GameObject(
-        glm::vec2(-wallThickness, 0.0f),
-        glm::vec2(wallThickness, static_cast<float>(this->Height)),
-        ResourceManager::GetTexture("blackSquare"),
-        false,
-        glm::vec3(wallThickness, static_cast<float>(this->Height), 2.0f),
-        glm::vec3(1.0f),
-        glm::vec2(0.0f)
-    );
+    // // Walls used as the bounding boxes for the bubbles
+    // Wall3 = new GameObject(
+    //     glm::vec2(-wallThickness, 0.0f),
+    //     glm::vec2(wallThickness, static_cast<float>(this->Height)),
+    //     ResourceManager::GetTexture("blackSquare"),
+    //     false,
+    //     glm::vec3(wallThickness, static_cast<float>(this->Height), 2.0f),
+    //     glm::vec3(1.0f),
+    //     glm::vec2(0.0f)
+    // );
 
-    // Walls used as the bounding boxes for the bubbles
-    Wall4 = new GameObject(
-        glm::vec2(static_cast<float>(this->Width), 0.0f),
-        glm::vec2(wallThickness, static_cast<float>(this->Height)),
-        ResourceManager::GetTexture("blackSquare"),
-        false,
-        glm::vec3(wallThickness, static_cast<float>(this->Height), 2.0f),
-        glm::vec3(1.0f),
-        glm::vec2(0.0f)
-    );
+    // // Walls used as the bounding boxes for the bubbles
+    // Wall4 = new GameObject(
+    //     glm::vec2(static_cast<float>(this->Width), 0.0f),
+    //     glm::vec2(wallThickness, static_cast<float>(this->Height)),
+    //     ResourceManager::GetTexture("blackSquare"),
+    //     false,
+    //     glm::vec3(wallThickness, static_cast<float>(this->Height), 2.0f),
+    //     glm::vec3(1.0f),
+    //     glm::vec2(0.0f)
+    // );
     
     // Add walls to the game objects vector
-    objectManager->CreateObject(Wall1);
-    objectManager->CreateObject(Wall2);
-    objectManager->CreateObject(Wall3);
-    objectManager->CreateObject(Wall4);
+    // objectManager->CreateObject(Wall1);
+    // objectManager->CreateObject(Wall2);
+    // objectManager->CreateObject(Wall3);
+    // objectManager->CreateObject(Wall4);
 
     // Text Renderer
     Text = new TextRenderer(static_cast<float>(this->Width),static_cast<float>(this->Height));
     std::string fontPath = FileSystem::getPath("resources/fonts/GAMERIA.ttf").c_str();
     Text->Load(fontPath,100);
+    
+    return true;
 
 
 }
 
 
-void Game::Update(float dt)
+
+void Game::Update(float dt,double mouseX,double mouseY)
 {
     // Stops bubbles from moving and spawning when paused
     if(isPaused)
@@ -174,14 +172,17 @@ void Game::Update(float dt)
     
     menuManager->Update(dt);
     
+    if (rmlContext != nullptr)
+    {
+        rmlContext->Update();
+    }
+    
     // When the player clicks their mouse it will stay active for a few seconds
     if(Click->IsDisabled == false)
     {
         Click->TimeAlive += dt;
-        double xPos, yPos;
-        glfwGetCursorPos(glfwGetCurrentContext(), &xPos, &yPos);
-        Click->Move(static_cast<float>(xPos) - Click->Size.x / 2.0f,
-                    static_cast<float>(yPos) - Click->Size.y / 2.0f);
+        Click->Move(static_cast<float>(mouseX) - Click->Size.x / 2.0f,
+                    static_cast<float>(mouseY) - Click->Size.y / 2.0f);
         if(Click->TimeAlive >= clickTime)
         {
             Click->Disable();
@@ -217,6 +218,22 @@ void Game::ProcessInput(float dt, bool mouseClicked)
         KeysProcessed[GLFW_KEY_TAB] = true;
     }
     
+    if (Keys[GLFW_KEY_F8] && !KeysProcessed[GLFW_KEY_F8])
+    {
+        Rml::Debugger::SetVisible(
+            !Rml::Debugger::IsVisible()
+        );
+
+        KeysProcessed[GLFW_KEY_F8] = true;
+    }
+    
+    if (Keys[GLFW_KEY_G] && !KeysProcessed[GLFW_KEY_G])
+    {
+        menuManager->ReloadMenu();
+
+        KeysProcessed[GLFW_KEY_G] = false;
+    }
+    
     // Might be able to delete this will check soon
     if(mouseClicked == false)
     {
@@ -248,8 +265,20 @@ void Game::Render()
     //     Click->Draw(*Renderer);
     // }
     
+    // Used to get the corner of the bubble
+    //bubbleManager->RenderDebugCenters(*Renderer);
     
+    
+    if (rmlContext != nullptr &&
+        rmlRenderer != nullptr)
+    {
+        rmlRenderer->BeginFrame();
+        rmlContext->Render();
+        rmlRenderer->EndFrame();
+    }
 }
+
+
 
 
 void Game::DoCollisions(float dt)
@@ -265,10 +294,146 @@ void Game::DoCollisions(float dt)
 }
 
 
+bool Game::InitializeRmlUi()
+{
+    if (window == nullptr)
+        return false;
+
+    int framebufferWidth = 0;
+    int framebufferHeight = 0;
+
+    glfwGetFramebufferSize(
+        window,
+        &framebufferWidth,
+        &framebufferHeight
+    );
+
+    rmlSystem =
+        std::make_unique<SystemInterface_GLFW>(window);
+
+    rmlRenderer =
+        std::make_unique<RenderInterface_GL3>();
+
+    if (!(*rmlRenderer))
+    {
+        std::cerr << "Failed to create RmlUi renderer.\n";
+        return false;
+    }
+
+    rmlRenderer->SetViewport(
+        framebufferWidth,
+        framebufferHeight
+    );
+
+    Rml::SetSystemInterface(rmlSystem.get());
+    Rml::SetRenderInterface(rmlRenderer.get());
+
+    if (!Rml::Initialise())
+    {
+        std::cerr << "Rml::Initialise failed.\n";
+        return false;
+    }
+
+    rmlContext = Rml::CreateContext(
+        "main",
+        Rml::Vector2i(
+            framebufferWidth,
+            framebufferHeight
+        )
+    );
+
+    if (rmlContext == nullptr)
+    {
+        std::cerr << "Failed to create RmlUi context.\n";
+        return false;
+    }
+
+    if (!Rml::LoadFontFace(
+            FileSystem::getPath("resources/fonts/GAMERIA.ttf").c_str()))
+    {
+        std::cerr << "Failed to load RmlUi font.\n";
+    }
+
+    if (!menuManager->Initialize(rmlContext))
+    {
+        std::cerr << "Failed to initialize menus.\n";
+        return false;
+    }
+
+    return true;
+}
+
+
+void Game::Resize(int width, int height)
+{
+    Width = static_cast<unsigned int>(width);
+    Height = static_cast<unsigned int>(height);
+
+    if (rmlRenderer != nullptr)
+    {
+        rmlRenderer->SetViewport(width, height);
+    }
+
+    if (rmlContext != nullptr)
+    {
+        rmlContext->SetDimensions(
+            Rml::Vector2i(width, height)
+        );
+    }
+    
+    glm::mat4 projection = glm::ortho(
+        0.0f,
+        static_cast<float>(Width),
+        static_cast<float>(Height),
+        0.0f,
+        -1.0f,
+        1.0f
+    );
+
+    ResourceManager::GetShader("sprite")
+        .Use()
+        .SetMatrix4("projection", projection);
+        
+    // Wall1->Position = glm::vec2(0.0f, -wallThickness);
+    // Wall1->Size = glm::vec2(static_cast<float>(this->Width), wallThickness);
+    // Wall1->ColliderShape = glm::vec3(static_cast<float>(this->Width), wallThickness, 2.0f);
+        
+        
+}
+    
+    
+
+void Game::ShutdownRmlUi()
+{
+    menuManager->Shutdown();
+
+    if (rmlContext != nullptr)
+    {
+        Rml::RemoveContext(rmlContext->GetName());
+        rmlContext = nullptr;
+    }
+
+    if (rmlRenderer != nullptr || rmlSystem != nullptr)
+    {
+        Rml::Shutdown();
+    }
+
+    rmlRenderer.reset();
+    rmlSystem.reset();
+
+    window = nullptr;
+}
+
+
 // Helper Functions
 
 void Game::AddMoney(float points)
 {
     this->money += points;
     // Add click additive and multiplier logic either here or in the bubble object script
+}
+
+Rml::Context* Game::GetRmlContext() const
+{
+    return rmlContext;
 }

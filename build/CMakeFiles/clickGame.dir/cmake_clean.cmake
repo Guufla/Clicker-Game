@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Platform_GLFW.cpp.obj"
+  "CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Platform_GLFW.cpp.obj.d"
+  "CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Renderer_GL3.cpp.obj"
+  "CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Renderer_GL3.cpp.obj.d"
   "CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_glfw.cpp.obj"
   "CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_glfw.cpp.obj.d"
   "CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_opengl3.cpp.obj"
@@ -29,8 +33,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/clickGame.dir/src/glad.c.obj.d"
   "CMakeFiles/clickGame.dir/src/image.cpp.obj"
   "CMakeFiles/clickGame.dir/src/image.cpp.obj.d"
-  "CMakeFiles/clickGame.dir/src/main.cpp.obj"
-  "CMakeFiles/clickGame.dir/src/main.cpp.obj.d"
   "CMakeFiles/clickGame.dir/src/menuManager.cpp.obj"
   "CMakeFiles/clickGame.dir/src/menuManager.cpp.obj.d"
   "CMakeFiles/clickGame.dir/src/menuObject.cpp.obj"

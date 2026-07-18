@@ -3,13 +3,13 @@
 
 # compile C with C:/msys64/ucrt64/bin/gcc.exe
 # compile CXX with C:/msys64/ucrt64/bin/g++.exe
-C_DEFINES = -DGLFW_DLL -DWITH_MINIAUDIO
+C_DEFINES = -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER="<glad/glad.h>" -DWITH_MINIAUDIO
 
 C_INCLUDES = @CMakeFiles/clickGame.dir/includes_C.rsp
 
 C_FLAGS = -g -std=gnu11
 
-CXX_DEFINES = -DGLFW_DLL -DWITH_MINIAUDIO
+CXX_DEFINES = -DGLFW_DLL -DRMLUI_GL3_CUSTOM_LOADER="<glad/glad.h>" -DWITH_MINIAUDIO
 
 CXX_INCLUDES = @CMakeFiles/clickGame.dir/includes_CXX.rsp
 

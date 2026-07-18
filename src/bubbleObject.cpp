@@ -3,7 +3,6 @@
 #include "game.h" // Allows us to call the game manager
 
 
-extern AudioManager *Audio;
 extern Game BubbleBop;
 
 BubbleObject::BubbleObject() 
@@ -58,9 +57,9 @@ void BubbleObject::CollisionDetected(GameObject &other)
         this->IsPopping = true;
         this->Velocity = glm::vec2(0.0f);
         BubbleBop.AddMoney(this->Points);
-        if(Audio != nullptr)
+        if(BubbleBop.Audio != nullptr)
         {
-            Audio->PlayPopSound();
+            BubbleBop.Audio->PlayPopSound();
         }
     }
     else if(other.Tag==0)

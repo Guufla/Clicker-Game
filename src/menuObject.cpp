@@ -3,7 +3,6 @@
 #include "game.h" // Allows us to call the game manager
 
 
-extern AudioManager *Audio;
 extern Game BubbleBop;
 
 MenuObject::MenuObject() 

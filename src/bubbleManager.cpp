@@ -5,8 +5,6 @@
 
 extern Game BubbleBop;
 
-extern ObjectManager* objectManager;
-
 BubbleManager::BubbleManager()
 {
     
@@ -20,7 +18,8 @@ void BubbleManager::Update(float dt)
     {
         glm::vec2 velocity = glm::vec2((rand() % 200) - 100, (rand() % 200) - 100) / 100.0f; // Random velocity between -1 and 1 on both axes
         
-        SpawnBubble(glm::vec2(rand() % (BubbleBop.Width - 100) + 50.0f, rand() % (BubbleBop.Height - 100) + 50.0f), 50.0f,1.0f, 0.1f, velocity);
+        // Spawns bubbles Remember to re-enable this
+        SpawnBubble(glm::vec2(rand() % (BubbleBop.Width - 100) + 50.0f, rand() % (BubbleBop.Height - 100) + 50.0f), 30.0f,1.0f, 0.1f, velocity);
         spawnTimer = 0.0f;
     }
     else
@@ -42,5 +41,38 @@ void BubbleManager::SpawnBubble(glm::vec2 pos,float radius,float points,float po
     bubble->Tag = 1; // When collisions occur this will help identify the object as a bubble
     
     Bubbles.push_back(bubble);
-    objectManager->CreateObject(bubble);
+    BubbleBop.objectManager->CreateObject(bubble);
+}
+
+
+// Debug statement 
+void BubbleManager::RenderDebugCenters(
+    SpriteRenderer& renderer
+)
+{
+    const float markerSize = 8.0f;
+
+    for (BubbleObject* bubble : Bubbles)
+    {
+        if (bubble == nullptr)
+            continue;
+
+        glm::vec2 center =
+            bubble->Position +
+            bubble->Size * 0.5f;
+
+        // DrawSprite positions sprites using their top-left corner,
+        // so subtract half the marker size to center it.
+        glm::vec2 markerPosition =
+            center -
+            glm::vec2(markerSize * 0.5f);
+
+        renderer.DrawSprite(
+            ResourceManager::GetTexture("circle"),
+            markerPosition,
+            glm::vec2(markerSize, markerSize),
+            0.0f,
+            glm::vec3(1.0f, 0.0f, 0.0f)
+        );
+    }
 }

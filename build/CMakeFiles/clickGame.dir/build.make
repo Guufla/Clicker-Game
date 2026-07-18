@@ -176,26 +176,11 @@ CMakeFiles/clickGame.dir/src/image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clickGame.dir/src/image.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Repos\Clicker-Game\src\image.cpp -o CMakeFiles\clickGame.dir\src\image.cpp.s
 
-CMakeFiles/clickGame.dir/src/main.cpp.obj: CMakeFiles/clickGame.dir/flags.make
-CMakeFiles/clickGame.dir/src/main.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
-CMakeFiles/clickGame.dir/src/main.cpp.obj: D:/Repos/Clicker-Game/src/main.cpp
-CMakeFiles/clickGame.dir/src/main.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/clickGame.dir/src/main.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/main.cpp.obj -MF CMakeFiles\clickGame.dir\src\main.cpp.obj.d -o CMakeFiles\clickGame.dir\src\main.cpp.obj -c D:\Repos\Clicker-Game\src\main.cpp
-
-CMakeFiles/clickGame.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/clickGame.dir/src/main.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Repos\Clicker-Game\src\main.cpp > CMakeFiles\clickGame.dir\src\main.cpp.i
-
-CMakeFiles/clickGame.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clickGame.dir/src/main.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Repos\Clicker-Game\src\main.cpp -o CMakeFiles\clickGame.dir\src\main.cpp.s
-
 CMakeFiles/clickGame.dir/src/menuManager.cpp.obj: CMakeFiles/clickGame.dir/flags.make
 CMakeFiles/clickGame.dir/src/menuManager.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/menuManager.cpp.obj: D:/Repos/Clicker-Game/src/menuManager.cpp
 CMakeFiles/clickGame.dir/src/menuManager.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/clickGame.dir/src/menuManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/clickGame.dir/src/menuManager.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/menuManager.cpp.obj -MF CMakeFiles\clickGame.dir\src\menuManager.cpp.obj.d -o CMakeFiles\clickGame.dir\src\menuManager.cpp.obj -c D:\Repos\Clicker-Game\src\menuManager.cpp
 
 CMakeFiles/clickGame.dir/src/menuManager.cpp.i: cmake_force
@@ -210,7 +195,7 @@ CMakeFiles/clickGame.dir/src/menuObject.cpp.obj: CMakeFiles/clickGame.dir/flags.
 CMakeFiles/clickGame.dir/src/menuObject.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/menuObject.cpp.obj: D:/Repos/Clicker-Game/src/menuObject.cpp
 CMakeFiles/clickGame.dir/src/menuObject.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/clickGame.dir/src/menuObject.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/clickGame.dir/src/menuObject.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/menuObject.cpp.obj -MF CMakeFiles\clickGame.dir\src\menuObject.cpp.obj.d -o CMakeFiles\clickGame.dir\src\menuObject.cpp.obj -c D:\Repos\Clicker-Game\src\menuObject.cpp
 
 CMakeFiles/clickGame.dir/src/menuObject.cpp.i: cmake_force
@@ -225,7 +210,7 @@ CMakeFiles/clickGame.dir/src/objectManager.cpp.obj: CMakeFiles/clickGame.dir/fla
 CMakeFiles/clickGame.dir/src/objectManager.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/objectManager.cpp.obj: D:/Repos/Clicker-Game/src/objectManager.cpp
 CMakeFiles/clickGame.dir/src/objectManager.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/clickGame.dir/src/objectManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/clickGame.dir/src/objectManager.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/objectManager.cpp.obj -MF CMakeFiles\clickGame.dir\src\objectManager.cpp.obj.d -o CMakeFiles\clickGame.dir\src\objectManager.cpp.obj -c D:\Repos\Clicker-Game\src\objectManager.cpp
 
 CMakeFiles/clickGame.dir/src/objectManager.cpp.i: cmake_force
@@ -240,7 +225,7 @@ CMakeFiles/clickGame.dir/src/program.cpp.obj: CMakeFiles/clickGame.dir/flags.mak
 CMakeFiles/clickGame.dir/src/program.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/program.cpp.obj: D:/Repos/Clicker-Game/src/program.cpp
 CMakeFiles/clickGame.dir/src/program.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/clickGame.dir/src/program.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/clickGame.dir/src/program.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/program.cpp.obj -MF CMakeFiles\clickGame.dir\src\program.cpp.obj.d -o CMakeFiles\clickGame.dir\src\program.cpp.obj -c D:\Repos\Clicker-Game\src\program.cpp
 
 CMakeFiles/clickGame.dir/src/program.cpp.i: cmake_force
@@ -255,7 +240,7 @@ CMakeFiles/clickGame.dir/src/resourceManager.cpp.obj: CMakeFiles/clickGame.dir/f
 CMakeFiles/clickGame.dir/src/resourceManager.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/resourceManager.cpp.obj: D:/Repos/Clicker-Game/src/resourceManager.cpp
 CMakeFiles/clickGame.dir/src/resourceManager.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/clickGame.dir/src/resourceManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/clickGame.dir/src/resourceManager.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/resourceManager.cpp.obj -MF CMakeFiles\clickGame.dir\src\resourceManager.cpp.obj.d -o CMakeFiles\clickGame.dir\src\resourceManager.cpp.obj -c D:\Repos\Clicker-Game\src\resourceManager.cpp
 
 CMakeFiles/clickGame.dir/src/resourceManager.cpp.i: cmake_force
@@ -270,7 +255,7 @@ CMakeFiles/clickGame.dir/src/shader.cpp.obj: CMakeFiles/clickGame.dir/flags.make
 CMakeFiles/clickGame.dir/src/shader.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/shader.cpp.obj: D:/Repos/Clicker-Game/src/shader.cpp
 CMakeFiles/clickGame.dir/src/shader.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/clickGame.dir/src/shader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/clickGame.dir/src/shader.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/shader.cpp.obj -MF CMakeFiles\clickGame.dir\src\shader.cpp.obj.d -o CMakeFiles\clickGame.dir\src\shader.cpp.obj -c D:\Repos\Clicker-Game\src\shader.cpp
 
 CMakeFiles/clickGame.dir/src/shader.cpp.i: cmake_force
@@ -285,7 +270,7 @@ CMakeFiles/clickGame.dir/src/spriteRenderer.cpp.obj: CMakeFiles/clickGame.dir/fl
 CMakeFiles/clickGame.dir/src/spriteRenderer.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/spriteRenderer.cpp.obj: D:/Repos/Clicker-Game/src/spriteRenderer.cpp
 CMakeFiles/clickGame.dir/src/spriteRenderer.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/clickGame.dir/src/spriteRenderer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/clickGame.dir/src/spriteRenderer.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/spriteRenderer.cpp.obj -MF CMakeFiles\clickGame.dir\src\spriteRenderer.cpp.obj.d -o CMakeFiles\clickGame.dir\src\spriteRenderer.cpp.obj -c D:\Repos\Clicker-Game\src\spriteRenderer.cpp
 
 CMakeFiles/clickGame.dir/src/spriteRenderer.cpp.i: cmake_force
@@ -300,7 +285,7 @@ CMakeFiles/clickGame.dir/src/stb_image.cpp.obj: CMakeFiles/clickGame.dir/flags.m
 CMakeFiles/clickGame.dir/src/stb_image.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/stb_image.cpp.obj: D:/Repos/Clicker-Game/src/stb_image.cpp
 CMakeFiles/clickGame.dir/src/stb_image.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/clickGame.dir/src/stb_image.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/clickGame.dir/src/stb_image.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/stb_image.cpp.obj -MF CMakeFiles\clickGame.dir\src\stb_image.cpp.obj.d -o CMakeFiles\clickGame.dir\src\stb_image.cpp.obj -c D:\Repos\Clicker-Game\src\stb_image.cpp
 
 CMakeFiles/clickGame.dir/src/stb_image.cpp.i: cmake_force
@@ -315,7 +300,7 @@ CMakeFiles/clickGame.dir/src/textRendering.cpp.obj: CMakeFiles/clickGame.dir/fla
 CMakeFiles/clickGame.dir/src/textRendering.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/textRendering.cpp.obj: D:/Repos/Clicker-Game/src/textRendering.cpp
 CMakeFiles/clickGame.dir/src/textRendering.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/clickGame.dir/src/textRendering.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/clickGame.dir/src/textRendering.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/textRendering.cpp.obj -MF CMakeFiles\clickGame.dir\src\textRendering.cpp.obj.d -o CMakeFiles\clickGame.dir\src\textRendering.cpp.obj -c D:\Repos\Clicker-Game\src\textRendering.cpp
 
 CMakeFiles/clickGame.dir/src/textRendering.cpp.i: cmake_force
@@ -330,7 +315,7 @@ CMakeFiles/clickGame.dir/src/texture.cpp.obj: CMakeFiles/clickGame.dir/flags.mak
 CMakeFiles/clickGame.dir/src/texture.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/texture.cpp.obj: D:/Repos/Clicker-Game/src/texture.cpp
 CMakeFiles/clickGame.dir/src/texture.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/clickGame.dir/src/texture.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/clickGame.dir/src/texture.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/texture.cpp.obj -MF CMakeFiles\clickGame.dir\src\texture.cpp.obj.d -o CMakeFiles\clickGame.dir\src\texture.cpp.obj -c D:\Repos\Clicker-Game\src\texture.cpp
 
 CMakeFiles/clickGame.dir/src/texture.cpp.i: cmake_force
@@ -345,7 +330,7 @@ CMakeFiles/clickGame.dir/src/glad.c.obj: CMakeFiles/clickGame.dir/flags.make
 CMakeFiles/clickGame.dir/src/glad.c.obj: CMakeFiles/clickGame.dir/includes_C.rsp
 CMakeFiles/clickGame.dir/src/glad.c.obj: D:/Repos/Clicker-Game/src/glad.c
 CMakeFiles/clickGame.dir/src/glad.c.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/clickGame.dir/src/glad.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/clickGame.dir/src/glad.c.obj"
 	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/glad.c.obj -MF CMakeFiles\clickGame.dir\src\glad.c.obj.d -o CMakeFiles\clickGame.dir\src\glad.c.obj -c D:\Repos\Clicker-Game\src\glad.c
 
 CMakeFiles/clickGame.dir/src/glad.c.i: cmake_force
@@ -360,7 +345,7 @@ CMakeFiles/clickGame.dir/external/imgui/imgui.cpp.obj: CMakeFiles/clickGame.dir/
 CMakeFiles/clickGame.dir/external/imgui/imgui.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/external/imgui/imgui.cpp.obj: D:/Repos/Clicker-Game/external/imgui/imgui.cpp
 CMakeFiles/clickGame.dir/external/imgui/imgui.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/clickGame.dir/external/imgui/imgui.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/clickGame.dir/external/imgui/imgui.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/external/imgui/imgui.cpp.obj -MF CMakeFiles\clickGame.dir\external\imgui\imgui.cpp.obj.d -o CMakeFiles\clickGame.dir\external\imgui\imgui.cpp.obj -c D:\Repos\Clicker-Game\external\imgui\imgui.cpp
 
 CMakeFiles/clickGame.dir/external/imgui/imgui.cpp.i: cmake_force
@@ -375,7 +360,7 @@ CMakeFiles/clickGame.dir/external/imgui/imgui_demo.cpp.obj: CMakeFiles/clickGame
 CMakeFiles/clickGame.dir/external/imgui/imgui_demo.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/external/imgui/imgui_demo.cpp.obj: D:/Repos/Clicker-Game/external/imgui/imgui_demo.cpp
 CMakeFiles/clickGame.dir/external/imgui/imgui_demo.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/clickGame.dir/external/imgui/imgui_demo.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/clickGame.dir/external/imgui/imgui_demo.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/external/imgui/imgui_demo.cpp.obj -MF CMakeFiles\clickGame.dir\external\imgui\imgui_demo.cpp.obj.d -o CMakeFiles\clickGame.dir\external\imgui\imgui_demo.cpp.obj -c D:\Repos\Clicker-Game\external\imgui\imgui_demo.cpp
 
 CMakeFiles/clickGame.dir/external/imgui/imgui_demo.cpp.i: cmake_force
@@ -390,7 +375,7 @@ CMakeFiles/clickGame.dir/external/imgui/imgui_draw.cpp.obj: CMakeFiles/clickGame
 CMakeFiles/clickGame.dir/external/imgui/imgui_draw.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/external/imgui/imgui_draw.cpp.obj: D:/Repos/Clicker-Game/external/imgui/imgui_draw.cpp
 CMakeFiles/clickGame.dir/external/imgui/imgui_draw.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/clickGame.dir/external/imgui/imgui_draw.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/clickGame.dir/external/imgui/imgui_draw.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/external/imgui/imgui_draw.cpp.obj -MF CMakeFiles\clickGame.dir\external\imgui\imgui_draw.cpp.obj.d -o CMakeFiles\clickGame.dir\external\imgui\imgui_draw.cpp.obj -c D:\Repos\Clicker-Game\external\imgui\imgui_draw.cpp
 
 CMakeFiles/clickGame.dir/external/imgui/imgui_draw.cpp.i: cmake_force
@@ -405,7 +390,7 @@ CMakeFiles/clickGame.dir/external/imgui/imgui_tables.cpp.obj: CMakeFiles/clickGa
 CMakeFiles/clickGame.dir/external/imgui/imgui_tables.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/external/imgui/imgui_tables.cpp.obj: D:/Repos/Clicker-Game/external/imgui/imgui_tables.cpp
 CMakeFiles/clickGame.dir/external/imgui/imgui_tables.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/clickGame.dir/external/imgui/imgui_tables.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/clickGame.dir/external/imgui/imgui_tables.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/external/imgui/imgui_tables.cpp.obj -MF CMakeFiles\clickGame.dir\external\imgui\imgui_tables.cpp.obj.d -o CMakeFiles\clickGame.dir\external\imgui\imgui_tables.cpp.obj -c D:\Repos\Clicker-Game\external\imgui\imgui_tables.cpp
 
 CMakeFiles/clickGame.dir/external/imgui/imgui_tables.cpp.i: cmake_force
@@ -420,7 +405,7 @@ CMakeFiles/clickGame.dir/external/imgui/imgui_widgets.cpp.obj: CMakeFiles/clickG
 CMakeFiles/clickGame.dir/external/imgui/imgui_widgets.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/external/imgui/imgui_widgets.cpp.obj: D:/Repos/Clicker-Game/external/imgui/imgui_widgets.cpp
 CMakeFiles/clickGame.dir/external/imgui/imgui_widgets.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/clickGame.dir/external/imgui/imgui_widgets.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/clickGame.dir/external/imgui/imgui_widgets.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/external/imgui/imgui_widgets.cpp.obj -MF CMakeFiles\clickGame.dir\external\imgui\imgui_widgets.cpp.obj.d -o CMakeFiles\clickGame.dir\external\imgui\imgui_widgets.cpp.obj -c D:\Repos\Clicker-Game\external\imgui\imgui_widgets.cpp
 
 CMakeFiles/clickGame.dir/external/imgui/imgui_widgets.cpp.i: cmake_force
@@ -435,7 +420,7 @@ CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_glfw.cpp.obj: CMakeF
 CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_glfw.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_glfw.cpp.obj: D:/Repos/Clicker-Game/external/imgui/backends/imgui_impl_glfw.cpp
 CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_glfw.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_glfw.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_glfw.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_glfw.cpp.obj -MF CMakeFiles\clickGame.dir\external\imgui\backends\imgui_impl_glfw.cpp.obj.d -o CMakeFiles\clickGame.dir\external\imgui\backends\imgui_impl_glfw.cpp.obj -c D:\Repos\Clicker-Game\external\imgui\backends\imgui_impl_glfw.cpp
 
 CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_glfw.cpp.i: cmake_force
@@ -450,7 +435,7 @@ CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_opengl3.cpp.obj: CMa
 CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_opengl3.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_opengl3.cpp.obj: D:/Repos/Clicker-Game/external/imgui/backends/imgui_impl_opengl3.cpp
 CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_opengl3.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_opengl3.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_opengl3.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_opengl3.cpp.obj -MF CMakeFiles\clickGame.dir\external\imgui\backends\imgui_impl_opengl3.cpp.obj.d -o CMakeFiles\clickGame.dir\external\imgui\backends\imgui_impl_opengl3.cpp.obj -c D:\Repos\Clicker-Game\external\imgui\backends\imgui_impl_opengl3.cpp
 
 CMakeFiles/clickGame.dir/external/imgui/backends/imgui_impl_opengl3.cpp.i: cmake_force
@@ -465,7 +450,7 @@ CMakeFiles/clickGame.dir/src/soloud/core/soloud.cpp.obj: CMakeFiles/clickGame.di
 CMakeFiles/clickGame.dir/src/soloud/core/soloud.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud.cpp.obj: D:/Repos/Clicker-Game/src/soloud/core/soloud.cpp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/soloud/core/soloud.cpp.obj -MF CMakeFiles\clickGame.dir\src\soloud\core\soloud.cpp.obj.d -o CMakeFiles\clickGame.dir\src\soloud\core\soloud.cpp.obj -c D:\Repos\Clicker-Game\src\soloud\core\soloud.cpp
 
 CMakeFiles/clickGame.dir/src/soloud/core/soloud.cpp.i: cmake_force
@@ -480,7 +465,7 @@ CMakeFiles/clickGame.dir/src/soloud/core/soloud_audiosource.cpp.obj: CMakeFiles/
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_audiosource.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_audiosource.cpp.obj: D:/Repos/Clicker-Game/src/soloud/core/soloud_audiosource.cpp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_audiosource.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_audiosource.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_audiosource.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/soloud/core/soloud_audiosource.cpp.obj -MF CMakeFiles\clickGame.dir\src\soloud\core\soloud_audiosource.cpp.obj.d -o CMakeFiles\clickGame.dir\src\soloud\core\soloud_audiosource.cpp.obj -c D:\Repos\Clicker-Game\src\soloud\core\soloud_audiosource.cpp
 
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_audiosource.cpp.i: cmake_force
@@ -495,7 +480,7 @@ CMakeFiles/clickGame.dir/src/soloud/core/soloud_bus.cpp.obj: CMakeFiles/clickGam
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_bus.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_bus.cpp.obj: D:/Repos/Clicker-Game/src/soloud/core/soloud_bus.cpp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_bus.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_bus.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_bus.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/soloud/core/soloud_bus.cpp.obj -MF CMakeFiles\clickGame.dir\src\soloud\core\soloud_bus.cpp.obj.d -o CMakeFiles\clickGame.dir\src\soloud\core\soloud_bus.cpp.obj -c D:\Repos\Clicker-Game\src\soloud\core\soloud_bus.cpp
 
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_bus.cpp.i: cmake_force
@@ -510,7 +495,7 @@ CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_3d.cpp.obj: CMakeFiles/clic
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_3d.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_3d.cpp.obj: D:/Repos/Clicker-Game/src/soloud/core/soloud_core_3d.cpp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_3d.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_3d.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_3d.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_3d.cpp.obj -MF CMakeFiles\clickGame.dir\src\soloud\core\soloud_core_3d.cpp.obj.d -o CMakeFiles\clickGame.dir\src\soloud\core\soloud_core_3d.cpp.obj -c D:\Repos\Clicker-Game\src\soloud\core\soloud_core_3d.cpp
 
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_3d.cpp.i: cmake_force
@@ -525,7 +510,7 @@ CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_basicops.cpp.obj: CMakeFile
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_basicops.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_basicops.cpp.obj: D:/Repos/Clicker-Game/src/soloud/core/soloud_core_basicops.cpp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_basicops.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_basicops.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_basicops.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_basicops.cpp.obj -MF CMakeFiles\clickGame.dir\src\soloud\core\soloud_core_basicops.cpp.obj.d -o CMakeFiles\clickGame.dir\src\soloud\core\soloud_core_basicops.cpp.obj -c D:\Repos\Clicker-Game\src\soloud\core\soloud_core_basicops.cpp
 
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_basicops.cpp.i: cmake_force
@@ -540,7 +525,7 @@ CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_faderops.cpp.obj: CMakeFile
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_faderops.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_faderops.cpp.obj: D:/Repos/Clicker-Game/src/soloud/core/soloud_core_faderops.cpp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_faderops.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_faderops.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_faderops.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_faderops.cpp.obj -MF CMakeFiles\clickGame.dir\src\soloud\core\soloud_core_faderops.cpp.obj.d -o CMakeFiles\clickGame.dir\src\soloud\core\soloud_core_faderops.cpp.obj -c D:\Repos\Clicker-Game\src\soloud\core\soloud_core_faderops.cpp
 
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_faderops.cpp.i: cmake_force
@@ -555,7 +540,7 @@ CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_filterops.cpp.obj: CMakeFil
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_filterops.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_filterops.cpp.obj: D:/Repos/Clicker-Game/src/soloud/core/soloud_core_filterops.cpp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_filterops.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_filterops.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_filterops.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_filterops.cpp.obj -MF CMakeFiles\clickGame.dir\src\soloud\core\soloud_core_filterops.cpp.obj.d -o CMakeFiles\clickGame.dir\src\soloud\core\soloud_core_filterops.cpp.obj -c D:\Repos\Clicker-Game\src\soloud\core\soloud_core_filterops.cpp
 
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_filterops.cpp.i: cmake_force
@@ -570,7 +555,7 @@ CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_getters.cpp.obj: CMakeFiles
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_getters.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_getters.cpp.obj: D:/Repos/Clicker-Game/src/soloud/core/soloud_core_getters.cpp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_getters.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_getters.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_getters.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_getters.cpp.obj -MF CMakeFiles\clickGame.dir\src\soloud\core\soloud_core_getters.cpp.obj.d -o CMakeFiles\clickGame.dir\src\soloud\core\soloud_core_getters.cpp.obj -c D:\Repos\Clicker-Game\src\soloud\core\soloud_core_getters.cpp
 
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_getters.cpp.i: cmake_force
@@ -585,7 +570,7 @@ CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_setters.cpp.obj: CMakeFiles
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_setters.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_setters.cpp.obj: D:/Repos/Clicker-Game/src/soloud/core/soloud_core_setters.cpp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_setters.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_setters.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_setters.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_setters.cpp.obj -MF CMakeFiles\clickGame.dir\src\soloud\core\soloud_core_setters.cpp.obj.d -o CMakeFiles\clickGame.dir\src\soloud\core\soloud_core_setters.cpp.obj -c D:\Repos\Clicker-Game\src\soloud\core\soloud_core_setters.cpp
 
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_setters.cpp.i: cmake_force
@@ -600,7 +585,7 @@ CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_voicegroup.cpp.obj: CMakeFi
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_voicegroup.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_voicegroup.cpp.obj: D:/Repos/Clicker-Game/src/soloud/core/soloud_core_voicegroup.cpp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_voicegroup.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_voicegroup.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_voicegroup.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_voicegroup.cpp.obj -MF CMakeFiles\clickGame.dir\src\soloud\core\soloud_core_voicegroup.cpp.obj.d -o CMakeFiles\clickGame.dir\src\soloud\core\soloud_core_voicegroup.cpp.obj -c D:\Repos\Clicker-Game\src\soloud\core\soloud_core_voicegroup.cpp
 
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_voicegroup.cpp.i: cmake_force
@@ -615,7 +600,7 @@ CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_voiceops.cpp.obj: CMakeFile
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_voiceops.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_voiceops.cpp.obj: D:/Repos/Clicker-Game/src/soloud/core/soloud_core_voiceops.cpp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_voiceops.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_voiceops.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_voiceops.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_voiceops.cpp.obj -MF CMakeFiles\clickGame.dir\src\soloud\core\soloud_core_voiceops.cpp.obj.d -o CMakeFiles\clickGame.dir\src\soloud\core\soloud_core_voiceops.cpp.obj -c D:\Repos\Clicker-Game\src\soloud\core\soloud_core_voiceops.cpp
 
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_core_voiceops.cpp.i: cmake_force
@@ -630,7 +615,7 @@ CMakeFiles/clickGame.dir/src/soloud/core/soloud_fader.cpp.obj: CMakeFiles/clickG
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_fader.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_fader.cpp.obj: D:/Repos/Clicker-Game/src/soloud/core/soloud_fader.cpp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_fader.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_fader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_fader.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/soloud/core/soloud_fader.cpp.obj -MF CMakeFiles\clickGame.dir\src\soloud\core\soloud_fader.cpp.obj.d -o CMakeFiles\clickGame.dir\src\soloud\core\soloud_fader.cpp.obj -c D:\Repos\Clicker-Game\src\soloud\core\soloud_fader.cpp
 
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_fader.cpp.i: cmake_force
@@ -645,7 +630,7 @@ CMakeFiles/clickGame.dir/src/soloud/core/soloud_fft.cpp.obj: CMakeFiles/clickGam
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_fft.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_fft.cpp.obj: D:/Repos/Clicker-Game/src/soloud/core/soloud_fft.cpp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_fft.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_fft.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_fft.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/soloud/core/soloud_fft.cpp.obj -MF CMakeFiles\clickGame.dir\src\soloud\core\soloud_fft.cpp.obj.d -o CMakeFiles\clickGame.dir\src\soloud\core\soloud_fft.cpp.obj -c D:\Repos\Clicker-Game\src\soloud\core\soloud_fft.cpp
 
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_fft.cpp.i: cmake_force
@@ -660,7 +645,7 @@ CMakeFiles/clickGame.dir/src/soloud/core/soloud_fft_lut.cpp.obj: CMakeFiles/clic
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_fft_lut.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_fft_lut.cpp.obj: D:/Repos/Clicker-Game/src/soloud/core/soloud_fft_lut.cpp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_fft_lut.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_fft_lut.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_fft_lut.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/soloud/core/soloud_fft_lut.cpp.obj -MF CMakeFiles\clickGame.dir\src\soloud\core\soloud_fft_lut.cpp.obj.d -o CMakeFiles\clickGame.dir\src\soloud\core\soloud_fft_lut.cpp.obj -c D:\Repos\Clicker-Game\src\soloud\core\soloud_fft_lut.cpp
 
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_fft_lut.cpp.i: cmake_force
@@ -675,7 +660,7 @@ CMakeFiles/clickGame.dir/src/soloud/core/soloud_file.cpp.obj: CMakeFiles/clickGa
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_file.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_file.cpp.obj: D:/Repos/Clicker-Game/src/soloud/core/soloud_file.cpp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_file.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_file.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_file.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/soloud/core/soloud_file.cpp.obj -MF CMakeFiles\clickGame.dir\src\soloud\core\soloud_file.cpp.obj.d -o CMakeFiles\clickGame.dir\src\soloud\core\soloud_file.cpp.obj -c D:\Repos\Clicker-Game\src\soloud\core\soloud_file.cpp
 
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_file.cpp.i: cmake_force
@@ -690,7 +675,7 @@ CMakeFiles/clickGame.dir/src/soloud/core/soloud_filter.cpp.obj: CMakeFiles/click
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_filter.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_filter.cpp.obj: D:/Repos/Clicker-Game/src/soloud/core/soloud_filter.cpp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_filter.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_filter.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_filter.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/soloud/core/soloud_filter.cpp.obj -MF CMakeFiles\clickGame.dir\src\soloud\core\soloud_filter.cpp.obj.d -o CMakeFiles\clickGame.dir\src\soloud\core\soloud_filter.cpp.obj -c D:\Repos\Clicker-Game\src\soloud\core\soloud_filter.cpp
 
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_filter.cpp.i: cmake_force
@@ -705,7 +690,7 @@ CMakeFiles/clickGame.dir/src/soloud/core/soloud_misc.cpp.obj: CMakeFiles/clickGa
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_misc.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_misc.cpp.obj: D:/Repos/Clicker-Game/src/soloud/core/soloud_misc.cpp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_misc.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_misc.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_misc.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/soloud/core/soloud_misc.cpp.obj -MF CMakeFiles\clickGame.dir\src\soloud\core\soloud_misc.cpp.obj.d -o CMakeFiles\clickGame.dir\src\soloud\core\soloud_misc.cpp.obj -c D:\Repos\Clicker-Game\src\soloud\core\soloud_misc.cpp
 
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_misc.cpp.i: cmake_force
@@ -720,7 +705,7 @@ CMakeFiles/clickGame.dir/src/soloud/core/soloud_queue.cpp.obj: CMakeFiles/clickG
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_queue.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_queue.cpp.obj: D:/Repos/Clicker-Game/src/soloud/core/soloud_queue.cpp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_queue.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_queue.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_queue.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/soloud/core/soloud_queue.cpp.obj -MF CMakeFiles\clickGame.dir\src\soloud\core\soloud_queue.cpp.obj.d -o CMakeFiles\clickGame.dir\src\soloud\core\soloud_queue.cpp.obj -c D:\Repos\Clicker-Game\src\soloud\core\soloud_queue.cpp
 
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_queue.cpp.i: cmake_force
@@ -735,7 +720,7 @@ CMakeFiles/clickGame.dir/src/soloud/core/soloud_thread.cpp.obj: CMakeFiles/click
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_thread.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_thread.cpp.obj: D:/Repos/Clicker-Game/src/soloud/core/soloud_thread.cpp
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_thread.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_thread.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/core/soloud_thread.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/soloud/core/soloud_thread.cpp.obj -MF CMakeFiles\clickGame.dir\src\soloud\core\soloud_thread.cpp.obj.d -o CMakeFiles\clickGame.dir\src\soloud\core\soloud_thread.cpp.obj -c D:\Repos\Clicker-Game\src\soloud\core\soloud_thread.cpp
 
 CMakeFiles/clickGame.dir/src/soloud/core/soloud_thread.cpp.i: cmake_force
@@ -750,7 +735,7 @@ CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/dr_impl.cpp.obj: CMakeFiles/
 CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/dr_impl.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/dr_impl.cpp.obj: D:/Repos/Clicker-Game/src/soloud/audiosource/wav/dr_impl.cpp
 CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/dr_impl.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/dr_impl.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/dr_impl.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/dr_impl.cpp.obj -MF CMakeFiles\clickGame.dir\src\soloud\audiosource\wav\dr_impl.cpp.obj.d -o CMakeFiles\clickGame.dir\src\soloud\audiosource\wav\dr_impl.cpp.obj -c D:\Repos\Clicker-Game\src\soloud\audiosource\wav\dr_impl.cpp
 
 CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/dr_impl.cpp.i: cmake_force
@@ -765,7 +750,7 @@ CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/soloud_wav.cpp.obj: CMakeFil
 CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/soloud_wav.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/soloud_wav.cpp.obj: D:/Repos/Clicker-Game/src/soloud/audiosource/wav/soloud_wav.cpp
 CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/soloud_wav.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/soloud_wav.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/soloud_wav.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/soloud_wav.cpp.obj -MF CMakeFiles\clickGame.dir\src\soloud\audiosource\wav\soloud_wav.cpp.obj.d -o CMakeFiles\clickGame.dir\src\soloud\audiosource\wav\soloud_wav.cpp.obj -c D:\Repos\Clicker-Game\src\soloud\audiosource\wav\soloud_wav.cpp
 
 CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/soloud_wav.cpp.i: cmake_force
@@ -780,7 +765,7 @@ CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/soloud_wavstream.cpp.obj: CM
 CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/soloud_wavstream.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/soloud_wavstream.cpp.obj: D:/Repos/Clicker-Game/src/soloud/audiosource/wav/soloud_wavstream.cpp
 CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/soloud_wavstream.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/soloud_wavstream.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/soloud_wavstream.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/soloud_wavstream.cpp.obj -MF CMakeFiles\clickGame.dir\src\soloud\audiosource\wav\soloud_wavstream.cpp.obj.d -o CMakeFiles\clickGame.dir\src\soloud\audiosource\wav\soloud_wavstream.cpp.obj -c D:\Repos\Clicker-Game\src\soloud\audiosource\wav\soloud_wavstream.cpp
 
 CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/soloud_wavstream.cpp.i: cmake_force
@@ -795,7 +780,7 @@ CMakeFiles/clickGame.dir/src/soloud/backend/miniaudio/soloud_miniaudio.cpp.obj: 
 CMakeFiles/clickGame.dir/src/soloud/backend/miniaudio/soloud_miniaudio.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
 CMakeFiles/clickGame.dir/src/soloud/backend/miniaudio/soloud_miniaudio.cpp.obj: D:/Repos/Clicker-Game/src/soloud/backend/miniaudio/soloud_miniaudio.cpp
 CMakeFiles/clickGame.dir/src/soloud/backend/miniaudio/soloud_miniaudio.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/backend/miniaudio/soloud_miniaudio.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/clickGame.dir/src/soloud/backend/miniaudio/soloud_miniaudio.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/soloud/backend/miniaudio/soloud_miniaudio.cpp.obj -MF CMakeFiles\clickGame.dir\src\soloud\backend\miniaudio\soloud_miniaudio.cpp.obj.d -o CMakeFiles\clickGame.dir\src\soloud\backend\miniaudio\soloud_miniaudio.cpp.obj -c D:\Repos\Clicker-Game\src\soloud\backend\miniaudio\soloud_miniaudio.cpp
 
 CMakeFiles/clickGame.dir/src/soloud/backend/miniaudio/soloud_miniaudio.cpp.i: cmake_force
@@ -810,7 +795,7 @@ CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/stb_vorbis.c.obj: CMakeFiles
 CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/stb_vorbis.c.obj: CMakeFiles/clickGame.dir/includes_C.rsp
 CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/stb_vorbis.c.obj: D:/Repos/Clicker-Game/src/soloud/audiosource/wav/stb_vorbis.c
 CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/stb_vorbis.c.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/stb_vorbis.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/stb_vorbis.c.obj"
 	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/stb_vorbis.c.obj -MF CMakeFiles\clickGame.dir\src\soloud\audiosource\wav\stb_vorbis.c.obj.d -o CMakeFiles\clickGame.dir\src\soloud\audiosource\wav\stb_vorbis.c.obj -c D:\Repos\Clicker-Game\src\soloud\audiosource\wav\stb_vorbis.c
 
 CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/stb_vorbis.c.i: cmake_force
@@ -821,6 +806,36 @@ CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/stb_vorbis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/stb_vorbis.c.s"
 	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Repos\Clicker-Game\src\soloud\audiosource\wav\stb_vorbis.c -o CMakeFiles\clickGame.dir\src\soloud\audiosource\wav\stb_vorbis.c.s
 
+CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Platform_GLFW.cpp.obj: CMakeFiles/clickGame.dir/flags.make
+CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Platform_GLFW.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
+CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Platform_GLFW.cpp.obj: D:/Repos/Clicker-Game/external/RmlUi/Backends/RmlUi_Platform_GLFW.cpp
+CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Platform_GLFW.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Platform_GLFW.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Platform_GLFW.cpp.obj -MF CMakeFiles\clickGame.dir\external\RmlUi\Backends\RmlUi_Platform_GLFW.cpp.obj.d -o CMakeFiles\clickGame.dir\external\RmlUi\Backends\RmlUi_Platform_GLFW.cpp.obj -c D:\Repos\Clicker-Game\external\RmlUi\Backends\RmlUi_Platform_GLFW.cpp
+
+CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Platform_GLFW.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Platform_GLFW.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Repos\Clicker-Game\external\RmlUi\Backends\RmlUi_Platform_GLFW.cpp > CMakeFiles\clickGame.dir\external\RmlUi\Backends\RmlUi_Platform_GLFW.cpp.i
+
+CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Platform_GLFW.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Platform_GLFW.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Repos\Clicker-Game\external\RmlUi\Backends\RmlUi_Platform_GLFW.cpp -o CMakeFiles\clickGame.dir\external\RmlUi\Backends\RmlUi_Platform_GLFW.cpp.s
+
+CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Renderer_GL3.cpp.obj: CMakeFiles/clickGame.dir/flags.make
+CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Renderer_GL3.cpp.obj: CMakeFiles/clickGame.dir/includes_CXX.rsp
+CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Renderer_GL3.cpp.obj: D:/Repos/Clicker-Game/external/RmlUi/Backends/RmlUi_Renderer_GL3.cpp
+CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Renderer_GL3.cpp.obj: CMakeFiles/clickGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Renderer_GL3.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Renderer_GL3.cpp.obj -MF CMakeFiles\clickGame.dir\external\RmlUi\Backends\RmlUi_Renderer_GL3.cpp.obj.d -o CMakeFiles\clickGame.dir\external\RmlUi\Backends\RmlUi_Renderer_GL3.cpp.obj -c D:\Repos\Clicker-Game\external\RmlUi\Backends\RmlUi_Renderer_GL3.cpp
+
+CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Renderer_GL3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Renderer_GL3.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Repos\Clicker-Game\external\RmlUi\Backends\RmlUi_Renderer_GL3.cpp > CMakeFiles\clickGame.dir\external\RmlUi\Backends\RmlUi_Renderer_GL3.cpp.i
+
+CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Renderer_GL3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Renderer_GL3.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Repos\Clicker-Game\external\RmlUi\Backends\RmlUi_Renderer_GL3.cpp -o CMakeFiles\clickGame.dir\external\RmlUi\Backends\RmlUi_Renderer_GL3.cpp.s
+
 # Object files for target clickGame
 clickGame_OBJECTS = \
 "CMakeFiles/clickGame.dir/src/audioManager.cpp.obj" \
@@ -830,7 +845,6 @@ clickGame_OBJECTS = \
 "CMakeFiles/clickGame.dir/src/game.cpp.obj" \
 "CMakeFiles/clickGame.dir/src/gameObject.cpp.obj" \
 "CMakeFiles/clickGame.dir/src/image.cpp.obj" \
-"CMakeFiles/clickGame.dir/src/main.cpp.obj" \
 "CMakeFiles/clickGame.dir/src/menuManager.cpp.obj" \
 "CMakeFiles/clickGame.dir/src/menuObject.cpp.obj" \
 "CMakeFiles/clickGame.dir/src/objectManager.cpp.obj" \
@@ -872,7 +886,9 @@ clickGame_OBJECTS = \
 "CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/soloud_wav.cpp.obj" \
 "CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/soloud_wavstream.cpp.obj" \
 "CMakeFiles/clickGame.dir/src/soloud/backend/miniaudio/soloud_miniaudio.cpp.obj" \
-"CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/stb_vorbis.c.obj"
+"CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/stb_vorbis.c.obj" \
+"CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Platform_GLFW.cpp.obj" \
+"CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Renderer_GL3.cpp.obj"
 
 # External object files for target clickGame
 clickGame_EXTERNAL_OBJECTS =
@@ -884,7 +900,6 @@ clickGame.exe: CMakeFiles/clickGame.dir/src/clickObject.cpp.obj
 clickGame.exe: CMakeFiles/clickGame.dir/src/game.cpp.obj
 clickGame.exe: CMakeFiles/clickGame.dir/src/gameObject.cpp.obj
 clickGame.exe: CMakeFiles/clickGame.dir/src/image.cpp.obj
-clickGame.exe: CMakeFiles/clickGame.dir/src/main.cpp.obj
 clickGame.exe: CMakeFiles/clickGame.dir/src/menuManager.cpp.obj
 clickGame.exe: CMakeFiles/clickGame.dir/src/menuObject.cpp.obj
 clickGame.exe: CMakeFiles/clickGame.dir/src/objectManager.cpp.obj
@@ -927,18 +942,22 @@ clickGame.exe: CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/soloud_wav.cp
 clickGame.exe: CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/soloud_wavstream.cpp.obj
 clickGame.exe: CMakeFiles/clickGame.dir/src/soloud/backend/miniaudio/soloud_miniaudio.cpp.obj
 clickGame.exe: CMakeFiles/clickGame.dir/src/soloud/audiosource/wav/stb_vorbis.c.obj
+clickGame.exe: CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Platform_GLFW.cpp.obj
+clickGame.exe: CMakeFiles/clickGame.dir/external/RmlUi/Backends/RmlUi_Renderer_GL3.cpp.obj
 clickGame.exe: CMakeFiles/clickGame.dir/build.make
 clickGame.exe: C:/msys64/ucrt64/lib/libglfw3.dll.a
 clickGame.exe: C:/msys64/ucrt64/lib/libfreetype.dll.a
 clickGame.exe: C:/msys64/ucrt64/lib/libassimp.dll.a
+clickGame.exe: librmlui_debugger.dll.a
+clickGame.exe: librmlui.dll.a
 clickGame.exe: C:/msys64/ucrt64/lib/libz.dll.a
 clickGame.exe: C:/msys64/ucrt64/lib/libminizip.dll.a
 clickGame.exe: CMakeFiles/clickGame.dir/linkLibs.rsp
 clickGame.exe: CMakeFiles/clickGame.dir/objects1.rsp
 clickGame.exe: CMakeFiles/clickGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Linking CXX executable clickGame.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Repos\Clicker-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Linking CXX executable clickGame.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\clickGame.dir\link.txt --verbose=$(VERBOSE)
-	C:\msys64\ucrt64\bin\cmake.exe -E copy_directory D:/Repos/Clicker-Game/resources D:/Repos/Clicker-Game/build/resources
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copying game resources"
 	C:\msys64\ucrt64\bin\cmake.exe -E copy_directory D:/Repos/Clicker-Game/resources D:/Repos/Clicker-Game/build/resources
 
 # Rule to build all files generated by this target.

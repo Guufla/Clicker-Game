@@ -9,24 +9,30 @@ ObjectManager::ObjectManager()
     Renderer = new SpriteRenderer(ResourceManager::GetShader("sprite"));
 }
 
+
+
 void ObjectManager::Update(float dt)
 {
+    // The bubbles have to bounce off the borders of the menu
+    
     // Update movement every frame based on the objects velocity variable
     for (GameObject *obj : this->Objects)
     {
+        obj->Update(dt);
+        
         obj->Position.x += obj->Velocity.x * dt * 100.0f;
         obj->Position.y += obj->Velocity.y * dt * 100.0f;
         
         if(obj->Tag == 1) // If the object is a bubble, make sure it does not go outside the screen bounds
         {
-            if(obj->Position.x < 0.0f)
+            if(obj->Position.x - obj->Size.x*0.5 < 0.0f)
             {
-                obj->Position.x = 0.0f;
+                obj->Position.x = obj->Size.x*0.5;
                 obj->Velocity.x *= -1.0f;
             }
-            else if(obj->Position.x + obj->Size.x*0.5 > BubbleBop.Width)
+            else if(obj->Position.x + obj->Size.x*0.5 > BubbleBop.Width - BubbleBop.menuWidth)
             {
-                obj->Position.x = BubbleBop.Width - obj->Size.x*0.5;
+                obj->Position.x = BubbleBop.Width - BubbleBop.menuWidth - obj->Size.x*0.5;
                 obj->Velocity.x *= -1.0f;
             }
             if(obj->Position.y - obj->Size.y*0.5 < 0.0f)

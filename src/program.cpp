@@ -46,6 +46,8 @@ int main(int arc, char* argv[])
     
     glfwMakeContextCurrent(window);
     
+    glfwSetWindowSizeLimits(window, SCR_WIDTH, SCR_HEIGHT, GLFW_DONT_CARE, GLFW_DONT_CARE);
+    
     
     // glad: load all OpenGL function pointers
     // ---------------------------------------

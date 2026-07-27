@@ -36,6 +36,7 @@ void BubbleObject::Update(float dt)
         Sprite = ResourceManager::GetTexture("popFrame1");
         if(PopTimer >= PopTime)
         {
+            BubbleBop.bubbleManager->DeleteBubble();
             this->Destroyed = true;
         }
         else if(PopTimer > PopTime*0.7f){

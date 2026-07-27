@@ -1,34 +1,250 @@
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+hr,
+pre,
+tabset tabs {
+    display: block;
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: .75em 0;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin: .83em 0;
+}
+
+h4,
+p {
+    margin: 1.12em 0;
+}
+
+h5 {
+    font-size: .83em;
+    margin: 1.5em 0;
+}
+
+h6 {
+    font-size: .75em;
+    margin: 1.67em 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+pre {
+    white-space: pre;
+}
+
+hr {
+    border-width: 1px;
+}
+
+table {
+    box-sizing: border-box;
+    display: table;
+}
+
+tr {
+    box-sizing: border-box;
+    display: table-row;
+}
+
+td {
+    box-sizing: border-box;
+    display: table-cell;
+}
+
+col {
+    box-sizing: border-box;
+    display: table-column;
+}
+
+colgroup {
+    display: table-column-group;
+}
+
+thead,
+tbody,
+tfoot {
+    display: table-row-group;
+}
+
+
 body {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     margin: 0;
-    font-size: 16px;
 
     font-family: GAMERIA;
+    font-size: 25px;
     color: white;
 }
 
-#title {
+#Buy-Menu {
     position: absolute;
+    box-sizing: border-box;
 
-    width: 400px;
-    height: 100%;
+    width: 30vw;
+    height: 100vh;
 
-    right: 0%;
-    top: 0%;
+    top: 0;
+    right: 0;
 
     padding: 25px;
 
     text-align: center;
     background-color: #18202e;
-    border-color: #3567a5;
-    border-width: 5px;
+
+    border: 1px #3567a5;
+}
+
+#title {
+    display: block;
+    box-sizing: border-box;
+
+    width: 100%;
+    margin: 20px 0 25px 0;
+
+    color: red;
+}
+
+#upgrade-tabs {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+#upgrade-tabs tabs {
+    display: block;
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 65px;
+
+    white-space: nowrap;
+}
+
+#upgrade-tabs tab {
+    display: inline-block;
+    box-sizing: border-box;
+
+    width: 33%;
+    height: 55px;
+    padding: 10px 2px;
+
+    color: white;
+    background-color: #3567a5;
+    text-align: center;
+}
+
+#upgrade-tabs tab:hover {
+    background-color: #477dbf;
+}
+
+#upgrade-tabs panels {
+    display: block;
+    box-sizing: border-box;
+
+    width: 100%;
+    margin-top: 15px;
+}
+
+#upgrade-tabs panel {
+    display: block;
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 60vh;
+    padding: 20px;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    text-align: left;
+    white-space: normal;
+
+    background-color: #202c3d;
+
+    border: 1px #3567a5;
+}
+
+#upgrade-tabs panel h2 {
+    display: block;
+    width: auto;
+    margin: 0 0 15px 0;
+
+    text-align: center;
+}
+
+#upgrade-tabs panel p {
+    display: block;
+    width: auto;
+    margin: 0 0 12px 0;
+
+    white-space: normal;
 }
 
 button {
+    box-sizing: border-box;
+
     width: 250px;
     height: 55px;
 
     color: white;
+    background-color: #3567a5;
+}
+
+scrollbarvertical {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 0px;
+}
+
+
+scrollbarvertical sliderarrowdec,
+scrollbarvertical sliderarrowinc {
+    width: 0;
+    height: 0;
+}
+
+scrollbarvertical slidertrack {
+    width: 30px;
+    margin-left: 0;
+
+    background-color: #111822;
+}
+
+scrollbarvertical sliderbar {
+    width: 23px;
+    min-height: 30px;
+    margin-left: 2px;
+
     background-color: #3567a5;
 }

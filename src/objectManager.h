@@ -17,13 +17,16 @@
 #include <soloud/soloud_wav.h>
 #include <queue>
 
+#include <RmlUi/Core/Context.h>
+#include <RmlUi/Core/ElementDocument.h>
+#include <RmlUi/Core/Element.h>
 
 
 class ObjectManager
 {
 public:
-    std::vector<GameObject*> Objects; // Make a list of all the possible bubble upgrades and their templates
-    SpriteRenderer    *Renderer;
+    std::vector<GameObject*> Objects; // Make a list of all objects in the scene
+    SpriteRenderer          *Renderer;
     
     // constructor(s)
     ObjectManager();
@@ -41,6 +44,7 @@ private:
     
     void DestroyObjects();
     
+
     
     static bool SortXAxis(const GameObject* obj1, const GameObject* obj2);
     static bool SortYAxis(const GameObject* obj1, const GameObject* obj2);
@@ -48,6 +52,7 @@ private:
     float Max(float a, float b);
 
     float Min(float a, float b);
+    
 };
 
 

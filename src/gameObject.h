@@ -70,6 +70,10 @@ public:
     {
         
     }
+    virtual void Update(float dt)
+    {
+        
+    }
     
     virtual ~GameObject() = default;
 };

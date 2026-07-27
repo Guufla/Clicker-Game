@@ -6,11 +6,67 @@
     </head>
 
     <body>
-        <div id="title">
-            <h1>Clicker Game</h1>
-        </div>
-        <div id="TestButton">
-            <button>Play</button>
+        <div id="Buy-Menu">
+            <h1 id="title">Clicker Game</h1>
+
+            <tabset id="upgrade-tabs">
+                <tab>General</tab>
+                <panel>
+                    <h2>General Upgrades</h2>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                    <p>Welcome to the general upgrades tab!</p>
+                </panel>
+
+                <tab>Clicking</tab>
+                <panel>
+                    <h2>Click Upgrades</h2>
+                    <p>Welcome to the click upgrades tab!</p>
+                </panel>
+
+                <tab>Bubbles</tab>
+                <panel>
+                    <h2>Bubble Upgrades</h2>
+                    <p>Welcome to the bubble upgrades tab!</p>
+                </panel>
+            </tabset>
         </div>
     </body>
 </rml>

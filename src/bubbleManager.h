@@ -16,17 +16,18 @@
 class BubbleManager
 {
 public:
-    std::vector<BubbleObject*> Bubbles;
     std::vector<GameObject> Upgrades; // Make a list of all the possible bubble upgrades and their templates
     float bubbleAdd;
     float bubbleMult;
     float spawnRate;
+    float spawnMax;
     float spawnTimer;
+    int   bubbleCount;
     
     
     // constructor(s)
     BubbleManager();
-    BubbleManager(float bubbleAdd, float bubbleMult, float spawnRate);
+    BubbleManager(float additive, float multiplier, float spawnRateValue,float spawnMaxValue);
 
     void Update(float dt);
     void RenderDebugCenters(SpriteRenderer& renderer);
@@ -37,7 +38,9 @@ public:
                     float points,
                     float popTime,
                     glm::vec2 movementDirection);
-    
+
+    void DeleteBubble();
+
 private:
     
 };

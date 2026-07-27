@@ -28,7 +28,10 @@ Game::~Game()
 {
     delete Renderer;
 }
+
 // Initializes the game state (load all shaders/textures/levels)
+
+#pragma region Game Loop
 bool Game::Init(GLFWwindow* glfwWindow)
 {
     window = glfwWindow;
@@ -71,7 +74,7 @@ bool Game::Init(GLFWwindow* glfwWindow)
     menuManager = new MenuManager(); // Initialize menus
     
     // Bubble manager 
-    bubbleManager = new BubbleManager(); // Initialize menus
+    bubbleManager = new BubbleManager(0,0,0.01f,1000); // Initialize menus
     
     // Object Manager
     objectManager = new ObjectManager();
@@ -148,12 +151,11 @@ bool Game::Init(GLFWwindow* glfwWindow)
     std::string fontPath = FileSystem::getPath("resources/fonts/GAMERIA.ttf").c_str();
     Text->Load(fontPath,100);
     
+    GetRmlMenuElement();
     return true;
 
 
 }
-
-
 
 void Game::Update(float dt,double mouseX,double mouseY)
 {
@@ -189,6 +191,8 @@ void Game::Update(float dt,double mouseX,double mouseY)
         }
     }
 
+    // If the screen is resized the menu dimensions need to be updated
+    UpdateMenuDimensions();
 
     // Audio Clean Up
     Audio->CleanUpSounds();
@@ -278,9 +282,6 @@ void Game::Render()
     }
 }
 
-
-
-
 void Game::DoCollisions(float dt)
 {
     // Skip collisions if the game is paused
@@ -292,8 +293,9 @@ void Game::DoCollisions(float dt)
     objectManager->ObjectCollisions(dt);
     
 }
+#pragma endregion Game Loop
 
-
+#pragma region Rml Functions
 bool Game::InitializeRmlUi()
 {
     if (window == nullptr)
@@ -363,7 +365,6 @@ bool Game::InitializeRmlUi()
     return true;
 }
 
-
 void Game::Resize(int width, int height)
 {
     Width = static_cast<unsigned int>(width);
@@ -400,8 +401,6 @@ void Game::Resize(int width, int height)
         
         
 }
-    
-    
 
 void Game::ShutdownRmlUi()
 {
@@ -424,8 +423,46 @@ void Game::ShutdownRmlUi()
     window = nullptr;
 }
 
+Rml::Context* Game::GetRmlContext() const
+{
+    return rmlContext;
+}
 
-// Helper Functions
+void Game::GetRmlMenuElement()
+{
+    if (!rmlContext)
+    {
+        printf("Rml context is null\n");
+        return;
+    }
+
+    rmlDocument = rmlContext->LoadDocument(FileSystem::getPath("resources/ui/main_menu.rml"));
+
+    if (!rmlDocument)
+    {
+        printf("Failed to load main_menu.rml\n");
+        return;
+    }
+
+    printf("Got document\n");
+
+    rmlDocument->Show();
+
+    menuElement = rmlDocument->GetElementById("Buy-Menu");
+
+    if (menuElement)
+    {
+        printf("Got element\n");
+    }
+    else
+    {
+        printf("Could not find element Buy-Menu\n");
+    }
+}
+#pragma endregion
+
+
+#pragma region Helper Functions
 
 void Game::AddMoney(float points)
 {
@@ -433,7 +470,11 @@ void Game::AddMoney(float points)
     // Add click additive and multiplier logic either here or in the bubble object script
 }
 
-Rml::Context* Game::GetRmlContext() const
+void Game::UpdateMenuDimensions()
 {
-    return rmlContext;
+    dimensions = menuElement->GetBox().GetSize(Rml::BoxArea::Border);
+    
+    menuWidth = dimensions.x;
+    menuHeight = dimensions.y;
 }
+#pragma endregion Helper Functions

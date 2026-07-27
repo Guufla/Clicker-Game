@@ -91,6 +91,7 @@ public:
 
     float Max(float a, float b);
     float Min(float a, float b);
+    
 
     // buy an item from the shop
     //void BuyItem(std::string item);
@@ -102,28 +103,35 @@ public:
     BubbleManager     *bubbleManager;
     ObjectManager     *objectManager;
     MenuManager       *menuManager;
+    
+    float menuWidth;
+    float menuHeight;
 
 
 private:
 
+    void GetRmlMenuElement();
+    
+    void UpdateMenuDimensions();
+    
+    
     // Sprite renderer
     SpriteRenderer    *Renderer;
     
     // Persistent Game Objects
     ClickObject       *Click;
-    // GameObject        *Wall1;
-    // GameObject        *Wall2;
-    // GameObject        *Wall3;
-    // GameObject        *Wall4;
     
-
 
     GLFWwindow* window = nullptr;
 
     std::unique_ptr<SystemInterface_GLFW> rmlSystem;
     std::unique_ptr<RenderInterface_GL3> rmlRenderer;
 
-    Rml::Context* rmlContext = nullptr;
+    Rml::Context            *rmlContext = nullptr;
+    Rml::ElementDocument    *rmlDocument = nullptr;
+    Rml::Element            *menuElement = nullptr;
+    
+    Rml::Vector2f dimensions;
 
     bool InitializeRmlUi();
 };

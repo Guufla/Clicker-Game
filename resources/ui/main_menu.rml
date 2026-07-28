@@ -13,46 +13,20 @@
                 <tab>General</tab>
                 <panel>
                     <h2>General Upgrades</h2>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
-                    <p>Welcome to the general upgrades tab!</p>
+                    <div class="upgrade">
+                        <div class="upgradeImage">
+                            <img src="circle.tga" class="upgradePicture"></img>
+                        </div>
+                        <div class="upgradeText">
+                            <p>Name:</p>
+                            <p>Quantity:</p>
+                            <p>Description:</p>
+                        </div>
+                        <div class="upgradeButton">
+                            <button>BuyItem</button>
+                        </div>
+
+                    </div>
                 </panel>
 
                 <tab>Clicking</tab>

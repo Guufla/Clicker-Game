@@ -100,7 +100,7 @@ body {
     height: 100vh;
     margin: 0;
 
-    font-family: GAMERIA;
+    font-family: Roboto;
     font-size: 25px;
     color: white;
 }
@@ -210,12 +210,74 @@ body {
     white-space: normal;
 }
 
-button {
+.upgrade {
+    display: flex;
+    font: 10px;
+    color: white;
+    background-color: #111822;
+}
+
+.upgradeImage {
+    width: 20%;
+    height: auto;
+    overflow: hidden;
+}
+
+.upgradeImage img {
+    width: 100%;
+    height: auto;
+}
+
+.upgradeText {
+    width: 60%;
+    font-family: Roboto;
+    margin-top: 1vh;
+    margin-left: 0.2vw;
+    font-size: 0.8vw;
+}
+
+.upgradeText p {
+    width: 100%;
+    margin-top: 1vh;
+    margin-bottom: 0.2vh;
+    height: auto;
+}
+
+.upgradeButton {
+    width: 20%;
+    font: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+}
+
+.upgradeButton button {
     box-sizing: border-box;
 
-    width: 250px;
-    height: 55px;
+    width: 90%;
+    min-width: 0;
 
+    padding: 5px;
+
+    font-family: Roboto;
+    font-size: 1vw;
+
+    color: white;
+    background-color: #3567a5;
+}
+
+.upgradeButton button:hover {
+    background-color: #0e4079;
+}
+
+.upgradeButton button:active {
+    background-color: #4073ff;
+}
+
+button {
+    box-sizing: border-box;
     color: white;
     background-color: #3567a5;
 }

@@ -351,6 +351,11 @@ bool Game::InitializeRmlUi()
     }
 
     if (!Rml::LoadFontFace(
+            FileSystem::getPath("resources/fonts/Roboto-Regular.ttf").c_str()))
+    {
+        std::cerr << "Failed to load RmlUi font.\n";
+    }
+    if (!Rml::LoadFontFace(
             FileSystem::getPath("resources/fonts/GAMERIA.ttf").c_str()))
     {
         std::cerr << "Failed to load RmlUi font.\n";

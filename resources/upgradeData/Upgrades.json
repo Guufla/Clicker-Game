@@ -1,0 +1,47 @@
+{
+    "general": [
+        {
+            "id": "auto_clicker",
+            "name": "Auto Clicker",
+            "description": "Automatically clicks once every second.",
+            "image": "circle.tga",
+            "price": 10,
+            "quantity": 0,
+            "index":0
+        },
+        {
+            "id": "click_multiplier",
+            "name": "Click Multiplier",
+            "description": "Doubles the value of every click.",
+            "image": "circle.tga",
+            "price": 50,
+            "quantity": 0,
+            "index":1
+        }
+    ],
+
+    "clicking": [
+        {
+            "id": "strong_click",
+            "name": "Strong Click",
+            "description": "Adds one point to every manual click.",
+            "image": "circle.tga",
+            "price": 5,
+            "quantity": 0,
+            "index":2
+
+        }
+    ],
+
+    "bubbles": [
+        {
+            "id": "bubble_value",
+            "name": "Bubble Value",
+            "description": "Bubbles are worth more points.",
+            "image": "circle.tga",
+            "price": 25,
+            "quantity": 0,
+            "index":3
+        }
+    ]
+}

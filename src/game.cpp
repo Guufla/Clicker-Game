@@ -79,6 +79,9 @@ bool Game::Init(GLFWwindow* glfwWindow)
     // Object Manager
     objectManager = new ObjectManager();
     
+    // Upgrade Manager
+    upgradeManager = new UpgradeManager();
+    
     if (!InitializeRmlUi())
     {
         std::cerr << "Failed to initialize RmlUi.\n";
@@ -150,6 +153,8 @@ bool Game::Init(GLFWwindow* glfwWindow)
     Text = new TextRenderer(static_cast<float>(this->Width),static_cast<float>(this->Height));
     std::string fontPath = FileSystem::getPath("resources/fonts/GAMERIA.ttf").c_str();
     Text->Load(fontPath,100);
+    
+    upgradeManager->Start();
     
     GetRmlMenuElement();
     return true;

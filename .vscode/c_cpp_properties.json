@@ -6,7 +6,11 @@
             "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "windows-gcc-x64"
+            "intelliSenseMode": "windows-gcc-x64",
+            "includePath": [
+                "${default}",
+                "${workspaceFolder}/include"
+            ]
         }
     ],
     "version": 4

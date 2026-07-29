@@ -19,6 +19,7 @@
 #include "menuManager.h"
 #include "bubbleManager.h"
 #include "objectManager.h"
+#include "upgradeManager.h"
 
 #include "imgui.h"
 #include "imgui_impl_glfw.h"
@@ -103,6 +104,7 @@ public:
     BubbleManager     *bubbleManager;
     ObjectManager     *objectManager;
     MenuManager       *menuManager;
+    UpgradeManager    *upgradeManager;
     
     float menuWidth;
     float menuHeight;

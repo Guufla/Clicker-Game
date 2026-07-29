@@ -25,6 +25,7 @@ find_package(OpenGL REQUIRED)
 find_package(Freetype REQUIRED)
 find_package(assimp CONFIG REQUIRED)
 find_package(glfw3 CONFIG REQUIRED)
+find_package(jsoncpp CONFIG REQUIRED)
 
 # --------------------------------------------------
 # RmlUi
@@ -146,7 +147,7 @@ target_compile_definitions(clickGame PRIVATE
 target_include_directories(clickGame PRIVATE
     "${CMAKE_CURRENT_SOURCE_DIR}/include"
     "${CMAKE_CURRENT_SOURCE_DIR}/include/soloud"
-
+    "${CMAKE_CURRENT_SOURCE_DIR}/src"
     "${CMAKE_CURRENT_SOURCE_DIR}/external/imgui"
     "${CMAKE_CURRENT_SOURCE_DIR}/external/imgui/backends"
 )
@@ -162,7 +163,7 @@ target_link_directories(clickGame PRIVATE
 # --------------------------------------------------
 
 target_link_libraries(clickGame PRIVATE
-    # RmlUi core and debugger
+    # RmlUi core and backend
     RmlUi::RmlUi
     rmlui_backend_glfw_gl3
 
@@ -170,6 +171,7 @@ target_link_libraries(clickGame PRIVATE
     glfw
     Freetype::Freetype
     assimp::assimp
+    JsonCpp::JsonCpp
     OpenGL::GL
     winmm
 )

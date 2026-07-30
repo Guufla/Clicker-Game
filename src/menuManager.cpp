@@ -2,6 +2,10 @@
 
 #include <iostream>
 
+#include "game.h"
+
+extern Game BubbleBop;
+
 MenuManager::MenuManager()
 {
 
@@ -20,6 +24,10 @@ bool MenuManager::Initialize(Rml::Context* newContext)
     }
 
     context = newContext;
+    
+    BubbleBop.upgradeManager->InitializeDataModel(context);
+    BubbleBop.upgradeManager->LoadGeneralUpgrades();
+    
 
     const Rml::String menuPath = FileSystem::getPath("resources/ui/main_menu.rml").c_str();
 

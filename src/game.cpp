@@ -69,6 +69,9 @@ bool Game::Init(GLFWwindow* glfwWindow)
     
     // Audio
     Audio = new AudioManager(); // Initialize audio manager
+    
+    // Upgrade Manager
+    upgradeManager = new UpgradeManager();
 
     // Menus
     menuManager = new MenuManager(); // Initialize menus
@@ -79,8 +82,7 @@ bool Game::Init(GLFWwindow* glfwWindow)
     // Object Manager
     objectManager = new ObjectManager();
     
-    // Upgrade Manager
-    upgradeManager = new UpgradeManager();
+    
     
     if (!InitializeRmlUi())
     {

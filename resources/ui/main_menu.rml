@@ -13,32 +13,77 @@
                 <tab>General</tab>
                 <panel>
                     <h2>General Upgrades</h2>
-                    <div class="upgrade">
-                        <div class="upgradeImage">
-                            <img src="circle.tga" class="upgradePicture"></img>
-                        </div>
-                        <div class="upgradeText">
-                            <p>Name:</p>
-                            <p>Quantity:</p>
-                            <p>Description:</p>
-                        </div>
-                        <div class="upgradeButton">
-                            <button>BuyItem</button>
-                        </div>
 
+                    <div id="general-upgrade-list" data-model="upgrade_model">
+                        <div class="upgrade" data-for="upgrade, index : generalUpgrades">
+                            <div class="upgradeImage">
+                                <img class="upgradePicture" data-attr-src="upgrade.image" />
+                            </div>
+
+                            <div class="upgradeText">
+                                <p>Name: {{ upgrade.name }}</p>
+                                <p>Quantity: {{ upgrade.quantity }}</p>
+                                <p>Description: {{ upgrade.description }}</p>
+                                <p>Price: {{ upgrade.price }}</p>
+                            </div>
+
+                            <div class="upgradeButton">
+                                <button data-event-click="buy_general_upgrade(index)">
+                                    Buy Item
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </panel>
 
                 <tab>Clicking</tab>
                 <panel>
                     <h2>Click Upgrades</h2>
-                    <p>Welcome to the click upgrades tab!</p>
+                    <div id="click-upgrade-list" data-model="upgrade_model">
+                        <div class="upgrade" data-for="upgrade, index : clickUpgrades">
+                            <div class="upgradeImage">
+                                <img class="upgradePicture" data-attr-src="upgrade.image" />
+                            </div>
+
+                            <div class="upgradeText">
+                                <p>Name: {{ upgrade.name }}</p>
+                                <p>Quantity: {{ upgrade.quantity }}</p>
+                                <p>Description: {{ upgrade.description }}</p>
+                                <p>Price: {{ upgrade.price }}</p>
+                            </div>
+
+                            <div class="upgradeButton">
+                                <button data-event-click="buy_click_upgrade(index)">
+                                    Buy Item
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </panel>
 
                 <tab>Bubbles</tab>
                 <panel>
                     <h2>Bubble Upgrades</h2>
-                    <p>Welcome to the bubble upgrades tab!</p>
+                    <div id="bubble-upgrade-list" data-model="upgrade_model">
+                        <div class="upgrade" data-for="upgrade, index : bubbleUpgrades">
+                            <div class="upgradeImage">
+                                <img class="upgradePicture" data-attr-src="upgrade.image" />
+                            </div>
+
+                            <div class="upgradeText">
+                                <p>Name: {{ upgrade.name }}</p>
+                                <p>Quantity: {{ upgrade.quantity }}</p>
+                                <p>Description: {{ upgrade.description }}</p>
+                                <p>Price: {{ upgrade.price }}</p>
+                            </div>
+
+                            <div class="upgradeButton">
+                                <button data-event-click="buy_bubble_upgrade(index)">
+                                    Buy Item
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </panel>
             </tabset>
         </div>

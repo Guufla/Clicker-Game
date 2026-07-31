@@ -28,7 +28,7 @@
                             </div>
 
                             <div class="upgradeButton">
-                                <button data-event-click="buy_general_upgrade(index)">
+                                <button data-event-click="buyGeneralUpgrade(index)">
                                     Buy Item
                                 </button>
                             </div>
@@ -53,7 +53,7 @@
                             </div>
 
                             <div class="upgradeButton">
-                                <button data-event-click="buy_click_upgrade(index)">
+                                <button data-event-click="buyClickUpgrade(index)">
                                     Buy Item
                                 </button>
                             </div>
@@ -78,7 +78,7 @@
                             </div>
 
                             <div class="upgradeButton">
-                                <button data-event-click="buy_bubble_upgrade(index)">
+                                <button data-event-click="buyBubbleUpgrade(index)">
                                     Buy Item
                                 </button>
                             </div>

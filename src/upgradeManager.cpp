@@ -40,6 +40,18 @@ bool UpgradeManager::InitializeDataModel(Rml::Context* context)
     constructor.Bind("clickUpgrades", &clickUpg);
     constructor.Bind("bubbleUpgrades", &bubbleUpg);
     
+    constructor.BindEventCallback("buyGeneralUpgrade",
+                                  &UpgradeManager::BuyGeneralUpgrade,
+                                  this);
+    constructor.BindEventCallback("buyBubbleUpgrade",
+                                  &UpgradeManager::BuyBubbleUpgrade,
+                                  this);
+    constructor.BindEventCallback("buyClickUpgrade",
+                                  &UpgradeManager::BuyClickUpgrade,
+                                  this);
+                     
+        
+    
     modelHandle = constructor.GetModelHandle();
     return true;
 }
@@ -110,4 +122,41 @@ void UpgradeManager::LoadGeneralUpgrades()
         bubbleUpg.push_back(std::move(upgrade));
         modelHandle.DirtyVariable("bubbleUpgrades");
     }
+    
+    
+}
+
+
+void UpgradeManager::BuyGeneralUpgrade(Rml::DataModelHandle model,Rml::Event& event,const Rml::VariantList& arguments)
+{
+    if (arguments.empty())
+        return;
+
+    int index = arguments[0].Get<int>();
+    
+    // Based on this index you do the specific upgrade
+
+    std::cout << "Bought item at index: " << index << '\n';
+}
+void UpgradeManager::BuyBubbleUpgrade(Rml::DataModelHandle model,Rml::Event& event,const Rml::VariantList& arguments)
+{
+    if (arguments.empty())
+    return;
+
+    int index = arguments[0].Get<int>();
+    
+    // Based on this index you do the specific upgrade
+
+    std::cout << "Bought item at index: " << index << '\n';
+}
+void UpgradeManager::BuyClickUpgrade(Rml::DataModelHandle model,Rml::Event& event,const Rml::VariantList& arguments)
+{
+    if (arguments.empty())
+    return;
+
+    int index = arguments[0].Get<int>();
+    
+    // Based on this index you do the specific upgrade
+
+    std::cout << "Bought item at index: " << index << '\n';
 }

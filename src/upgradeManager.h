@@ -63,6 +63,27 @@ private:
     Rml::DataModelHandle modelHandle;
     
     
+    void BuyGeneralUpgrade(
+        Rml::DataModelHandle model,
+        Rml::Event& event,
+        const Rml::VariantList& arguments
+    );
+
+    void BuyClickUpgrade(
+        Rml::DataModelHandle model,
+        Rml::Event& event,
+        const Rml::VariantList& arguments
+    );
+
+    void BuyBubbleUpgrade(
+        Rml::DataModelHandle model,
+        Rml::Event& event,
+        const Rml::VariantList& arguments
+    );
+    
+    
+    
+    
 };
 
 

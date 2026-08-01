@@ -7,7 +7,7 @@
 
     <body>
         <div id="Buy-Menu">
-            <h1 id="title">Clicker Game</h1>
+            <h1 id="title">Bubble Bop</h1>
 
             <tabset id="upgrade-tabs">
                 <tab>General</tab>

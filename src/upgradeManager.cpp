@@ -1,6 +1,9 @@
 
 
 #include "upgradeManager.h"
+#include "game.h"
+
+extern Game BubbleBop;
 
 
 UpgradeManager::UpgradeManager()
@@ -9,6 +12,10 @@ UpgradeManager::UpgradeManager()
     std::ifstream file(filePath, std::ifstream::binary);
     
     Json::parseFromStream(readerBuilder,file,&data,&errs);
+    
+    
+    generalUpgCallbacks.push_back([this]() { AdditiveUpgrade();});
+    generalUpgCallbacks.push_back([this]() { MultiplierUpgrade();});
 }
 
 void UpgradeManager::Start()
@@ -132,11 +139,14 @@ void UpgradeManager::BuyGeneralUpgrade(Rml::DataModelHandle model,Rml::Event& ev
     if (arguments.empty())
         return;
 
+    // Need to also get the price of the upgrade and increase the quantity on the document
     int index = arguments[0].Get<int>();
     
     // Based on this index you do the specific upgrade
 
-    std::cout << "Bought item at index: " << index << '\n';
+    //std::cout << "Bought item at index: " << index << '\n';
+    
+    generalUpgCallbacks[index](); // Call the callback for the specific upgrade
 }
 void UpgradeManager::BuyBubbleUpgrade(Rml::DataModelHandle model,Rml::Event& event,const Rml::VariantList& arguments)
 {
@@ -147,7 +157,9 @@ void UpgradeManager::BuyBubbleUpgrade(Rml::DataModelHandle model,Rml::Event& eve
     
     // Based on this index you do the specific upgrade
 
-    std::cout << "Bought item at index: " << index << '\n';
+    //std::cout << "Bought item at index: " << index << '\n';
+    
+    //bubbleUpgCallbacks[index](); // Call the callback for the specific upgrade
 }
 void UpgradeManager::BuyClickUpgrade(Rml::DataModelHandle model,Rml::Event& event,const Rml::VariantList& arguments)
 {
@@ -158,5 +170,22 @@ void UpgradeManager::BuyClickUpgrade(Rml::DataModelHandle model,Rml::Event& even
     
     // Based on this index you do the specific upgrade
 
-    std::cout << "Bought item at index: " << index << '\n';
+    //std::cout << "Bought item at index: " << index << '\n';
+    
+    //clickUpgCallbacks[index](); // Call the callback for the specific upgrade
+}
+
+
+
+
+void UpgradeManager::AdditiveUpgrade()
+{
+    BubbleBop.clickAdditive += 1.0f; // Increase the click additive by 1.0
+    std::cout << "Click Additive increased to: " << BubbleBop.clickAdditive << std::endl;
+}
+
+void UpgradeManager::MultiplierUpgrade()
+{
+    BubbleBop.clickMultiplier += 1.0f; // Increase the click multiplier by 1.0
+    std::cout << "Click Multiplier increased to: " << BubbleBop.clickMultiplier << std::endl;
 }

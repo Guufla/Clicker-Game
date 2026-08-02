@@ -35,6 +35,8 @@ public:
     std::vector<Upgrade> bubbleUpg; // Make a list of all the possible bubble upgrades and their templates
     
     
+    
+    
     UpgradeManager();
     
     void Start();
@@ -62,6 +64,10 @@ private:
     std::string errs;
     Rml::DataModelHandle modelHandle;
     
+    std::vector<std::function<void()>> generalUpgCallbacks; // List of callbacks for general upgrades
+    std::vector<std::function<void()>> clickUpgCallbacks; // List of callbacks for click upgrades
+    std::vector<std::function<void()>> bubbleUpgCallbacks; // List of callbacks for bubble upgrades
+    
     
     void BuyGeneralUpgrade(
         Rml::DataModelHandle model,
@@ -81,7 +87,8 @@ private:
         const Rml::VariantList& arguments
     );
     
-    
+    void AdditiveUpgrade();
+    void MultiplierUpgrade();
     
     
 };

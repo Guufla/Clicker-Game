@@ -34,7 +34,7 @@ void BubbleManager::Update(float dt)
         glm::vec2 velocity = glm::vec2((rand() % 200) - 100, (rand() % 200) - 100) / 100.0f; // Random velocity between -1 and 1 on both axes
         
         // Spawns bubbles Remember to re-enable this
-        //SpawnBubble(glm::vec2(rand() % (BubbleBop.Width - (int)BubbleBop.menuWidth - 100) + 50.0f, rand() % (BubbleBop.Height - 100) + 50.0f), 30.0f,1.0f, 0.1f, velocity);
+        SpawnBubble(glm::vec2(rand() % (BubbleBop.Width - (int)BubbleBop.menuWidth - 100) + 50.0f, rand() % (BubbleBop.Height - 100) + 50.0f), 30.0f,1.0f, 0.1f, velocity);
         spawnTimer = 0.0f;
         bubbleCount++;
     }

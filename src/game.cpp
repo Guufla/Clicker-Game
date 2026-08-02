@@ -100,56 +100,6 @@ bool Game::Init(GLFWwindow* glfwWindow)
     Click->IsDisabled = true;
     Click->Tag = 2; // When collisions occur this will help identify the object as the click object
     objectManager->CreateObject(Click);
-    
-    // // Walls used as the bounding boxes for the bubbles
-    // Wall1 = new GameObject(
-    //     glm::vec2(0.0f, -wallThickness),
-    //     glm::vec2(static_cast<float>(this->Width), wallThickness),
-    //     ResourceManager::GetTexture("blackSquare"),
-    //     false,
-    //     glm::vec3(static_cast<float>(this->Width), wallThickness, 2.0f),
-    //     glm::vec3(1.0f),
-    //     glm::vec2(0.0f)
-    // );
-
-    // // Walls used as the bounding boxes for the bubbles
-    // Wall2 = new GameObject(
-    //     glm::vec2(0.0f, static_cast<float>(this->Height)),
-    //     glm::vec2(static_cast<float>(this->Width), wallThickness),
-    //     ResourceManager::GetTexture("blackSquare"),
-    //     false,
-    //     glm::vec3(static_cast<float>(this->Width), wallThickness, 2.0f),
-    //     glm::vec3(1.0f),
-    //     glm::vec2(0.0f)
-    // );
-
-    // // Walls used as the bounding boxes for the bubbles
-    // Wall3 = new GameObject(
-    //     glm::vec2(-wallThickness, 0.0f),
-    //     glm::vec2(wallThickness, static_cast<float>(this->Height)),
-    //     ResourceManager::GetTexture("blackSquare"),
-    //     false,
-    //     glm::vec3(wallThickness, static_cast<float>(this->Height), 2.0f),
-    //     glm::vec3(1.0f),
-    //     glm::vec2(0.0f)
-    // );
-
-    // // Walls used as the bounding boxes for the bubbles
-    // Wall4 = new GameObject(
-    //     glm::vec2(static_cast<float>(this->Width), 0.0f),
-    //     glm::vec2(wallThickness, static_cast<float>(this->Height)),
-    //     ResourceManager::GetTexture("blackSquare"),
-    //     false,
-    //     glm::vec3(wallThickness, static_cast<float>(this->Height), 2.0f),
-    //     glm::vec3(1.0f),
-    //     glm::vec2(0.0f)
-    // );
-    
-    // Add walls to the game objects vector
-    // objectManager->CreateObject(Wall1);
-    // objectManager->CreateObject(Wall2);
-    // objectManager->CreateObject(Wall3);
-    // objectManager->CreateObject(Wall4);
 
     // Text Renderer
     Text = new TextRenderer(static_cast<float>(this->Width),static_cast<float>(this->Height));
@@ -478,7 +428,7 @@ void Game::GetRmlMenuElement()
 
 void Game::AddMoney(float points)
 {
-    this->money += points;
+    this->money += (points + clickAdditive) * clickMultiplier;
     // Add click additive and multiplier logic either here or in the bubble object script
 }
 

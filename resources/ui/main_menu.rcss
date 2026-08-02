@@ -121,11 +121,11 @@ body {
     padding-bottom: 2vh;
     padding-top: 2vh;
 
-    text-align: center;
-    background-color: #18202e;
-    decorator: image("MainPanelSprite.tga") border-box;
 
-    border: 1px #3567a5;
+
+    text-align: center;
+    background-color: transparent;
+    decorator: image("MainPanelbackground.tga") border-box;
 }
 
 #title {
@@ -133,7 +133,8 @@ body {
     box-sizing: border-box;
 
     width: 100%;
-    margin: 1vh 0 25px 0;
+    margin: 1vh 0 1vh 0;
+    padding-top: 4vh;
 
     color: white;
 }
@@ -142,6 +143,10 @@ body {
     display: block;
     box-sizing: border-box;
     width: 100%;
+
+    background-color: #eec0ff;
+    border-radius: 30px;
+    font-size: 1.5vw;
 
 
 
@@ -157,24 +162,31 @@ body {
 
     white-space: nowrap;
 
+
 }
 
 #upgrade-tabs tab {
     display: inline-block;
     box-sizing: border-box;
 
-    width: 33%;
+    width: 25%;
     height: 55px;
     padding: 10px 2px;
+    margin-left: 10px;
     border-radius: 10px;
 
     color: white;
-    background-color: #3567a5;
+    background-color: #db7ffc;
     text-align: center;
+
 }
 
 #upgrade-tabs tab:hover {
-    background-color: #477dbf;
+    background-color: #9036b1;
+}
+
+#upgrade-tabs tab:active {
+    background-color: #e491ff;
 }
 
 #upgrade-tabs panels {
@@ -195,19 +207,19 @@ body {
 
     overflow-x: hidden;
     overflow-y: auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 
     text-align: left;
     white-space: normal;
 
-    background-color: #202c3d;
-
-    border: 1px #3567a5;
+    background-color: #d86dff;
 }
 
 #upgrade-tabs panel h2 {
     display: block;
     width: auto;
-    margin: 0 0 15px 0;
+    margin: 0 0 0 0;
 
     text-align: center;
 }
@@ -220,17 +232,28 @@ body {
     white-space: normal;
 }
 
+.line {
+    border-bottom: 1px #ffffff;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
 .upgrade {
     display: flex;
     font: 10px;
     color: white;
-    background-color: #111822;
+    background-color: #560075;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: #e491ff;
+    margin-bottom: 10px;
 }
 
 .upgradeImage {
     width: 20%;
     height: auto;
     overflow: hidden;
+    padding-top: 2vh;
 }
 
 .upgradeImage img {
@@ -272,18 +295,19 @@ body {
     padding: 5px;
 
     font-family: Roboto;
-    font-size: 1vw;
+    font-size: 1.2vw;
+    border-radius: 20px;
 
     color: white;
-    background-color: #3567a5;
+    background-color: #db7ffc;
 }
 
 .upgradeButton button:hover {
-    background-color: #0e4079;
+    background-color: #9036b1;
 }
 
 .upgradeButton button:active {
-    background-color: #4073ff;
+    background-color: #e491ff;
 }
 
 button {

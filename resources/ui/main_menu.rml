@@ -13,6 +13,7 @@
                 <tab>General</tab>
                 <panel>
                     <h2>General Upgrades</h2>
+                    <div class="line"></div>
 
                     <div id="general-upgrade-list" data-model="upgrade_model">
                         <div class="upgrade" data-for="upgrade, index : generalUpgrades">
@@ -39,6 +40,7 @@
                 <tab>Clicking</tab>
                 <panel>
                     <h2>Click Upgrades</h2>
+                    <div class="line"></div>
                     <div id="click-upgrade-list" data-model="upgrade_model">
                         <div class="upgrade" data-for="upgrade, index : clickUpgrades">
                             <div class="upgradeImage">
@@ -64,6 +66,7 @@
                 <tab>Bubbles</tab>
                 <panel>
                     <h2>Bubble Upgrades</h2>
+                    <div class="line"></div>
                     <div id="bubble-upgrade-list" data-model="upgrade_model">
                         <div class="upgrade" data-for="upgrade, index : bubbleUpgrades">
                             <div class="upgradeImage">
